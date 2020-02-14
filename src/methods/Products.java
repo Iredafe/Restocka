@@ -18,7 +18,7 @@ import stockmgtpackage.MySqlConnection;
 
 /**
  *
- * @author bulouere
+ * @author iredafe
  */
 public class Products {
     PreparedStatement pst;
@@ -177,6 +177,7 @@ public class Products {
                                      JTextField expiryDateUpdateTextField, JTextField supplyDateUpdateTextField,
                                      JTextField quantityRemainingUpdateTextField, JTextField minimumStockUpdateTextField,
                                      JTextField quantitySuppliedUpdateTextField, JComboBox vendorNameUpdateJComboBox) {
+
         //get selected product name as a String
         String productNameUpdate = (String) productName_updateJComboBox.getSelectedItem();
         

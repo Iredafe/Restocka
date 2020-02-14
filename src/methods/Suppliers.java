@@ -14,7 +14,7 @@ import stockmgtpackage.MySqlConnection;
 
 /**
  *
- * @author bulouere
+ * @author iredafe
  */
 public class Suppliers {
     PreparedStatement pst;

@@ -56,6 +56,7 @@ public class RegForm extends javax.swing.JFrame {
         jComboBox = new javax.swing.JComboBox<>();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -155,6 +156,9 @@ public class RegForm extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(0, 0, 102));
         jLabel1.setText("REGISTER HERE");
         jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 10, 450, 80));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/logo3.png"))); // NOI18N
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 120, 70));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-8, 0, 1050, 90));
 
@@ -478,6 +482,7 @@ public class RegForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

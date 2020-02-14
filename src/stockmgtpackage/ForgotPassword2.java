@@ -21,6 +21,10 @@ public class ForgotPassword2 extends javax.swing.JFrame {
      */
     public ForgotPassword2() {
         initComponents();
+        
+                this.setLocationRelativeTo(null);
+
+        
     }
 
     /**
@@ -42,6 +46,7 @@ public class ForgotPassword2 extends javax.swing.JFrame {
         enter_ForgotPassword = new javax.swing.JButton();
         signIn_ForgotPassword = new javax.swing.JLabel();
         signUp_ForgotPassword = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -106,6 +111,9 @@ public class ForgotPassword2 extends javax.swing.JFrame {
             }
         });
         jPanel1.add(signUp_ForgotPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 420, -1, -1));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/logo3.png"))); // NOI18N
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 70));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1006, 501));
 
@@ -190,6 +198,7 @@ public class ForgotPassword2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTextField secretWord;

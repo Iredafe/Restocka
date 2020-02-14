@@ -62,6 +62,8 @@ public class DashBoard extends javax.swing.JFrame {
 labelForPanels.setText("Dashboard");        
     
    
+    //add contents from the database to the dashboard components like "products about to expire", "products due for reshelve",etc
+    
     
     MainDashboardProperties myDashboard = new MainDashboardProperties();
     myDashboard.addToProductCatalogInDashboard(productCatalogDashboardTextArea);
@@ -330,31 +332,6 @@ labelForPanels.setText("Dashboard");
         jLabel35 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         stockedGoodsTable = new javax.swing.JTable();
-        expiringSoonPanel = new javax.swing.JPanel();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        expiringSoonTable = new javax.swing.JTable();
-        jLabel36 = new javax.swing.JLabel();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
-        jButton37 = new javax.swing.JButton();
-        jButton38 = new javax.swing.JButton();
-        jButton39 = new javax.swing.JButton();
-        expiredGoodsPanel = new javax.swing.JPanel();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        expiredGoodsTable = new javax.swing.JTable();
-        jLabel37 = new javax.swing.JLabel();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        stockHistoryPanel = new javax.swing.JPanel();
-        dateChooserCombo7 = new datechooser.beans.DateChooserCombo();
-        dateChooserCombo8 = new datechooser.beans.DateChooserCombo();
-        jLabel151 = new javax.swing.JLabel();
-        jScrollPane29 = new javax.swing.JScrollPane();
-        jScrollPane30 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
         shelvedGoodsPanel = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         shelvedGoodsTable = new javax.swing.JTable();
@@ -391,6 +368,30 @@ labelForPanels.setText("Dashboard");
         jButton3 = new javax.swing.JButton();
         jScrollPane24 = new javax.swing.JScrollPane();
         batchToBeCollectedJTextArea = new javax.swing.JTextArea();
+        expiringSoonPanel = new javax.swing.JPanel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        expiringSoonTable = new javax.swing.JTable();
+        jLabel36 = new javax.swing.JLabel();
+        jButton35 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
+        jButton37 = new javax.swing.JButton();
+        jButton38 = new javax.swing.JButton();
+        jButton39 = new javax.swing.JButton();
+        expiredGoodsPanel = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        expiredGoodsTable = new javax.swing.JTable();
+        jLabel37 = new javax.swing.JLabel();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        stockHistoryPanel = new javax.swing.JPanel();
+        dateChooserCombo7 = new datechooser.beans.DateChooserCombo();
+        dateChooserCombo8 = new datechooser.beans.DateChooserCombo();
+        jLabel151 = new javax.swing.JLabel();
+        jScrollPane30 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
         accountsPanel = new javax.swing.JPanel();
         subAccountsPanel = new javax.swing.JPanel();
         profitAndlossBtn = new javax.swing.JButton();
@@ -1353,7 +1354,7 @@ try {
 
     jTabbedPaneForProductBtns.addTab("tab1", addProductPanel);
 
-    updateProductPanel.setBackground(new java.awt.Color(204, 204, 204));
+    updateProductPanel.setBackground(new java.awt.Color(102, 102, 255));
     updateProductPanel.setMinimumSize(new java.awt.Dimension(1150, 700));
     updateProductPanel.setOpaque(false);
     updateProductPanel.setPreferredSize(new java.awt.Dimension(1150, 700));
@@ -1433,6 +1434,11 @@ try {
 
     vendorNameUpdateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
     vendorNameUpdateJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Vendor", "Vendor" }));
+    vendorNameUpdateJComboBox.addActionListener(new java.awt.event.ActionListener() {
+        public void actionPerformed(java.awt.event.ActionEvent evt) {
+            vendorNameUpdateJComboBoxActionPerformed(evt);
+        }
+    });
     updateProductPanel.add(vendorNameUpdateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 270, 150, 40));
 
     updateProductJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
@@ -2412,222 +2418,6 @@ public void actionPerformed(java.awt.event.ActionEvent evt) {
 
     jTabbedPaneForStockBtns.addTab("tab1", stockedGoodsPanel);
 
-    expiringSoonPanel.setBackground(new java.awt.Color(204, 204, 204));
-    expiringSoonPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    expiringSoonTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    expiringSoonTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
-        }
-    ));
-    jScrollPane3.setViewportView(expiringSoonTable);
-
-    expiringSoonPanel.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1000, 400));
-
-    jLabel36.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-    jLabel36.setText("These are the Goods expiring soon");
-    expiringSoonPanel.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 520, 30));
-
-    jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
-    jButton35.setToolTipText("ADD");
-    expiringSoonPanel.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 50, 40));
-
-    jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
-    jButton36.setToolTipText("Update");
-    expiringSoonPanel.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 500, 50, 40));
-
-    jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
-    jButton37.setToolTipText("Delete ");
-    expiringSoonPanel.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 500, 50, 40));
-
-    jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jButton38.setText("\n\n");
-    jButton38.setToolTipText("Save");
-    expiringSoonPanel.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 500, 50, 40));
-
-    jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jButton39.setToolTipText("Print");
-    expiringSoonPanel.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 50, 40));
-
-    jTabbedPaneForStockBtns.addTab("tab3", expiringSoonPanel);
-
-    expiredGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    expiredGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    expiredGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    expiredGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
-        }
-    ) {
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false
-        };
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane4.setViewportView(expiredGoodsTable);
-    if (expiredGoodsTable.getColumnModel().getColumnCount() > 0) {
-        expiredGoodsTable.getColumnModel().getColumn(0).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(1).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(2).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(3).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(4).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(5).setResizable(false);
-    }
-
-    expiredGoodsPanel.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 370));
-
-    jLabel37.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-    jLabel37.setText("These are the already expired goods");
-    expiredGoodsPanel.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 520, 30));
-
-    jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
-    jButton11.setToolTipText("ADD");
-    expiredGoodsPanel.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, 50, 40));
-
-    jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
-    jButton12.setToolTipText("Update");
-    expiredGoodsPanel.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 490, 50, 40));
-
-    jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
-    jButton13.setToolTipText("Delete ");
-    expiredGoodsPanel.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 490, 50, 40));
-
-    jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jButton14.setText("\n\n");
-    jButton14.setToolTipText("Save");
-    expiredGoodsPanel.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 490, 50, 40));
-
-    jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jButton15.setToolTipText("Print");
-    expiredGoodsPanel.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 490, 50, 40));
-
-    jTabbedPaneForStockBtns.addTab("tab4", expiredGoodsPanel);
-
-    stockHistoryPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    dateChooserCombo7.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateChooserCombo7.setNothingAllowed(false);
-dateChooserCombo7.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo7.setShowOneMonth(true);
-stockHistoryPanel.add(dateChooserCombo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 80, -1, -1));
-
-dateChooserCombo8.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-    new datechooser.view.appearance.ViewAppearance("custom",
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            true,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 255),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(128, 128, 128),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(255, 0, 0),
-            false,
-            false,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        (datechooser.view.BackRenderer)null,
-        false,
-        true)));
-dateChooserCombo8.setNothingAllowed(false);
-dateChooserCombo8.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo8.setShowOneMonth(true);
-stockHistoryPanel.add(dateChooserCombo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 80, -1, -1));
-
-jLabel151.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel151.setText("Stock History");
-stockHistoryPanel.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 50, -1, -1));
-
-jTable3.setModel(new javax.swing.table.DefaultTableModel(
-new Object [][] {
-
-    },
-    new String [] {
-        "Title 1", "Title 2", "Title 3", "Title 4"
-    }
-    ));
-    jScrollPane30.setViewportView(jTable3);
-
-    jScrollPane29.setViewportView(jScrollPane30);
-
-    stockHistoryPanel.add(jScrollPane29, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 1000, 400));
-
-    jTabbedPaneForStockBtns.addTab("tab5", stockHistoryPanel);
-
     shelvedGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
     shelvedGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -2826,6 +2616,220 @@ new Object [][] {
     shelvedGoodsPanel.add(jScrollPane28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 500, 240));
 
     jTabbedPaneForStockBtns.addTab("tab2", shelvedGoodsPanel);
+
+    expiringSoonPanel.setBackground(new java.awt.Color(204, 204, 204));
+    expiringSoonPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+    expiringSoonTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+    expiringSoonTable.setModel(new javax.swing.table.DefaultTableModel(
+        new Object [][] {
+
+        },
+        new String [] {
+            "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
+        }
+    ));
+    jScrollPane3.setViewportView(expiringSoonTable);
+
+    expiringSoonPanel.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1000, 400));
+
+    jLabel36.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+    jLabel36.setText("These are the Goods expiring soon");
+    expiringSoonPanel.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 520, 30));
+
+    jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
+    jButton35.setToolTipText("ADD");
+    expiringSoonPanel.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 50, 40));
+
+    jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
+    jButton36.setToolTipText("Update");
+    expiringSoonPanel.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 500, 50, 40));
+
+    jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
+    jButton37.setToolTipText("Delete ");
+    expiringSoonPanel.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 500, 50, 40));
+
+    jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+    jButton38.setText("\n\n");
+    jButton38.setToolTipText("Save");
+    expiringSoonPanel.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 500, 50, 40));
+
+    jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+    jButton39.setToolTipText("Print");
+    expiringSoonPanel.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 50, 40));
+
+    jTabbedPaneForStockBtns.addTab("tab3", expiringSoonPanel);
+
+    expiredGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
+    expiredGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+    expiredGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+    expiredGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
+        new Object [][] {
+
+        },
+        new String [] {
+            "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
+        }
+    ) {
+        boolean[] canEdit = new boolean [] {
+            false, false, false, false, false, false
+        };
+
+        public boolean isCellEditable(int rowIndex, int columnIndex) {
+            return canEdit [columnIndex];
+        }
+    });
+    jScrollPane4.setViewportView(expiredGoodsTable);
+    if (expiredGoodsTable.getColumnModel().getColumnCount() > 0) {
+        expiredGoodsTable.getColumnModel().getColumn(0).setResizable(false);
+        expiredGoodsTable.getColumnModel().getColumn(1).setResizable(false);
+        expiredGoodsTable.getColumnModel().getColumn(2).setResizable(false);
+        expiredGoodsTable.getColumnModel().getColumn(3).setResizable(false);
+        expiredGoodsTable.getColumnModel().getColumn(4).setResizable(false);
+        expiredGoodsTable.getColumnModel().getColumn(5).setResizable(false);
+    }
+
+    expiredGoodsPanel.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 370));
+
+    jLabel37.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+    jLabel37.setText("These are the already expired goods");
+    expiredGoodsPanel.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 520, 30));
+
+    jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
+    jButton11.setToolTipText("ADD");
+    expiredGoodsPanel.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, 50, 40));
+
+    jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
+    jButton12.setToolTipText("Update");
+    expiredGoodsPanel.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 490, 50, 40));
+
+    jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
+    jButton13.setToolTipText("Delete ");
+    expiredGoodsPanel.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 490, 50, 40));
+
+    jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+    jButton14.setText("\n\n");
+    jButton14.setToolTipText("Save");
+    expiredGoodsPanel.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 490, 50, 40));
+
+    jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+    jButton15.setToolTipText("Print");
+    expiredGoodsPanel.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 490, 50, 40));
+
+    jTabbedPaneForStockBtns.addTab("tab4", expiredGoodsPanel);
+
+    stockHistoryPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+    dateChooserCombo7.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
+        new datechooser.view.appearance.ViewAppearance("custom",
+            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+                new java.awt.Color(0, 0, 0),
+                new java.awt.Color(0, 0, 255),
+                false,
+                true,
+                new datechooser.view.appearance.swing.ButtonPainter()),
+            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+                new java.awt.Color(0, 0, 0),
+                new java.awt.Color(0, 0, 255),
+                true,
+                true,
+                new datechooser.view.appearance.swing.ButtonPainter()),
+            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+                new java.awt.Color(0, 0, 255),
+                new java.awt.Color(0, 0, 255),
+                false,
+                true,
+                new datechooser.view.appearance.swing.ButtonPainter()),
+            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+                new java.awt.Color(128, 128, 128),
+                new java.awt.Color(0, 0, 255),
+                false,
+                true,
+                new datechooser.view.appearance.swing.LabelPainter()),
+            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+                new java.awt.Color(0, 0, 0),
+                new java.awt.Color(0, 0, 255),
+                false,
+                true,
+                new datechooser.view.appearance.swing.LabelPainter()),
+            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+                new java.awt.Color(0, 0, 0),
+                new java.awt.Color(255, 0, 0),
+                false,
+                false,
+                new datechooser.view.appearance.swing.ButtonPainter()),
+            (datechooser.view.BackRenderer)null,
+            false,
+            true)));
+dateChooserCombo7.setNothingAllowed(false);
+dateChooserCombo7.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
+dateChooserCombo7.setShowOneMonth(true);
+stockHistoryPanel.add(dateChooserCombo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 70, -1, -1));
+
+dateChooserCombo8.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
+    new datechooser.view.appearance.ViewAppearance("custom",
+        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+            new java.awt.Color(0, 0, 0),
+            new java.awt.Color(0, 0, 255),
+            false,
+            true,
+            new datechooser.view.appearance.swing.ButtonPainter()),
+        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+            new java.awt.Color(0, 0, 0),
+            new java.awt.Color(0, 0, 255),
+            true,
+            true,
+            new datechooser.view.appearance.swing.ButtonPainter()),
+        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+            new java.awt.Color(0, 0, 255),
+            new java.awt.Color(0, 0, 255),
+            false,
+            true,
+            new datechooser.view.appearance.swing.ButtonPainter()),
+        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+            new java.awt.Color(128, 128, 128),
+            new java.awt.Color(0, 0, 255),
+            false,
+            true,
+            new datechooser.view.appearance.swing.LabelPainter()),
+        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+            new java.awt.Color(0, 0, 0),
+            new java.awt.Color(0, 0, 255),
+            false,
+            true,
+            new datechooser.view.appearance.swing.LabelPainter()),
+        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
+            new java.awt.Color(0, 0, 0),
+            new java.awt.Color(255, 0, 0),
+            false,
+            false,
+            new datechooser.view.appearance.swing.ButtonPainter()),
+        (datechooser.view.BackRenderer)null,
+        false,
+        true)));
+dateChooserCombo8.setNothingAllowed(false);
+dateChooserCombo8.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
+dateChooserCombo8.setShowOneMonth(true);
+stockHistoryPanel.add(dateChooserCombo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, -1, -1));
+
+jLabel151.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+jLabel151.setText("Stock History");
+stockHistoryPanel.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, -1));
+
+jTable3.setModel(new javax.swing.table.DefaultTableModel(
+new Object [][] {
+
+    },
+    new String [] {
+        "Title 1", "Title 2", "Title 3", "Title 4"
+    }
+    ));
+    jScrollPane30.setViewportView(jTable3);
+
+    stockHistoryPanel.add(jScrollPane30, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 979, 410));
+
+    jTabbedPaneForStockBtns.addTab("tab5", stockHistoryPanel);
 
     stockPanel.add(jTabbedPaneForStockBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 590));
 
@@ -6709,6 +6713,10 @@ catch(Exception e){
         // TODO add your handling code here:
     }//GEN-LAST:event_posDiscountTextFieldActionPerformed
 
+    private void vendorNameUpdateJComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vendorNameUpdateJComboBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_vendorNameUpdateJComboBoxActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -7086,7 +7094,6 @@ catch(Exception e){
     private javax.swing.JScrollPane jScrollPane26;
     private javax.swing.JScrollPane jScrollPane27;
     private javax.swing.JScrollPane jScrollPane28;
-    private javax.swing.JScrollPane jScrollPane29;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane30;
     private javax.swing.JScrollPane jScrollPane31;
