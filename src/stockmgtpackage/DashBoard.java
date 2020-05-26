@@ -171,13 +171,13 @@ labelForPanels.setText("Dashboard");
         jLabel18 = new javax.swing.JLabel();
         jLabel62 = new javax.swing.JLabel();
         clear_newProductJButton = new javax.swing.JButton();
-        manufacturingDateDateChooserCombo = new datechooser.beans.DateChooserCombo();
-        expiryDateDateChooserCombo = new datechooser.beans.DateChooserCombo();
-        supplyDateDateChooserCombo = new datechooser.beans.DateChooserCombo();
         seeAllProductsBtn2 = new javax.swing.JButton();
         existingProductCategoryJComboBox = new javax.swing.JComboBox<>();
         vendorNameJComboBox = new javax.swing.JComboBox<>();
         saveProductJButton = new javax.swing.JButton();
+        manufacturingDateDateChooserCombo = new datechooser.beans.DateChooserCombo();
+        expiryDateDateChooserCombo = new datechooser.beans.DateChooserCombo();
+        supplyDateDateChooserCombo = new datechooser.beans.DateChooserCombo();
         updateProductPanel = new javax.swing.JPanel();
         costPriceUpdateTextField = new javax.swing.JTextField();
         supplyDateUpdate = new javax.swing.JTextField();
@@ -308,14 +308,13 @@ labelForPanels.setText("Dashboard");
         jTextField4 = new javax.swing.JTextField();
         jLabel72 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
-        dateChooserCombo5 = new datechooser.beans.DateChooserCombo();
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
-        dateChooserCombo6 = new datechooser.beans.DateChooserCombo();
         jLabel101 = new javax.swing.JLabel();
         jTextField23 = new javax.swing.JTextField();
         clearReturnPurchasejButton = new javax.swing.JButton();
         submitReturnPurchasejButton = new javax.swing.JButton();
+        dateChooserCombo2 = new datechooser.beans.DateChooserCombo();
         stockPanel = new javax.swing.JPanel();
         subStockPanel = new javax.swing.JPanel();
         expiringSoonBtn = new javax.swing.JButton();
@@ -387,8 +386,6 @@ labelForPanels.setText("Dashboard");
         jButton14 = new javax.swing.JButton();
         jButton15 = new javax.swing.JButton();
         stockHistoryPanel = new javax.swing.JPanel();
-        dateChooserCombo7 = new datechooser.beans.DateChooserCombo();
-        dateChooserCombo8 = new datechooser.beans.DateChooserCombo();
         jLabel151 = new javax.swing.JLabel();
         jScrollPane30 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
@@ -406,8 +403,6 @@ labelForPanels.setText("Dashboard");
         jLabel40 = new javax.swing.JLabel();
         jLabel41 = new javax.swing.JLabel();
         profitAndLossStatementSubPanel = new javax.swing.JPanel();
-        dateChooserCombo3 = new datechooser.beans.DateChooserCombo();
-        dateChooserCombo4 = new datechooser.beans.DateChooserCombo();
         expensesPanel = new javax.swing.JPanel();
         jLabel54 = new javax.swing.JLabel();
         jScrollPane15 = new javax.swing.JScrollPane();
@@ -416,8 +411,6 @@ labelForPanels.setText("Dashboard");
         jLabel57 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
         okExpensesjButton = new javax.swing.JButton();
-        endDateExpensesdateChooserCombo = new datechooser.beans.DateChooserCombo();
-        startDateExpensesdateChooserCombo = new datechooser.beans.DateChooserCombo();
         jScrollPane35 = new javax.swing.JScrollPane();
         expensesjTable = new javax.swing.JTable();
         jLabel108 = new javax.swing.JLabel();
@@ -431,7 +424,6 @@ labelForPanels.setText("Dashboard");
         amountExpensesjTextField = new javax.swing.JTextField();
         jScrollPane16 = new javax.swing.JScrollPane();
         descriptionExpensesjTextArea = new javax.swing.JTextArea();
-        dateExpensesdateChooserCombo = new datechooser.beans.DateChooserCombo();
         cashFlowPanel = new javax.swing.JPanel();
         jLabel52 = new javax.swing.JLabel();
         cashFlowStatementPanel = new javax.swing.JPanel();
@@ -439,15 +431,12 @@ labelForPanels.setText("Dashboard");
         jLabel51 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
-        endDateCashFlowsdateChooserCombo = new datechooser.beans.DateChooserCombo();
         okCashFlowsjButton = new javax.swing.JButton();
-        startDateCashFlowsdateChooserCombo = new datechooser.beans.DateChooserCombo();
         jScrollPane37 = new javax.swing.JScrollPane();
         cashFlowsjTable = new javax.swing.JTable();
         jLabel114 = new javax.swing.JLabel();
         jLabel115 = new javax.swing.JLabel();
         jLabel116 = new javax.swing.JLabel();
-        dateChooserCombo14 = new datechooser.beans.DateChooserCombo();
         amountCashFlowsjTextField = new javax.swing.JTextField();
         jScrollPane17 = new javax.swing.JScrollPane();
         detailsCashFlowsjTextArea = new javax.swing.JTextArea();
@@ -464,8 +453,6 @@ labelForPanels.setText("Dashboard");
         paymentsPanel = new javax.swing.JPanel();
         jScrollPane18 = new javax.swing.JScrollPane();
         paymentSubPanel = new javax.swing.JPanel();
-        startDatePaymentdateChooserCombo = new datechooser.beans.DateChooserCombo();
-        endDatePaymentdateChooserCombo = new datechooser.beans.DateChooserCombo();
         jLabel49 = new javax.swing.JLabel();
         jLabel46 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
@@ -481,7 +468,6 @@ labelForPanels.setText("Dashboard");
         jLabel131 = new javax.swing.JLabel();
         jScrollPane19 = new javax.swing.JScrollPane();
         jTextArea12 = new javax.swing.JTextArea();
-        datePaymentdateChooserCombo = new datechooser.beans.DateChooserCombo();
         supplierNamePaymentjComboBox = new javax.swing.JComboBox<>();
         balancePayablejTextField = new javax.swing.JTextField();
         balanceReceivablejTextField = new javax.swing.JTextField();
@@ -501,9 +487,7 @@ labelForPanels.setText("Dashboard");
         jLabel44 = new javax.swing.JLabel();
         jScrollPane20 = new javax.swing.JScrollPane();
         jPanel1 = new javax.swing.JPanel();
-        dateChooserCombo1 = new datechooser.beans.DateChooserCombo();
         jLabel43 = new javax.swing.JLabel();
-        dateChooserCombo2 = new datechooser.beans.DateChooserCombo();
         jLabel45 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         paymentReceiptPrintBtn1 = new javax.swing.JButton();
@@ -1074,20 +1058,20 @@ labelForPanels.setText("Dashboard");
 
         addProductPanel.setBackground(new java.awt.Color(204, 204, 204));
         addProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        addProductPanel.add(sellingPriceJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 440, 150, 40));
+        addProductPanel.add(sellingPriceJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 420, 150, 40));
         addProductPanel.add(newProductCategoryJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 140, 150, 40));
 
         jLabel2.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel2.setText("New Product Category");
-        addProductPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, -1, -1));
+        addProductPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, -1, -1));
 
         jLabel3.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel3.setText("Batch Number");
-        addProductPanel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, -1));
+        addProductPanel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel4.setText("Selling Price");
-        addProductPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 450, -1, -1));
+        addProductPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel5.setText("Manufacturing Date");
@@ -1113,12 +1097,12 @@ labelForPanels.setText("Dashboard");
 
         jLabel14.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel14.setText("Product Name");
-        addProductPanel.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, -1, -1));
+        addProductPanel.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, -1));
 
         jLabel10.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel10.setText("Quantity Supplied");
-        addProductPanel.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 510, -1, -1));
-        addProductPanel.add(quantitySuppliedJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 500, 150, 40));
+        addProductPanel.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 490, -1, -1));
+        addProductPanel.add(quantitySuppliedJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 480, 150, 40));
 
         jLabel12.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel12.setText("Product ID");
@@ -1127,15 +1111,15 @@ labelForPanels.setText("Dashboard");
 
         jLabel13.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel13.setText("Cost Price");
-        addProductPanel.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 380, -1, -1));
-        addProductPanel.add(costPriceJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 370, 150, 40));
+        addProductPanel.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 370, -1, -1));
+        addProductPanel.add(costPriceJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 360, 150, 40));
 
         minimumStockJTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 minimumStockJTextFieldActionPerformed(evt);
             }
         });
-        addProductPanel.add(minimumStockJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 310, 150, 40));
+        addProductPanel.add(minimumStockJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 310, 150, 40));
 
         jLabel18.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
         jLabel18.setText("Minimum Stock");
@@ -1152,3828 +1136,2833 @@ labelForPanels.setText("Dashboard");
                 clear_newProductJButtonActionPerformed(evt);
             }
         });
-        addProductPanel.add(clear_newProductJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 490, -1, 50));
-
-        manufacturingDateDateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-            new datechooser.view.appearance.ViewAppearance("custom",
-                new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(0, 0, 0),
-                    new java.awt.Color(0, 0, 255),
-                    false,
-                    true,
-                    new datechooser.view.appearance.swing.ButtonPainter()),
-                new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(0, 0, 0),
-                    new java.awt.Color(0, 0, 255),
-                    true,
-                    true,
-                    new datechooser.view.appearance.swing.ButtonPainter()),
-                new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(0, 0, 255),
-                    new java.awt.Color(0, 0, 255),
-                    false,
-                    true,
-                    new datechooser.view.appearance.swing.ButtonPainter()),
-                new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(128, 128, 128),
-                    new java.awt.Color(0, 0, 255),
-                    false,
-                    true,
-                    new datechooser.view.appearance.swing.LabelPainter()),
-                new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(0, 0, 0),
-                    new java.awt.Color(0, 0, 255),
-                    false,
-                    true,
-                    new datechooser.view.appearance.swing.LabelPainter()),
-                new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                    new java.awt.Color(0, 0, 0),
-                    new java.awt.Color(255, 0, 0),
-                    false,
-                    false,
-                    new datechooser.view.appearance.swing.ButtonPainter()),
-                (datechooser.view.BackRenderer)null,
-                false,
-                true)));
-    manufacturingDateDateChooserCombo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-    manufacturingDateDateChooserCombo.setNothingAllowed(false);
-    manufacturingDateDateChooserCombo.setFormat(2);
-    try {
-        manufacturingDateDateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    manufacturingDateDateChooserCombo.setFieldFont(new java.awt.Font("Georgia", java.awt.Font.PLAIN, 14));
-    manufacturingDateDateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    manufacturingDateDateChooserCombo.setShowOneMonth(true);
-    addProductPanel.add(manufacturingDateDateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 90, 150, 40));
-
-    expiryDateDateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-expiryDateDateChooserCombo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-expiryDateDateChooserCombo.setNothingAllowed(false);
-try {
-    expiryDateDateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    expiryDateDateChooserCombo.setFieldFont(new java.awt.Font("Georgia", java.awt.Font.PLAIN, 14));
-    expiryDateDateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    addProductPanel.add(expiryDateDateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 150, 150, 40));
-
-    supplyDateDateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-supplyDateDateChooserCombo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-supplyDateDateChooserCombo.setNothingAllowed(false);
-try {
-    supplyDateDateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    supplyDateDateChooserCombo.setFieldFont(new java.awt.Font("Georgia", java.awt.Font.PLAIN, 14));
-    supplyDateDateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    addProductPanel.add(supplyDateDateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 200, 150, 40));
-
-    seeAllProductsBtn2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    seeAllProductsBtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    seeAllProductsBtn2.setText("See All Products");
-    seeAllProductsBtn2.setToolTipText("See Product Catalogue");
-    seeAllProductsBtn2.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            seeAllProductsBtn2ActionPerformed(evt);
-        }
-    });
-    addProductPanel.add(seeAllProductsBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 490, 170, 50));
-
-    existingProductCategoryJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    existingProductCategoryJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
-    existingProductCategoryJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            existingProductCategoryJComboBoxActionPerformed(evt);
-        }
-    });
-    addProductPanel.add(existingProductCategoryJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, 150, 40));
-
-    vendorNameJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    vendorNameJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Vendor", "Vendor" }));
-    vendorNameJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            vendorNameJComboBoxActionPerformed(evt);
-        }
-    });
-    addProductPanel.add(vendorNameJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 260, 150, 40));
-
-    saveProductJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    saveProductJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
-    saveProductJButton.setText("Save Product");
-    saveProductJButton.setToolTipText("See Product Catalogue");
-    saveProductJButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            saveProductJButtonActionPerformed(evt);
-        }
-    });
-    addProductPanel.add(saveProductJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 490, -1, 50));
-
-    jTabbedPaneForProductBtns.addTab("tab1", addProductPanel);
-
-    updateProductPanel.setBackground(new java.awt.Color(102, 102, 255));
-    updateProductPanel.setMinimumSize(new java.awt.Dimension(1150, 700));
-    updateProductPanel.setOpaque(false);
-    updateProductPanel.setPreferredSize(new java.awt.Dimension(1150, 700));
-    updateProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-    updateProductPanel.add(costPriceUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 360, 150, 40));
-    updateProductPanel.add(supplyDateUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 210, 150, 40));
-    updateProductPanel.add(batchNumberUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 150, 40));
-
-    jLabel15.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel15.setText("Product Name");
-    updateProductPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, -1, -1));
-
-    jLabel16.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel16.setText("Batch Number");
-    updateProductPanel.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
-
-    jLabel17.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel17.setText("Cost Price");
-    updateProductPanel.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 370, -1, -1));
-
-    jLabel20.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel20.setText("Manufacturing Date");
-    updateProductPanel.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, -1, -1));
-
-    jLabel21.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel21.setText("Expiry Date");
-    updateProductPanel.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 160, -1, 20));
-
-    jLabel22.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel22.setText("Date of Supply");
-    updateProductPanel.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 220, -1, -1));
-
-    jLabel23.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel23.setText("Product Category");
-    updateProductPanel.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
-
-    jLabel26.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel26.setText("Vendor Name");
-    updateProductPanel.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 280, -1, -1));
-
-    jLabel19.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel19.setText("Selling Price");
-    updateProductPanel.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 440, -1, -1));
-    updateProductPanel.add(sellingPriceUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 430, 150, 40));
-
-    jLabel24.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel24.setText("Minimum Stock");
-    updateProductPanel.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 330, -1, -1));
-    updateProductPanel.add(minimumStockUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 150, 40));
-
-    jLabel25.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel25.setText("Product ID");
-    updateProductPanel.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
-    updateProductPanel.add(productIdUpdateTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 288, 150, 40));
-
-    jLabel27.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel27.setText("Quantity Supplied");
-    updateProductPanel.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, -1, -1));
-    updateProductPanel.add(quantitySuppliedUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 380, 150, 40));
-
-    productCategory_UpdateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productCategory_UpdateJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
-    productCategory_UpdateJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productCategory_UpdateJComboBoxActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(productCategory_UpdateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 150, 40));
-
-    productName_updateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productName_updateJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productName_updateJComboBoxActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(productName_updateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 160, 150, 40));
-
-    vendorNameUpdateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    vendorNameUpdateJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Vendor", "Vendor" }));
-    vendorNameUpdateJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            vendorNameUpdateJComboBoxActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(vendorNameUpdateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 270, 150, 40));
-
-    updateProductJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    updateProductJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
-    updateProductJButton.setText("Update Product");
-    updateProductJButton.setToolTipText("See Product Catalogue");
-    updateProductJButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            updateProductJButtonActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(updateProductJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 500, -1, 50));
-
-    seeAllProductsUpdateBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    seeAllProductsUpdateBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    seeAllProductsUpdateBtn.setText("See All Products");
-    seeAllProductsUpdateBtn.setToolTipText("See Product Catalogue");
-    seeAllProductsUpdateBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            seeAllProductsUpdateBtnActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(seeAllProductsUpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 500, -1, 50));
-
-    manuDateUpdateTextField.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    manuDateUpdateTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            manuDateUpdateTextFieldActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(manuDateUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 90, 150, 40));
-
-    expiryDateUpdateTextField.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    expiryDateUpdateTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            expiryDateUpdateTextFieldActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(expiryDateUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 150, 150, 40));
-
-    jLabel58.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel58.setText("Quantity Remaining");
-    updateProductPanel.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 440, -1, -1));
-
-    quantityRemainingUpdateTextField.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    updateProductPanel.add(quantityRemainingUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 430, 150, 40));
-
-    clearUpdatejButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    clearUpdatejButton.setText("Clear");
-    clearUpdatejButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            clearUpdatejButtonActionPerformed(evt);
-        }
-    });
-    updateProductPanel.add(clearUpdatejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, -1, 50));
-
-    jTabbedPaneForProductBtns.addTab("tab2", updateProductPanel);
-
-    removeProductPanel.setBackground(new java.awt.Color(204, 204, 204));
-    removeProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel63.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel63.setText("Product Name");
-    removeProductPanel.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 140, -1, -1));
-
-    jLabel64.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel64.setText("Which Product would you like to remove?");
-    removeProductPanel.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, -1));
-
-    jLabel65.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel65.setText("Product Category");
-    removeProductPanel.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, -1, -1));
-
-    productCategoryDeleteComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productCategoryDeleteComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
-    productCategoryDeleteComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productCategoryDeleteComboBoxActionPerformed(evt);
-        }
-    });
-    removeProductPanel.add(productCategoryDeleteComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, 150, 50));
-
-    productNameDeletejComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productNameDeletejComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Product" }));
-    productNameDeletejComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productNameDeletejComboBoxActionPerformed(evt);
-        }
-    });
-    removeProductPanel.add(productNameDeletejComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 130, 150, 50));
-
-    productsDeletejTable.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productsDeletejTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "ID", "Category", "Name", "Vendor", "Batch Number", "Cost Price", "Selling Price", "Quantity Supplied", "Quantity Remaining", "Minimum Stock", "Manufacturing Date", "Expiration Date", "Supply Date"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false, false, false, false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane34.setViewportView(productsDeletejTable);
-
-    removeProductPanel.add(jScrollPane34, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 900, 300));
-
-    jButton23.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    jButton23.setText("See All Products");
-    jButton23.setToolTipText("See Product Catalogue");
-    jButton23.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton23ActionPerformed(evt);
-        }
-    });
-    removeProductPanel.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 510, -1, 50));
-
-    deleteProductBtn2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    deleteProductBtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/delete-trash-empty-icon.png"))); // NOI18N
-    deleteProductBtn2.setText("Remove");
-    deleteProductBtn2.setToolTipText("See Product Catalogue");
-    deleteProductBtn2.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            deleteProductBtn2ActionPerformed(evt);
-        }
-    });
-    removeProductPanel.add(deleteProductBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 510, -1, -1));
-
-    jTabbedPaneForProductBtns.addTab("tab3", removeProductPanel);
-
-    viewProductPanel.setBackground(new java.awt.Color(204, 204, 204));
-    viewProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel59.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel59.setText("Which Product Detail Do you want to view?");
-    viewProductPanel.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
-
-    jLabel60.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel60.setText("Product Name");
-    viewProductPanel.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 90, -1, -1));
-
-    jLabel61.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel61.setText("Product Category");
-    viewProductPanel.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
-
-    productCategoryViewjComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productCategoryViewjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
-    productCategoryViewjComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productCategoryViewjComboBoxActionPerformed(evt);
-        }
-    });
-    viewProductPanel.add(productCategoryViewjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 160, 40));
-
-    productNameViewjComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productNameViewjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Product" }));
-    productNameViewjComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productNameViewjComboBoxActionPerformed(evt);
-        }
-    });
-    viewProductPanel.add(productNameViewjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 80, 150, 40));
-
-    productsViewjTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    productsViewjTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "ID", "Category", "Name", "Vendor", "Batch Number", "Cost Price", "Selling Price", "Quantity Supplied", "Quantity Remaining", "Minimum Stock", "Manufacturing Date", "Expiration Date", "Supply Date"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false, false, false, false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane33.setViewportView(productsViewjTable);
-
-    viewProductPanel.add(jScrollPane33, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 900, 300));
-
-    jButton21.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    jButton21.setText("See All Products");
-    jButton21.setToolTipText("See Product Catalogue");
-    jButton21.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton21ActionPerformed(evt);
-        }
-    });
-    viewProductPanel.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 500, -1, 50));
-
-    jTabbedPaneForProductBtns.addTab("tab4", viewProductPanel);
-
-    productHistoryPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    productsViewAlljTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    productsViewAlljTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "ID", "Category", "Name", "Vendor", "Batch Number", "Cost Price", "Selling Price", "Quantity Supplied", "Minimum Stock", "Manufacturing Date", "Expiration Date", "Supply Date"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false, false, false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane36.setViewportView(productsViewAlljTable);
-
-    productHistoryPanel.add(jScrollPane36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 970, 350));
-
-    jTabbedPaneForProductBtns.addTab("tab5", productHistoryPanel);
-
-    productPanel.add(jTabbedPaneForProductBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1000, -1));
-
-    jTabbedPaneForDashboard.addTab("tab2", productPanel);
-
-    salesPanel.setBackground(new java.awt.Color(255, 255, 255));
-    salesPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    salesPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
-    salesPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
-    salesPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
-    salesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    subSalesPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    subSalesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    ReturnPurchaseBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    ReturnPurchaseBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/left-arrow.png"))); // NOI18N
-    ReturnPurchaseBtn.setText("Return Purchase");
-    ReturnPurchaseBtn.setToolTipText("Return Purchase");
-    ReturnPurchaseBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    ReturnPurchaseBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    ReturnPurchaseBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    ReturnPurchaseBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            ReturnPurchaseBtnActionPerformed(evt);
-        }
-    });
-    subSalesPanel.add(ReturnPurchaseBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 10, 180, 50));
-
-    pointOfSalesBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    pointOfSalesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Cash-register-icon.png"))); // NOI18N
-    pointOfSalesBtn.setText("Point of Sales");
-    pointOfSalesBtn.setToolTipText("Point of Sales");
-    pointOfSalesBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    pointOfSalesBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    pointOfSalesBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    pointOfSalesBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            pointOfSalesBtnActionPerformed(evt);
-        }
-    });
-    subSalesPanel.add(pointOfSalesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 160, 50));
-
-    invoicesBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    invoicesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/sales-account-icon.png"))); // NOI18N
-    invoicesBtn.setText("Invoices");
-    invoicesBtn.setToolTipText("Point of Sales");
-    invoicesBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    invoicesBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    invoicesBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    invoicesBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            invoicesBtnActionPerformed(evt);
-        }
-    });
-    subSalesPanel.add(invoicesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 110, 50));
-
-    RemittanceBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    RemittanceBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/notes.png"))); // NOI18N
-    RemittanceBtn.setText("Remittance");
-    RemittanceBtn.setToolTipText("Cash Flow");
-    RemittanceBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    RemittanceBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    RemittanceBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    RemittanceBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            RemittanceBtnActionPerformed(evt);
-        }
-    });
-    subSalesPanel.add(RemittanceBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, 160, 50));
-
-    salesPanel.add(subSalesPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 70));
-
-    jTabbedPaneForSalesBtns.setMaximumSize(new java.awt.Dimension(0, 0));
-    jTabbedPaneForSalesBtns.setMinimumSize(new java.awt.Dimension(990, 560));
-    jTabbedPaneForSalesBtns.setPreferredSize(new java.awt.Dimension(990, 560));
-
-    pointOfSalesPanel.setBackground(new java.awt.Color(204, 204, 204));
-    pointOfSalesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel31.setFont(new java.awt.Font("Georgia", 0, 24)); // NOI18N
-    jLabel31.setText("Point of Sales");
-    pointOfSalesPanel.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, 410, -1));
-
-    POSjTable.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    POSjTable.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    POSjTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Name", "Quantity", "Price (NGN)", "Total", "Discount (%)", "Total after Discount"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    POSjTable.getTableHeader().setReorderingAllowed(false);
-    jScrollPane12.setViewportView(POSjTable);
-
-    pointOfSalesPanel.add(jScrollPane12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 520, 160));
-
-    posPayBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    posPayBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/notes.png"))); // NOI18N
-    posPayBtn1.setText("Pay");
-    posPayBtn1.setToolTipText("Pay");
-    posPayBtn1.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posPayBtn1ActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posPayBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 400, 100, 40));
-
-    posPrintBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    posPrintBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
-    posPrintBtn.setText("Print");
-    posPrintBtn.setToolTipText("Print");
-    posPrintBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posPrintBtnActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posPrintBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 400, 100, 40));
-
-    clearReceiptJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    clearReceiptJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small Clear-icon.png"))); // NOI18N
-    clearReceiptJButton.setText("Clear");
-    clearReceiptJButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            clearReceiptJButtonActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(clearReceiptJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 450, 100, 40));
-
-    jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153), 2));
-    jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    cardRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    cardRadioButton.setText("Card");
-    cardRadioButton.setToolTipText("Card");
-    jPanel4.add(cardRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, -1, -1));
-
-    jLabel102.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel102.setText("Payment Method:");
-    jPanel4.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, 20));
-
-    cashRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    cashRadioButton.setText("Cash");
-    cashRadioButton.setToolTipText("Cash");
-    jPanel4.add(cashRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, -1, -1));
-
-    pointOfSalesPanel.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 310, 220, 70));
-
-    posAddToCartBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    posAddToCartBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/cart-add-icon.png"))); // NOI18N
-    posAddToCartBtn.setText("Add to Cart");
-    posAddToCartBtn.setToolTipText("Remove from Cart");
-    posAddToCartBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posAddToCartBtnActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posAddToCartBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 140, 40));
-
-    deleteFromCartPOSjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    deleteFromCartPOSjButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/arrow-return-up-left-icon.png"))); // NOI18N
-    deleteFromCartPOSjButton.setText("Delete from Cart");
-    deleteFromCartPOSjButton.setToolTipText("Remove from Cart");
-    deleteFromCartPOSjButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            deleteFromCartPOSjButtonActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(deleteFromCartPOSjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 210, 170, 40));
-
-    posClearBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    posClearBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small Clear-icon.png"))); // NOI18N
-    posClearBtn.setText("Clear");
-    posClearBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posClearBtnActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posClearBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 210, 100, 40));
-
-    receiptJTextArea.setColumns(20);
-    receiptJTextArea.setRows(5);
-    jScrollPane31.setViewportView(receiptJTextArea);
-
-    pointOfSalesPanel.add(jScrollPane31, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 50, 374, 194));
-
-    posTotalTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posTotalTextFieldActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posTotalTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 150, 110, 30));
-    posTotalTextField.setEditable(false);
-
-    jLabel29.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel29.setText("Product Name");
-    pointOfSalesPanel.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
-
-    productNamePOSjComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    productNamePOSjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Product" }));
-    productNamePOSjComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            productNamePOSjComboBoxActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(productNamePOSjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, -1, 30));
-
-    jLabel11.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel11.setText("Quantity");
-    pointOfSalesPanel.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
-
-    posQuantityTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posQuantityTextFieldActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posQuantityTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, 50, 30));
-
-    posPriceTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posPriceTextFieldActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posPriceTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, 110, -1));
-    posPriceTextField.setEditable(false);
-
-    posDiscountTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posDiscountTextFieldActionPerformed(evt);
-        }
-    });
-    pointOfSalesPanel.add(posDiscountTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 50, 30));
-
-    jLabel30.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel30.setText("Total Price");
-    pointOfSalesPanel.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, -1, -1));
-
-    jLabel33.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel33.setText("Unit Price");
-    pointOfSalesPanel.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, -1, -1));
-
-    jLabel28.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel28.setText("Discount (%)");
-    pointOfSalesPanel.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
-
-    jTabbedPaneForSalesBtns.addTab("tab1", pointOfSalesPanel);
-
-    invoicePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    invoicePanel1.setBackground(new java.awt.Color(204, 204, 204));
-    invoicePanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel106.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel106.setText("Payment Method");
-    invoicePanel1.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 90, -1, -1));
-
-    invoiceNumbersJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    invoiceNumbersJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Invoice Number" }));
-    invoiceNumbersJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            invoiceNumbersJComboBoxActionPerformed(evt);
-        }
-    });
-    invoicePanel1.add(invoiceNumbersJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, -1, 30));
-
-    salesJTable.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    salesJTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Id", "Product", "Batdh Number", "Quantity", "Discount", "Total"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane40.setViewportView(salesJTable);
-
-    invoicePanel1.add(jScrollPane40, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 190, -1, 330));
-
-    jLabel107.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel107.setText("Invoice Number");
-    invoicePanel1.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
-
-    jLabel123.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel123.setText("Invoice Number");
-    invoicePanel1.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 90, -1, -1));
-
-    jLabel124.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel124.setText("Sales");
-    invoicePanel1.add(jLabel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, -1, -1));
-
-    jLabel125.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
-    jLabel125.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-    jLabel125.setText("RECEIPTS");
-    invoicePanel1.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1050, -1));
-
-    jLabel126.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel126.setText("Total");
-    invoicePanel1.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 90, -1, -1));
-
-    paymentMethodReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    paymentMethodReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-    invoicePanel1.add(paymentMethodReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 110, 100, -1));
-
-    invoiceNumberReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    invoiceNumberReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-    invoicePanel1.add(invoiceNumberReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, 100, -1));
-    invoiceNumberReceiptsJTextField.setEditable(false);
-
-    dateTimeReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    dateTimeReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.LEFT);
-    invoicePanel1.add(dateTimeReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 110, 150, -1));
-
-    totalReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    totalReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-    invoicePanel1.add(totalReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 110, 100, -1));
-
-    jLabel127.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel127.setText("Date and Time");
-    invoicePanel1.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 90, -1, -1));
-
-    invoicePanel.add(invoicePanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
-
-    jTabbedPaneForSalesBtns.addTab("tab2", invoicePanel);
-
-    RemittancePanel.setBackground(new java.awt.Color(204, 204, 204));
-    RemittancePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel156.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel156.setText("Cash Sales Made");
-    RemittancePanel.add(jLabel156, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 150, -1, 20));
-    RemittancePanel.add(jTextField46, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, 140, 40));
-
-    jLabel157.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel157.setText("Amount Remitted");
-    RemittancePanel.add(jLabel157, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
-
-    jTextField47.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField47ActionPerformed(evt);
-        }
-    });
-    RemittancePanel.add(jTextField47, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 240, 140, 40));
-
-    jLabel158.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel158.setText("Sales Made");
-    RemittancePanel.add(jLabel158, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, -1, -1));
-    RemittancePanel.add(jTextField48, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 80, 140, 40));
-
-    jLabel159.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel159.setText("Card Sales Made");
-    RemittancePanel.add(jLabel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, -1, -1));
-    RemittancePanel.add(jTextField49, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, 140, 40));
-
-    jLabel160.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel160.setText("Remitted To");
-    RemittancePanel.add(jLabel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, -1, -1));
-
-    jTextField50.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField50ActionPerformed(evt);
-        }
-    });
-    RemittancePanel.add(jTextField50, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 300, 140, 40));
-
-    jButton18.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton18.setText("CLEAR");
-    jButton18.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton18ActionPerformed(evt);
-        }
-    });
-    RemittancePanel.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 380, 130, 40));
-
-    submitRemittancejButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    submitRemittancejButton.setText("Submit");
-    submitRemittancejButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            submitRemittancejButtonActionPerformed(evt);
-        }
-    });
-    RemittancePanel.add(submitRemittancejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 378, 130, 40));
-
-    jTabbedPaneForSalesBtns.addTab("tab3", RemittancePanel);
-
-    returnPurchasePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-    returnPurchasePanel.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 80, 150, 40));
-
-    jLabel66.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel66.setText("Please explain the reason for the return below:");
-    returnPurchasePanel.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, -1, -1));
-
-    jTextArea1.setColumns(20);
-    jTextArea1.setRows(5);
-    jScrollPane5.setViewportView(jTextArea1);
-
-    returnPurchasePanel.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 380, 360, 120));
-    returnPurchasePanel.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 160, 30));
-
-    jLabel67.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel67.setText("Quantity Purchased");
-    returnPurchasePanel.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 90, -1, -1));
-
-    jLabel68.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel68.setText("Sales Staff on Duty");
-    returnPurchasePanel.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, -1, -1));
-
-    jLabel69.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel69.setText("Date of Return");
-    returnPurchasePanel.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 40, -1, -1));
-
-    jLabel70.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel70.setText("Quantity Returned");
-    returnPurchasePanel.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 150, 40));
-    returnPurchasePanel.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 140, 160, 30));
-    returnPurchasePanel.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 90, 160, 30));
-
-    jLabel71.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel71.setText("Refunded Amount");
-    returnPurchasePanel.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 140, -1, 20));
-    returnPurchasePanel.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 140, 140, 30));
-
-    jLabel72.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel72.setText("Supervisor on Duty");
-    returnPurchasePanel.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, -1, -1));
-    returnPurchasePanel.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 190, 160, 30));
-
-    dateChooserCombo5.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateChooserCombo5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateChooserCombo5.setNothingAllowed(false);
-dateChooserCombo5.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo5.setShowOneMonth(true);
-returnPurchasePanel.add(dateChooserCombo5, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 30, -1, 40));
-
-jLabel73.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel73.setText("Returned Product Name");
-returnPurchasePanel.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
-
-jLabel74.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel74.setText("Date of Purchase");
-returnPurchasePanel.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, -1, -1));
-
-dateChooserCombo6.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-    new datechooser.view.appearance.ViewAppearance("custom",
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            true,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 255),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(128, 128, 128),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(255, 0, 0),
-            false,
-            false,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        (datechooser.view.BackRenderer)null,
-        false,
-        true)));
-dateChooserCombo6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateChooserCombo6.setNothingAllowed(false);
-dateChooserCombo6.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo6.setShowOneMonth(true);
-returnPurchasePanel.add(dateChooserCombo6, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 30, 150, 40));
-
-jLabel101.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel101.setText("Invoice Number");
-returnPurchasePanel.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, -1, -1));
-returnPurchasePanel.add(jTextField23, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 200, 140, 30));
-
-clearReturnPurchasejButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-clearReturnPurchasejButton.setText("Clear");
-clearReturnPurchasejButton.addActionListener(new java.awt.event.ActionListener() {
-public void actionPerformed(java.awt.event.ActionEvent evt) {
-    clearReturnPurchasejButtonActionPerformed(evt);
-    }
-    });
-    returnPurchasePanel.add(clearReturnPurchasejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 450, 110, 50));
-
-    submitReturnPurchasejButton.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    submitReturnPurchasejButton.setText("Submit");
-    submitReturnPurchasejButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            submitReturnPurchasejButtonActionPerformed(evt);
-        }
-    });
-    returnPurchasePanel.add(submitReturnPurchasejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 450, 110, 50));
-
-    jTabbedPaneForSalesBtns.addTab("tab4", returnPurchasePanel);
-
-    salesPanel.add(jTabbedPaneForSalesBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1070, 600));
-
-    jTabbedPaneForDashboard.addTab("tab3", salesPanel);
-
-    stockPanel.setBackground(new java.awt.Color(255, 255, 255));
-    stockPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
-    stockPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
-    stockPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
-    stockPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    subStockPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    subStockPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    expiringSoonBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    expiringSoonBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse (1).png"))); // NOI18N
-    expiringSoonBtn.setText("Expiring Soon");
-    expiringSoonBtn.setToolTipText("Expiring Soon");
-    expiringSoonBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    expiringSoonBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    expiringSoonBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    expiringSoonBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            expiringSoonBtnActionPerformed(evt);
-        }
-    });
-    subStockPanel.add(expiringSoonBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 150, 50));
-
-    stockedGoods.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    stockedGoods.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse (2).png"))); // NOI18N
-    stockedGoods.setText("Stocked Goods");
-    stockedGoods.setToolTipText("Stocked Goods");
-    stockedGoods.setMaximumSize(new java.awt.Dimension(35, 35));
-    stockedGoods.setMinimumSize(new java.awt.Dimension(30, 30));
-    stockedGoods.setPreferredSize(new java.awt.Dimension(50, 30));
-    stockedGoods.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            stockedGoodsActionPerformed(evt);
-        }
-    });
-    subStockPanel.add(stockedGoods, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 170, 50));
-
-    shelvedGoodsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    shelvedGoodsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/stock (shelf).png"))); // NOI18N
-    shelvedGoodsBtn.setText(" Shelved Goods");
-    shelvedGoodsBtn.setToolTipText(" Shelved Goods");
-    shelvedGoodsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    shelvedGoodsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    shelvedGoodsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    shelvedGoodsBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            shelvedGoodsBtnActionPerformed(evt);
-        }
-    });
-    subStockPanel.add(shelvedGoodsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 160, 50));
-
-    expiredGoodsBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    expiredGoodsBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse.png"))); // NOI18N
-    expiredGoodsBtn1.setText("Expired Goods");
-    expiredGoodsBtn1.setToolTipText("Expired Products");
-    expiredGoodsBtn1.setMaximumSize(new java.awt.Dimension(35, 35));
-    expiredGoodsBtn1.setMinimumSize(new java.awt.Dimension(30, 30));
-    expiredGoodsBtn1.setPreferredSize(new java.awt.Dimension(50, 30));
-    expiredGoodsBtn1.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            expiredGoodsBtn1ActionPerformed(evt);
-        }
-    });
-    subStockPanel.add(expiredGoodsBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 10, 150, 50));
-
-    stockHistoryBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    stockHistoryBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse.png"))); // NOI18N
-    stockHistoryBtn.setText("Stock History");
-    stockHistoryBtn.setToolTipText("Expired Products");
-    stockHistoryBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    stockHistoryBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    stockHistoryBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    stockHistoryBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            stockHistoryBtnActionPerformed(evt);
-        }
-    });
-    subStockPanel.add(stockHistoryBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 10, 150, 50));
-
-    stockPanel.add(subStockPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 70));
-
-    jTabbedPaneForStockBtns.setMaximumSize(new java.awt.Dimension(0, 0));
-    jTabbedPaneForStockBtns.setMinimumSize(new java.awt.Dimension(990, 560));
-    jTabbedPaneForStockBtns.setPreferredSize(new java.awt.Dimension(990, 560));
-
-    stockedGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    stockedGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
-    jButton7.setToolTipText("Update");
-    stockedGoodsPanel.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 50, 40));
-
-    jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
-    jButton8.setToolTipText("Delete ");
-    stockedGoodsPanel.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 480, 50, 40));
-
-    jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jButton9.setText("\n\n");
-    jButton9.setToolTipText("Save");
-    stockedGoodsPanel.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 50, 40));
-
-    jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jButton10.setToolTipText("Print");
-    stockedGoodsPanel.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 480, 50, 40));
-
-    jLabel35.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-    jLabel35.setText("These are the Goods in Stock currently...");
-    stockedGoodsPanel.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 330, 30));
-
-    stockedGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    stockedGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Category", "Product Name", "Batch Number", "Quantity Supplied", "Remaining Stock", "Minimum Stock Limit"
-        }
-    ) {
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false
-        };
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane1.setViewportView(stockedGoodsTable);
-    if (stockedGoodsTable.getColumnModel().getColumnCount() > 0) {
-        stockedGoodsTable.getColumnModel().getColumn(0).setResizable(false);
-        stockedGoodsTable.getColumnModel().getColumn(1).setResizable(false);
-        stockedGoodsTable.getColumnModel().getColumn(2).setResizable(false);
-        stockedGoodsTable.getColumnModel().getColumn(3).setResizable(false);
-        stockedGoodsTable.getColumnModel().getColumn(4).setResizable(false);
-        stockedGoodsTable.getColumnModel().getColumn(5).setResizable(false);
-    }
-
-    stockedGoodsPanel.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 370));
-
-    jTabbedPaneForStockBtns.addTab("tab1", stockedGoodsPanel);
-
-    shelvedGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    shelvedGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    shelvedGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    shelvedGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Category", "Product Name", "Batch Number", "Quantity in Shelf", "Remaining Stock", "Minimum Shelf Limit"
-        }
-    ) {
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false
-        };
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane2.setViewportView(shelvedGoodsTable);
-    if (shelvedGoodsTable.getColumnModel().getColumnCount() > 0) {
-        shelvedGoodsTable.getColumnModel().getColumn(0).setResizable(false);
-        shelvedGoodsTable.getColumnModel().getColumn(1).setResizable(false);
-        shelvedGoodsTable.getColumnModel().getColumn(2).setResizable(false);
-        shelvedGoodsTable.getColumnModel().getColumn(3).setResizable(false);
-        shelvedGoodsTable.getColumnModel().getColumn(4).setResizable(false);
-        shelvedGoodsTable.getColumnModel().getColumn(5).setResizable(false);
-    }
-
-    shelvedGoodsPanel.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 1000, 180));
-
-    jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
-    jButton31.setToolTipText("Update");
-    shelvedGoodsPanel.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 240, 50, 40));
-
-    jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
-    jButton32.setToolTipText("Delete ");
-    shelvedGoodsPanel.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 240, 50, 40));
-
-    jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jButton33.setText("\n\n");
-    jButton33.setToolTipText("Save");
-    shelvedGoodsPanel.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 240, 50, 40));
-
-    jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jButton34.setToolTipText("Print");
-    shelvedGoodsPanel.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, 50, 40));
-
-    jPanel24.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 102, 102)));
-    jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    ArrayList<String> ConfirmationOfReshelf  = new ArrayList<String>();
-    String ConfirmationOfReshelfquery = "SELECT product_name FROM products";
-
-    try{
-        PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(ConfirmationOfReshelfquery);
-
-        ResultSet rs = pst.executeQuery(ConfirmationOfReshelfquery);
-
-        while (rs.next()) {
-
-            // add group names to the array list
-            String ProductToBeConfirmed = rs.getString("product_name");
-            // add group names to the array list
-            ConfirmationOfReshelf.add(ProductToBeConfirmed);
-        }rs.close();
-
-    }catch(Exception ex){
-        System.out.println(ex);
-    }
-
-    ConfirmProductReselfJComboBox.setModel(new javax.swing.DefaultComboBoxModel(ConfirmationOfReshelf.toArray()));
-    jPanel24.add(ConfirmProductReselfJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 130, 30));
-
-    jLabel145.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel145.setText("Added By:");
-    jPanel24.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, -1, 20));
-
-    jLabel146.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel146.setText("Product Name");
-    jPanel24.add(jLabel146, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, 20));
-
-    jLabel147.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel147.setText("Quantity Collected from Store");
-    jPanel24.add(jLabel147, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 20));
-
-    jLabel148.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel148.setText("Quantity Added to Shelf");
-    jPanel24.add(jLabel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, 20));
-
-    jLabel149.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel149.setText("Batch Added:");
-    jPanel24.add(jLabel149, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, 20));
-    jPanel24.add(jTextField42, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, 60, -1));
-    jPanel24.add(jTextField44, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 170, 30));
-    jPanel24.add(jTextField45, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 280, 170, 30));
-
-    jButton2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton2.setText("Confirmed");
-    jPanel24.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, 110, 40));
-
-    jLabel140.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel140.setText("Confirm Product Reshelf");
-    jPanel24.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, -1, -1));
-
-    batchAddedJTextArea.setColumns(20);
-    batchAddedJTextArea.setRows(5);
-    jScrollPane26.setViewportView(batchAddedJTextArea);
-
-    jPanel24.add(jScrollPane26, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 249, -1));
-
-    jScrollPane27.setViewportView(jPanel24);
-
-    shelvedGoodsPanel.add(jScrollPane27, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 300, 460, 240));
-
-    jLabel34.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-    jLabel34.setText("These are the Goods on the Shelves currently");
-    shelvedGoodsPanel.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 520, -1));
-
-    jPanel23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED, new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), null, null));
-    jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    ArrayList<String> ProductNameIdentityCombo = new ArrayList<String>();
-    String IdentifyDueProductQuery = "SELECT product_name FROM  products";
-
-    try{
-        PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(IdentifyDueProductQuery);
-
-        ResultSet rs = pst.executeQuery(IdentifyDueProductQuery);
-
-        while (rs.next()) {
-
-            String ProductDueForReshelf = rs.getString("product_name");
-            // add group names to the array list
-            ProductNameIdentityCombo.add(ProductDueForReshelf);
-
-        }rs.close();
-    }catch(Exception ex){
-        System.out.println(ex);
-    }
-
-    IdentifyBatchJComboBox.setModel(new javax.swing.DefaultComboBoxModel(ProductNameIdentityCombo.toArray()));
-    IdentifyBatchJComboBox.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-    IdentifyBatchJComboBox.addPopupMenuListener(new javax.swing.event.PopupMenuListener() {
-        public void popupMenuCanceled(javax.swing.event.PopupMenuEvent evt) {
-        }
-        public void popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {
-            IdentifyBatchJComboBoxPopupMenuWillBecomeInvisible(evt);
-        }
-        public void popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent evt) {
-        }
-    });
-    IdentifyBatchJComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            IdentifyBatchJComboBoxActionPerformed(evt);
-        }
-    });
-    jPanel23.add(IdentifyBatchJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 130, 30));
-
-    jLabel141.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel141.setText("Product Name");
-    jPanel23.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, 10));
-
-    jLabel142.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel142.setText("Identify Product Batch Due For Reshelving");
-    jPanel23.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, 290, -1));
-
-    jLabel143.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel143.setText("Batch to Be Collected");
-    jPanel23.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, 20));
-    jPanel23.add(jTextField41, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 40, 60, 30));
-
-    jLabel144.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel144.setText("Quantity Needed");
-    jPanel23.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, -1, 20));
-
-    jLabel150.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel150.setText("Collected By:");
-    jPanel23.add(jLabel150, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, 20));
-    jPanel23.add(jTextField43, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 170, -1));
-
-    jButton3.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton3.setText("Done");
-    jPanel23.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 90, 40));
-
-    batchToBeCollectedJTextArea.setColumns(20);
-    batchToBeCollectedJTextArea.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    batchToBeCollectedJTextArea.setRows(5);
-    jScrollPane24.setViewportView(batchToBeCollectedJTextArea);
-
-    jPanel23.add(jScrollPane24, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 239, -1));
-
-    jScrollPane28.setViewportView(jPanel23);
-
-    shelvedGoodsPanel.add(jScrollPane28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 500, 240));
-
-    jTabbedPaneForStockBtns.addTab("tab2", shelvedGoodsPanel);
-
-    expiringSoonPanel.setBackground(new java.awt.Color(204, 204, 204));
-    expiringSoonPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    expiringSoonTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    expiringSoonTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
-        }
-    ));
-    jScrollPane3.setViewportView(expiringSoonTable);
-
-    expiringSoonPanel.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1000, 400));
-
-    jLabel36.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-    jLabel36.setText("These are the Goods expiring soon");
-    expiringSoonPanel.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 520, 30));
-
-    jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
-    jButton35.setToolTipText("ADD");
-    expiringSoonPanel.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 50, 40));
-
-    jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
-    jButton36.setToolTipText("Update");
-    expiringSoonPanel.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 500, 50, 40));
-
-    jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
-    jButton37.setToolTipText("Delete ");
-    expiringSoonPanel.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 500, 50, 40));
-
-    jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jButton38.setText("\n\n");
-    jButton38.setToolTipText("Save");
-    expiringSoonPanel.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 500, 50, 40));
-
-    jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jButton39.setToolTipText("Print");
-    expiringSoonPanel.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 50, 40));
-
-    jTabbedPaneForStockBtns.addTab("tab3", expiringSoonPanel);
-
-    expiredGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    expiredGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    expiredGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    expiredGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
-        }
-    ) {
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false
-        };
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane4.setViewportView(expiredGoodsTable);
-    if (expiredGoodsTable.getColumnModel().getColumnCount() > 0) {
-        expiredGoodsTable.getColumnModel().getColumn(0).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(1).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(2).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(3).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(4).setResizable(false);
-        expiredGoodsTable.getColumnModel().getColumn(5).setResizable(false);
-    }
-
-    expiredGoodsPanel.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 370));
-
-    jLabel37.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
-    jLabel37.setText("These are the already expired goods");
-    expiredGoodsPanel.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 520, 30));
-
-    jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
-    jButton11.setToolTipText("ADD");
-    expiredGoodsPanel.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, 50, 40));
-
-    jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
-    jButton12.setToolTipText("Update");
-    expiredGoodsPanel.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 490, 50, 40));
-
-    jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
-    jButton13.setToolTipText("Delete ");
-    expiredGoodsPanel.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 490, 50, 40));
-
-    jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jButton14.setText("\n\n");
-    jButton14.setToolTipText("Save");
-    expiredGoodsPanel.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 490, 50, 40));
-
-    jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jButton15.setToolTipText("Print");
-    expiredGoodsPanel.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 490, 50, 40));
-
-    jTabbedPaneForStockBtns.addTab("tab4", expiredGoodsPanel);
-
-    stockHistoryPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    dateChooserCombo7.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateChooserCombo7.setNothingAllowed(false);
-dateChooserCombo7.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo7.setShowOneMonth(true);
-stockHistoryPanel.add(dateChooserCombo7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 70, -1, -1));
-
-dateChooserCombo8.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-    new datechooser.view.appearance.ViewAppearance("custom",
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            true,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 255),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(128, 128, 128),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(255, 0, 0),
-            false,
-            false,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        (datechooser.view.BackRenderer)null,
-        false,
-        true)));
-dateChooserCombo8.setNothingAllowed(false);
-dateChooserCombo8.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo8.setShowOneMonth(true);
-stockHistoryPanel.add(dateChooserCombo8, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 70, -1, -1));
-
-jLabel151.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel151.setText("Stock History");
-stockHistoryPanel.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, -1));
-
-jTable3.setModel(new javax.swing.table.DefaultTableModel(
-new Object [][] {
-
-    },
-    new String [] {
-        "Title 1", "Title 2", "Title 3", "Title 4"
-    }
-    ));
-    jScrollPane30.setViewportView(jTable3);
-
-    stockHistoryPanel.add(jScrollPane30, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 979, 410));
-
-    jTabbedPaneForStockBtns.addTab("tab5", stockHistoryPanel);
-
-    stockPanel.add(jTabbedPaneForStockBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 590));
-
-    jTabbedPaneForDashboard.addTab("tab4", stockPanel);
-
-    accountsPanel.setBackground(new java.awt.Color(255, 255, 255));
-    accountsPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
-    accountsPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
-    accountsPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
-    accountsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    subAccountsPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    subAccountsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    profitAndlossBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    profitAndlossBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/risk.png"))); // NOI18N
-    profitAndlossBtn.setText("Profit & Loss");
-    profitAndlossBtn.setToolTipText("Profit & Loss");
-    profitAndlossBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    profitAndlossBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    profitAndlossBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    profitAndlossBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            profitAndlossBtnActionPerformed(evt);
-        }
-    });
-    subAccountsPanel.add(profitAndlossBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 150, 50));
-
-    paymentsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    paymentsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/pay.png"))); // NOI18N
-    paymentsBtn.setText("Payments");
-    paymentsBtn.setToolTipText("Payments");
-    paymentsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    paymentsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    paymentsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    paymentsBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            paymentsBtnActionPerformed(evt);
-        }
-    });
-    subAccountsPanel.add(paymentsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 10, 130, 50));
-
-    expensesBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    expensesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Expenses-icon.png"))); // NOI18N
-    expensesBtn.setText("Expenses");
-    expensesBtn.setToolTipText("Expenses");
-    expensesBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    expensesBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    expensesBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    expensesBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            expensesBtnActionPerformed(evt);
-        }
-    });
-    subAccountsPanel.add(expensesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, 140, 50));
-
-    balanceSheetBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    balanceSheetBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/balance-scale-icon.png"))); // NOI18N
-    balanceSheetBtn.setText("Balance Sheet");
-    balanceSheetBtn.setToolTipText("Balance Sheet");
-    balanceSheetBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    balanceSheetBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    balanceSheetBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    balanceSheetBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            balanceSheetBtnActionPerformed(evt);
-        }
-    });
-    subAccountsPanel.add(balanceSheetBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 10, 160, 50));
-
-    cashFlowBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    cashFlowBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/funding.png"))); // NOI18N
-    cashFlowBtn.setText("Cash Flows");
-    cashFlowBtn.setToolTipText("Funding");
-    cashFlowBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    cashFlowBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    cashFlowBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    cashFlowBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            cashFlowBtnActionPerformed(evt);
-        }
-    });
-    subAccountsPanel.add(cashFlowBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 140, 50));
-
-    accountsPanel.add(subAccountsPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 70));
-
-    jTabbedPaneForAccountsBtns.setMaximumSize(new java.awt.Dimension(0, 0));
-
-    profitAndLossPanel.setBackground(new java.awt.Color(204, 204, 204));
-    profitAndLossPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel38.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel38.setText("To");
-    profitAndLossPanel.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 140, 50, -1));
-
-    jLabel39.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    jLabel39.setText("Select the Period ");
-    profitAndLossPanel.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 240, -1));
-
-    jLabel40.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel40.setText("From");
-    profitAndLossPanel.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 50, -1));
-
-    jLabel41.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel41.setText("Profit & Loss Statement");
-    profitAndLossPanel.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 240, -1));
-
-    profitAndLossStatementSubPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-    profitAndLossPanel.add(profitAndLossStatementSubPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 690, 310));
-
-    dateChooserCombo3.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateChooserCombo3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateChooserCombo3.setNothingAllowed(false);
-dateChooserCombo3.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo3.setShowOneMonth(true);
-profitAndLossPanel.add(dateChooserCombo3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, -1, 40));
-
-dateChooserCombo4.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-    new datechooser.view.appearance.ViewAppearance("custom",
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            true,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 255),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(128, 128, 128),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(255, 0, 0),
-            false,
-            false,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        (datechooser.view.BackRenderer)null,
-        false,
-        true)));
-dateChooserCombo4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateChooserCombo4.setNothingAllowed(false);
-dateChooserCombo4.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo4.setShowOneMonth(true);
-profitAndLossPanel.add(dateChooserCombo4, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 130, -1, 40));
-
-jTabbedPaneForAccountsBtns.addTab("tab1", profitAndLossPanel);
-
-expensesPanel.setBackground(new java.awt.Color(204, 204, 204));
-expensesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-jLabel54.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-jLabel54.setText("Expenses");
-expensesPanel.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, 240, -1));
-
-expensesSubPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-jLabel56.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel56.setText("From");
-expensesSubPanel.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 50, -1));
-
-jLabel57.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel57.setText("To");
-expensesSubPanel.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, 50, -1));
-
-jLabel55.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-jLabel55.setText("Select the Period ");
-expensesSubPanel.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 240, -1));
-
-okExpensesjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-okExpensesjButton.setText("OK");
-okExpensesjButton.addActionListener(new java.awt.event.ActionListener() {
-public void actionPerformed(java.awt.event.ActionEvent evt) {
-    okExpensesjButtonActionPerformed(evt);
-    }
-    });
-    expensesSubPanel.add(okExpensesjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 60, -1, -1));
-
-    endDateExpensesdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-endDateExpensesdateChooserCombo.setNothingAllowed(false);
-try {
-    endDateExpensesdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    endDateExpensesdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    endDateExpensesdateChooserCombo.setShowOneMonth(true);
-    expensesSubPanel.add(endDateExpensesdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, 40));
-
-    startDateExpensesdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-startDateExpensesdateChooserCombo.setNothingAllowed(false);
-try {
-    startDateExpensesdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    startDateExpensesdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    startDateExpensesdateChooserCombo.setShowOneMonth(true);
-    expensesSubPanel.add(startDateExpensesdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, -1, 40));
-
-    expensesjTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Date", "Amount Spent", "Description", "Type", "Others"
-        }
-    ) {
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false
-        };
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane35.setViewportView(expensesjTable);
-
-    expensesSubPanel.add(jScrollPane35, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, 720, 90));
-
-    jScrollPane15.setViewportView(expensesSubPanel);
-
-    expensesPanel.add(jScrollPane15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 290, 890, 240));
-
-    jLabel108.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel108.setText("Description:");
-    expensesPanel.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, 90, -1));
-
-    jLabel109.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel109.setText("Type");
-    expensesPanel.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 74, 50, 20));
-
-    jLabel110.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel110.setText("Others");
-    expensesPanel.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 130, 50, -1));
-
-    jLabel111.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel111.setText("Amount Spent");
-    expensesPanel.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 120, -1));
-
-    jLabel112.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel112.setText("Date:");
-    expensesPanel.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 70, 50, -1));
-
-    typeExpensesjComboBox.setMaximumRowCount(20);
-    typeExpensesjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select One", "Salary", "Utility Bill", "Rent", "Dues", "Tax", "Others" }));
-    typeExpensesjComboBox.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            typeExpensesjComboBoxActionPerformed(evt);
-        }
-    });
-    expensesPanel.add(typeExpensesjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 70, 120, -1));
-
-    submitExpensesjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    submitExpensesjButton.setText("Submit");
-    submitExpensesjButton.setToolTipText("Submit");
-    submitExpensesjButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            submitExpensesjButtonActionPerformed(evt);
-        }
-    });
-    expensesPanel.add(submitExpensesjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 210, 120, 40));
-    expensesPanel.add(othersExpensesjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 120, 130, -1));
-
-    amountExpensesjTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            amountExpensesjTextFieldActionPerformed(evt);
-        }
-    });
-    expensesPanel.add(amountExpensesjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 130, -1));
-
-    descriptionExpensesjTextArea.setColumns(20);
-    descriptionExpensesjTextArea.setRows(5);
-    jScrollPane16.setViewportView(descriptionExpensesjTextArea);
-
-    expensesPanel.add(jScrollPane16, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 160, -1, -1));
-
-    dateExpensesdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateExpensesdateChooserCombo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateExpensesdateChooserCombo.setNothingAllowed(false);
-try {
-    dateExpensesdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    dateExpensesdateChooserCombo.setFieldFont(new java.awt.Font("Georgia", java.awt.Font.PLAIN, 14));
-    dateExpensesdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    dateExpensesdateChooserCombo.setShowOneMonth(true);
-    expensesPanel.add(dateExpensesdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 60, -1, 40));
-
-    jTabbedPaneForAccountsBtns.addTab("tab2", expensesPanel);
-
-    cashFlowPanel.setBackground(new java.awt.Color(204, 204, 204));
-    cashFlowPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel52.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel52.setText("Cash Flows");
-    cashFlowPanel.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 40, 240, -1));
-
-    cashFlowStatementPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel113.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel113.setText("Cash Flow Statement");
-    cashFlowStatementPanel.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 190, 20));
-
-    jLabel51.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel51.setText("From");
-    cashFlowStatementPanel.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 50, -1));
-
-    jLabel53.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel53.setText("To");
-    cashFlowStatementPanel.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 60, 50, -1));
-
-    jLabel50.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    jLabel50.setText("Select the Period ");
-    cashFlowStatementPanel.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 240, -1));
-
-    endDateCashFlowsdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-try {
-    endDateCashFlowsdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    endDateCashFlowsdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    endDateCashFlowsdateChooserCombo.setShowOneMonth(true);
-    cashFlowStatementPanel.add(endDateCashFlowsdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, 40));
-
-    okCashFlowsjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    okCashFlowsjButton.setText("OK");
-    okCashFlowsjButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            okCashFlowsjButtonActionPerformed(evt);
-        }
-    });
-    cashFlowStatementPanel.add(okCashFlowsjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 60, -1, -1));
-
-    startDateCashFlowsdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-try {
-    startDateCashFlowsdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    startDateCashFlowsdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    startDateCashFlowsdateChooserCombo.setShowOneMonth(true);
-    cashFlowStatementPanel.add(startDateCashFlowsdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, 40));
-
-    cashFlowsjTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Date", "Amount", "Details", "Category", "Flow Type"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane37.setViewportView(cashFlowsjTable);
-
-    cashFlowStatementPanel.add(jScrollPane37, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 580, 90));
-
-    cashFlowPanel.add(cashFlowStatementPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, 810, 220));
-
-    jLabel114.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel114.setText("Date:");
-    cashFlowPanel.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 50, -1));
-
-    jLabel115.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel115.setText("Amount :");
-    cashFlowPanel.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 130, 70, -1));
-
-    jLabel116.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel116.setText("Details:");
-    cashFlowPanel.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 180, 100, -1));
-
-    dateChooserCombo14.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateChooserCombo14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-try {
-    dateChooserCombo14.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    dateChooserCombo14.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    dateChooserCombo14.setShowOneMonth(true);
-    cashFlowPanel.add(dateChooserCombo14, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 90, 220, -1));
-
-    amountCashFlowsjTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            amountCashFlowsjTextFieldActionPerformed(evt);
-        }
-    });
-    cashFlowPanel.add(amountCashFlowsjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 130, -1));
-
-    detailsCashFlowsjTextArea.setColumns(20);
-    detailsCashFlowsjTextArea.setRows(5);
-    jScrollPane17.setViewportView(detailsCashFlowsjTextArea);
-
-    cashFlowPanel.add(jScrollPane17, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 200, 320, -1));
-
-    submitCashFlowsjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    submitCashFlowsjButton.setText("Submit");
-    submitCashFlowsjButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            submitCashFlowsjButtonActionPerformed(evt);
-        }
-    });
-    cashFlowPanel.add(submitCashFlowsjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 250, 100, 40));
-
-    jPanel14.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(204, 204, 204), new java.awt.Color(0, 51, 51)));
-    jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel117.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel117.setText("Category:");
-    jPanel14.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 20));
-
-    jRadioButtonForOperatingActivities.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jRadioButtonForOperatingActivities.setText("Operating Activities");
-    jPanel14.add(jRadioButtonForOperatingActivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
-
-    jRadioButtonForInvestingActivities.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jRadioButtonForInvestingActivities.setText("Investing Activities");
-    jPanel14.add(jRadioButtonForInvestingActivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
-
-    jRadioButtonForFinancingActivities.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jRadioButtonForFinancingActivities.setText("Financing Activities");
-    jPanel14.add(jRadioButtonForFinancingActivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, -1, -1));
-
-    cashFlowPanel.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 70, 320, 110));
-
-    jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 153, 153), new java.awt.Color(153, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51)));
-    jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    inflowjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    inflowjRadioButton.setText("Inflow");
-    jPanel13.add(inflowjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
-
-    outflowjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    outflowjRadioButton.setText("Outflow");
-    jPanel13.add(outflowjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, -1, -1));
-
-    jLabel118.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel118.setText("Flow Type:");
-    jPanel13.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 20));
-
-    cashFlowPanel.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 200, 200, 100));
-
-    jTabbedPaneForAccountsBtns.addTab("tab3", cashFlowPanel);
-
-    paymentsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    paymentsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    paymentSubPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    startDatePaymentdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-startDatePaymentdateChooserCombo.setBorder(javax.swing.BorderFactory.createSoftBevelBorder(javax.swing.border.BevelBorder.LOWERED,
-    (java.awt.Color)null,
-    (java.awt.Color)null,
-    (java.awt.Color)null,
-    (java.awt.Color)null));
-    startDatePaymentdateChooserCombo.setNothingAllowed(false);
-    try {
-        startDatePaymentdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    startDatePaymentdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    startDatePaymentdateChooserCombo.setShowOneMonth(true);
-    paymentSubPanel.add(startDatePaymentdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 50, -1, 40));
-
-    endDatePaymentdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-endDatePaymentdateChooserCombo.setBorder(javax.swing.BorderFactory.createSoftBevelBorder(javax.swing.border.BevelBorder.LOWERED,
-    (java.awt.Color)null,
-    (java.awt.Color)null,
-    (java.awt.Color)null,
-    (java.awt.Color)null));
-    endDatePaymentdateChooserCombo.setNothingAllowed(false);
-    try {
-        endDatePaymentdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    endDatePaymentdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    endDatePaymentdateChooserCombo.setShowOneMonth(true);
-    paymentSubPanel.add(endDatePaymentdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, -1, 40));
-
-    jLabel49.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel49.setText("To");
-    paymentSubPanel.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 60, 50, -1));
-
-    jLabel46.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel46.setText("From");
-    paymentSubPanel.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 50, -1));
-
-    jLabel48.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-    jLabel48.setText("Select the Period ");
-    paymentSubPanel.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 240, -1));
-
-    jLabel47.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel47.setText("Payment History");
-    paymentSubPanel.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, 240, -1));
-
-    posPrintBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    posPrintBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
-    posPrintBtn1.setText("Print");
-    posPrintBtn1.setToolTipText("Print");
-    posPrintBtn1.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            posPrintBtn1ActionPerformed(evt);
-        }
-    });
-    paymentSubPanel.add(posPrintBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 240, 100, 40));
-
-    paymentjTable.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Date", "Supplier Name", "Balance Payment", "Balance Receivable", "Signed By", "Payment Type", "Amount", "Name"
-        }
-    ) {
-        Class[] types = new Class [] {
-            java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.String.class
-        };
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, false, false, false, false
-        };
-
-        public Class getColumnClass(int columnIndex) {
-            return types [columnIndex];
-        }
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane38.setViewportView(paymentjTable);
-
-    paymentSubPanel.add(jScrollPane38, new org.netbeans.lib.awtextra.AbsoluteConstraints(14, 100, 570, 90));
-
-    okPaymentjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    okPaymentjButton.setText("OK");
-    okPaymentjButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            okPaymentjButtonActionPerformed(evt);
-        }
-    });
-    paymentSubPanel.add(okPaymentjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 60, -1, -1));
-
-    jScrollPane18.setViewportView(paymentSubPanel);
-
-    paymentsPanel.add(jScrollPane18, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 710, 200));
-
-    jLabel120.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel120.setText("Balance Payable:");
-    paymentsPanel.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 120, 30));
-
-    jLabel121.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel121.setText("Balance Receivable:");
-    paymentsPanel.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 140, 10));
-
-    jLabel122.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel122.setText("Date");
-    paymentsPanel.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, 50, 10));
-
-    jLabel129.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel129.setText("Supplier Name:");
-    paymentsPanel.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 120, 20));
-
-    jLabel131.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel131.setText("Signed By");
-    paymentsPanel.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, -1, 30));
-
-    jTextArea12.setColumns(20);
-    jTextArea12.setRows(5);
-    jScrollPane19.setViewportView(jTextArea12);
-
-    paymentsPanel.add(jScrollPane19, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 70, 370, 220));
-
-    datePaymentdateChooserCombo.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-datePaymentdateChooserCombo.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-datePaymentdateChooserCombo.setNothingAllowed(false);
-try {
-    datePaymentdateChooserCombo.setDefaultPeriods(new datechooser.model.multiple.PeriodSet());
-    } catch (datechooser.model.exeptions.IncompatibleDataExeption e1) {
-        e1.printStackTrace();
-    }
-    datePaymentdateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-    datePaymentdateChooserCombo.setShowOneMonth(true);
-    paymentsPanel.add(datePaymentdateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 90, -1, -1));
-
-    supplierNamePaymentjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Supplier" }));
-    paymentsPanel.add(supplierNamePaymentjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 150, 40));
-
-    balancePayablejTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            balancePayablejTextFieldActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(balancePayablejTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, 130, -1));
-
-    balanceReceivablejTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            balanceReceivablejTextFieldActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(balanceReceivablejTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 230, 130, -1));
-
-    signedByjTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            signedByjTextFieldActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(signedByjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 130, -1));
-
-    clearPaymentjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    clearPaymentjButton.setText("Clear");
-    clearPaymentjButton.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            clearPaymentjButtonActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(clearPaymentjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 270, 90, 40));
-
-    paymentPayBtn3.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    paymentPayBtn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/notes.png"))); // NOI18N
-    paymentPayBtn3.setText("Pay");
-    paymentPayBtn3.setToolTipText("Pay");
-    paymentPayBtn3.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            paymentPayBtn3ActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(paymentPayBtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 270, 100, 40));
-
-    jPanel21.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51)));
-    jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    receivePaymentjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    receivePaymentjRadioButton.setText("Receive Payment");
-    jPanel21.add(receivePaymentjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 140, -1));
-
-    makePaymentjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    makePaymentjRadioButton.setText("Make Payment");
-    jPanel21.add(makePaymentjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 140, -1));
-
-    paymentsPanel.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 240, 90));
-
-    paymentReceiptPrintBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    paymentReceiptPrintBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
-    paymentReceiptPrintBtn.setText("Print");
-    paymentReceiptPrintBtn.setToolTipText("Print");
-    paymentReceiptPrintBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            paymentReceiptPrintBtnActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(paymentReceiptPrintBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 330, 100, 40));
-
-    jButton41.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton41.setText("Delete");
-    jButton41.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton41ActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 380, 100, 40));
-
-    jLabel103.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel103.setText("Name:");
-    paymentsPanel.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 190, -1, -1));
-    paymentsPanel.add(namePaymentjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 130, 30));
-
-    jLabel119.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel119.setText("Amount:");
-    paymentsPanel.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, -1, 20));
-
-    amountPaymentsjTextField.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            amountPaymentsjTextFieldActionPerformed(evt);
-        }
-    });
-    paymentsPanel.add(amountPaymentsjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, 130, 30));
-
-    jTabbedPaneForAccountsBtns.addTab("tab4", paymentsPanel);
-
-    balanceSheetPanel.setBackground(new java.awt.Color(204, 204, 204));
-    balanceSheetPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel44.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel44.setText("Balance Sheet");
-    balanceSheetPanel.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, 240, -1));
-
-    jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    dateChooserCombo1.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-        new datechooser.view.appearance.ViewAppearance("custom",
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                true,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 255),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(128, 128, 128),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(0, 0, 255),
-                false,
-                true,
-                new datechooser.view.appearance.swing.LabelPainter()),
-            new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-                new java.awt.Color(0, 0, 0),
-                new java.awt.Color(255, 0, 0),
-                false,
-                false,
-                new datechooser.view.appearance.swing.ButtonPainter()),
-            (datechooser.view.BackRenderer)null,
-            false,
-            true)));
-dateChooserCombo1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateChooserCombo1.setNothingAllowed(false);
-dateChooserCombo1.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo1.setShowOneMonth(true);
-jPanel1.add(dateChooserCombo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, -1, 40));
-
-jLabel43.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel43.setText("To");
-jPanel1.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 50, -1));
-
-dateChooserCombo2.setCurrentView(new datechooser.view.appearance.AppearancesList("Light",
-    new datechooser.view.appearance.ViewAppearance("custom",
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            true,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 255),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(128, 128, 128),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(0, 0, 255),
-            false,
-            true,
-            new datechooser.view.appearance.swing.LabelPainter()),
-        new datechooser.view.appearance.swing.SwingCellAppearance(new java.awt.Font("SansSerif", java.awt.Font.PLAIN, 12),
-            new java.awt.Color(0, 0, 0),
-            new java.awt.Color(255, 0, 0),
-            false,
-            false,
-            new datechooser.view.appearance.swing.ButtonPainter()),
-        (datechooser.view.BackRenderer)null,
-        false,
-        true)));
-dateChooserCombo2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 153), 1));
-dateChooserCombo2.setNothingAllowed(false);
-dateChooserCombo2.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_PERIOD);
-dateChooserCombo2.setShowOneMonth(true);
-jPanel1.add(dateChooserCombo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, -1, 40));
-
-jLabel45.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-jLabel45.setText("From");
-jPanel1.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 50, -1));
-
-jLabel42.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
-jLabel42.setText("Select the Period ");
-jPanel1.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 240, -1));
-
-paymentReceiptPrintBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-paymentReceiptPrintBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
-paymentReceiptPrintBtn1.setText("Print");
-paymentReceiptPrintBtn1.setToolTipText("Print");
-paymentReceiptPrintBtn1.addActionListener(new java.awt.event.ActionListener() {
-public void actionPerformed(java.awt.event.ActionEvent evt) {
-    paymentReceiptPrintBtn1ActionPerformed(evt);
-    }
-    });
-    jPanel1.add(paymentReceiptPrintBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 250, 100, 40));
-
-    jScrollPane20.setViewportView(jPanel1);
-
-    balanceSheetPanel.add(jScrollPane20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 870, 250));
-
-    jTabbedPaneForAccountsBtns.addTab("tab5", balanceSheetPanel);
-
-    accountsPanel.add(jTabbedPaneForAccountsBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1000, 580));
-
-    jTabbedPaneForDashboard.addTab("tab5", accountsPanel);
-
-    suppliersPanel.setBackground(new java.awt.Color(255, 255, 255));
-    suppliersPanel.setForeground(new java.awt.Color(204, 255, 204));
-    suppliersPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
-    suppliersPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
-    suppliersPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
-    suppliersPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    subSuppliersPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    subSuppliersPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    removeVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    removeVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/user-remove-icon.png"))); // NOI18N
-    removeVendorBtn.setText("Remove ");
-    removeVendorBtn.setToolTipText("Remove Supplier");
-    removeVendorBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    removeVendorBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    removeVendorBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    removeVendorBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            removeVendorBtnActionPerformed(evt);
-        }
-    });
-    subSuppliersPanel.add(removeVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 10, 120, 50));
-
-    addNewVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    addNewVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-new-user-icon.png"))); // NOI18N
-    addNewVendorBtn.setText("Add New");
-    addNewVendorBtn.setToolTipText("Add New");
-    addNewVendorBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    addNewVendorBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    addNewVendorBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    addNewVendorBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            addNewVendorBtnActionPerformed(evt);
-        }
-    });
-    subSuppliersPanel.add(addNewVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 120, 50));
-
-    vendorDetailsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    vendorDetailsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/person-icon.png"))); // NOI18N
-    vendorDetailsBtn.setText("Vendors");
-    vendorDetailsBtn.setToolTipText("Supplier Details");
-    vendorDetailsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    vendorDetailsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    vendorDetailsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    vendorDetailsBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            vendorDetailsBtnActionPerformed(evt);
-        }
-    });
-    subSuppliersPanel.add(vendorDetailsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 120, 50));
-
-    updateVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    updateVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/user-edit-icon.png"))); // NOI18N
-    updateVendorBtn.setText("Update");
-    updateVendorBtn.setToolTipText("Update");
-    updateVendorBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    updateVendorBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    updateVendorBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    updateVendorBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            updateVendorBtnActionPerformed(evt);
-        }
-    });
-    subSuppliersPanel.add(updateVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 120, 50));
-
-    suppliersPanel.add(subSuppliersPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 70));
-
-    jTabbedPaneForSupplierBtns.setMaximumSize(new java.awt.Dimension(0, 0));
-    jTabbedPaneForSupplierBtns.setMinimumSize(new java.awt.Dimension(990, 560));
-    jTabbedPaneForSupplierBtns.setPreferredSize(new java.awt.Dimension(990, 560));
-
-    vendorContactPanel.setBackground(new java.awt.Color(204, 204, 204));
-    vendorContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jTable1.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
-    jTable1.setModel(new javax.swing.table.DefaultTableModel(
-        new Object [][] {
-
-        },
-        new String [] {
-            "Name", "Phone Number", "Address", "Email", "Goods Supplied", "Date Of Supply", "Balance Payable", "Balance Receivable"
-        }
-    ) {
-        boolean[] canEdit = new boolean [] {
-            false, false, false, false, true, false, false, true
-        };
-
-        public boolean isCellEditable(int rowIndex, int columnIndex) {
-            return canEdit [columnIndex];
-        }
-    });
-    jScrollPane6.setViewportView(jTable1);
-
-    vendorContactPanel.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1000, 494));
-
-    jTabbedPaneForSupplierBtns.addTab("tab1", vendorContactPanel);
-
-    addNewVendorPanel.setBackground(new java.awt.Color(204, 204, 204));
-    addNewVendorPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel75.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel75.setText("Email Address");
-    addNewVendorPanel.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, -1, -1));
-    addNewVendorPanel.add(emailAddressNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 160, 160, 40));
-
-    jLabel76.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel76.setText("Office Address");
-    addNewVendorPanel.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
-    addNewVendorPanel.add(goodsSuppliedNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 40, 160, 40));
-
-    jLabel77.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel77.setText("Goods Supplied");
-    addNewVendorPanel.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 50, -1, -1));
-    addNewVendorPanel.add(dateOfSupplyNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 100, 160, 40));
-
-    jLabel78.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel78.setText("Date of Supply");
-    addNewVendorPanel.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, -1, -1));
-    addNewVendorPanel.add(vendorName_New, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 160, 40));
-
-    jLabel80.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel80.setText("Vendor Name");
-    addNewVendorPanel.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
-    addNewVendorPanel.add(phoneNoNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 160, 40));
-
-    jLabel81.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel81.setText(" Phone Number");
-    addNewVendorPanel.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
-
-    jPanel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel79.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel79.setText("Supplier Balance Payable");
-    jPanel7.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
-    jPanel7.add(supplierBal_Payable, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 160, 40));
-    jPanel7.add(supplierBal_Receivable, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 160, 40));
-
-    jLabel82.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel82.setText("Supplier Balance Receivable");
-    jPanel7.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, -1, -1));
-
-    addNewVendorPanel.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 160, 420, 200));
-
-    officeAddressNew.setColumns(20);
-    officeAddressNew.setRows(5);
-    jScrollPane7.setViewportView(officeAddressNew);
-
-    addNewVendorPanel.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 280, 150));
-
-    saveNewVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    saveNewVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    saveNewVendorBtn.setText("Save");
-    saveNewVendorBtn.setToolTipText("Save");
-    saveNewVendorBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            saveNewVendorBtnActionPerformed(evt);
-        }
-    });
-    addNewVendorPanel.add(saveNewVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 420, 100, 40));
-
-    seeAllVendors2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    seeAllVendors2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    seeAllVendors2.setText("See All Vendors");
-    seeAllVendors2.setToolTipText("See All Vendors");
-    seeAllVendors2.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            seeAllVendors2ActionPerformed(evt);
-        }
-    });
-    addNewVendorPanel.add(seeAllVendors2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 420, 170, 40));
-
-    clear_newProductJButton1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    clear_newProductJButton1.setText("Clear");
-    clear_newProductJButton1.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            clear_newProductJButton1ActionPerformed(evt);
-        }
-    });
-    addNewVendorPanel.add(clear_newProductJButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, -1, 40));
-
-    jTabbedPaneForSupplierBtns.addTab("tab2", addNewVendorPanel);
-
-    updateVendorDetailsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    updateVendorDetailsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel83.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel83.setText("Vendor Name");
-    updateVendorDetailsPanel.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
-
-    jLabel84.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel84.setText(" Phone Number");
-    updateVendorDetailsPanel.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
-    updateVendorDetailsPanel.add(phoneNoTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 160, 40));
-
-    jLabel85.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel85.setText("Email Address");
-    updateVendorDetailsPanel.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, -1, -1));
-    updateVendorDetailsPanel.add(emailUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, 160, 40));
-
-    jLabel86.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel86.setText("Office Address");
-    updateVendorDetailsPanel.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
-
-    addressUpdateTextField.setColumns(20);
-    addressUpdateTextField.setRows(5);
-    jScrollPane8.setViewportView(addressUpdateTextField);
-
-    updateVendorDetailsPanel.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 280, 150));
-    updateVendorDetailsPanel.add(goodsSuppliedUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 40, 160, 40));
-
-    jLabel87.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel87.setText("Goods Supplied");
-    updateVendorDetailsPanel.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 50, -1, -1));
-
-    jLabel88.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel88.setText("Date of Supply");
-    updateVendorDetailsPanel.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, -1, -1));
-    updateVendorDetailsPanel.add(supplyDateUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 100, 160, 40));
-
-    jPanel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel89.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel89.setText("Supplier Balance Payable");
-    jPanel8.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
-    jPanel8.add(supBalPayUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 160, 40));
-    jPanel8.add(supBalReceivUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 160, 40));
-
-    jLabel90.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel90.setText("Supplier Balance Receivable");
-    jPanel8.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, -1, -1));
-
-    updateVendorDetailsPanel.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 180, 420, 200));
-
-    saveUpdateBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    saveUpdateBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    saveUpdateBtn.setText("Save Update");
-    saveUpdateBtn.setToolTipText("Save");
-    saveUpdateBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            saveUpdateBtnActionPerformed(evt);
-        }
-    });
-    updateVendorDetailsPanel.add(saveUpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 410, 130, 40));
-
-    ArrayList<String> vendornameCombo = new ArrayList<String>();
-    String query = "SELECT vendorname FROM suppliers_details";
-
-    try{
-        PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(query);
-
-        ResultSet rs = pst.executeQuery(query);
-
-        while (rs.next()) {
-            String vendorName = rs.getString("vendorname");
-            // add group names to the array list
-            vendornameCombo.add(vendorName);
-
-        }rs.close();
-
-    }catch(Exception ex){
-        System.out.println(ex);
-    }
-
-    comBoxForVendor.setModel(new javax.swing.DefaultComboBoxModel(vendornameCombo.toArray()));
-    comBoxForVendor.addPopupMenuListener(new javax.swing.event.PopupMenuListener() {
-        public void popupMenuCanceled(javax.swing.event.PopupMenuEvent evt) {
-        }
-        public void popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {
-            comBoxForVendorPopupMenuWillBecomeInvisible(evt);
-        }
-        public void popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent evt) {
-        }
-    });
-    comBoxForVendor.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            comBoxForVendorActionPerformed(evt);
-        }
-    });
-    updateVendorDetailsPanel.add(comBoxForVendor, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 170, 40));
-
-    seeAllVendors1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    seeAllVendors1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    seeAllVendors1.setText("See All Vendors");
-    seeAllVendors1.setToolTipText("See All Vendors");
-    seeAllVendors1.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            seeAllVendors1ActionPerformed(evt);
-        }
-    });
-    updateVendorDetailsPanel.add(seeAllVendors1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 410, 170, 40));
-
-    clear_newProductJButton2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    clear_newProductJButton2.setText("Clear");
-    clear_newProductJButton2.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            clear_newProductJButton2ActionPerformed(evt);
-        }
-    });
-    updateVendorDetailsPanel.add(clear_newProductJButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 410, -1, 40));
-
-    jTabbedPaneForSupplierBtns.addTab("tab3", updateVendorDetailsPanel);
-
-    removeVendorContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jPanel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jTextAreaForRemoveVendor.setColumns(20);
-    jTextAreaForRemoveVendor.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
-    jTextAreaForRemoveVendor.setRows(5);
-    jScrollPane21.setViewportView(jTextAreaForRemoveVendor);
-
-    jScrollPane32.setViewportView(jScrollPane21);
-
-    jPanel9.add(jScrollPane32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 960, 230));
-
-    removeVendorContactPanel.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 980, 260));
-
-    jLabel91.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel91.setText("Vendor Name");
-    removeVendorContactPanel.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
-
-    jLabel93.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
-    jLabel93.setText("Which Vendor would you like to remove?");
-    removeVendorContactPanel.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
-
-    seeAllVendors.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    seeAllVendors.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
-    seeAllVendors.setText("See All Vendors");
-    seeAllVendors.setToolTipText("See All Vendors");
-    seeAllVendors.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            seeAllVendorsActionPerformed(evt);
-        }
-    });
-    removeVendorContactPanel.add(seeAllVendors, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 430, 170, -1));
-
-    comboForVendorDelete = new javax.swing.JComboBox<>();
-    ArrayList<String> vendorDelete = new ArrayList<String>();
-    String queryDelete = "SELECT vendorname FROM suppliers_details";
-
-    try{
-        PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(queryDelete);
-
-        ResultSet rs = pst.executeQuery(queryDelete);
-
-        while (rs.next()) {
-            String vendorNameString = rs.getString("vendorname");
-            // add group names to the array list
-            vendorDelete.add(vendorNameString);
-
-        }rs.close();
-
-    }catch(Exception ex){
-        System.out.println(ex);
-    }
-
-    comboForVendorDelete.setModel(new javax.swing.DefaultComboBoxModel(vendorDelete.toArray()));
-    comboForVendorDelete.addPopupMenuListener(new javax.swing.event.PopupMenuListener() {
-        public void popupMenuCanceled(javax.swing.event.PopupMenuEvent evt) {
-        }
-        public void popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {
-            comboForVendorDeletePopupMenuWillBecomeInvisible(evt);
-        }
-        public void popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent evt) {
-        }
-    });
-    comboForVendorDelete.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            comboForVendorDeleteActionPerformed(evt);
-        }
-    });
-    removeVendorContactPanel.add(comboForVendorDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 140, 40));
-
-    removeVendorContact.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    removeVendorContact.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/delete-trash-empty-icon.png"))); // NOI18N
-    removeVendorContact.setText("Remove");
-    removeVendorContact.setToolTipText("Remove");
-    removeVendorContact.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            removeVendorContactActionPerformed(evt);
-        }
-    });
-    removeVendorContactPanel.add(removeVendorContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 430, -1, -1));
-
-    clear_newProductJButton3.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    clear_newProductJButton3.setText("Clear");
-    clear_newProductJButton3.setMaximumSize(new java.awt.Dimension(64, 44));
-    clear_newProductJButton3.setMinimumSize(new java.awt.Dimension(64, 44));
-    clear_newProductJButton3.setPreferredSize(new java.awt.Dimension(64, 44));
-    clear_newProductJButton3.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            clear_newProductJButton3ActionPerformed(evt);
-        }
-    });
-    removeVendorContactPanel.add(clear_newProductJButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 430, -1, 44));
-
-    jTabbedPaneForSupplierBtns.addTab("tab4", removeVendorContactPanel);
-
-    suppliersPanel.add(jTabbedPaneForSupplierBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1000, 550));
-
-    jTabbedPaneForDashboard.addTab("tab6", suppliersPanel);
-
-    reportsPanel.setBackground(new java.awt.Color(204, 204, 204));
-    reportsPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
-    reportsPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
-    reportsPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
-    reportsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    subReportsPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    subReportsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    accountAnalysisBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    accountAnalysisBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/accounting (1).png"))); // NOI18N
-    accountAnalysisBtn.setText("Account Analysis");
-    accountAnalysisBtn.setToolTipText("Account Analysis");
-    accountAnalysisBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    accountAnalysisBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    accountAnalysisBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    accountAnalysisBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            accountAnalysisBtnActionPerformed(evt);
-        }
-    });
-    subReportsPanel.add(accountAnalysisBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 10, 190, 50));
-
-    marketTrendstn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    marketTrendstn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/market-analysis-icon.png"))); // NOI18N
-    marketTrendstn.setText("Market Trends");
-    marketTrendstn.setToolTipText("Market Trends");
-    marketTrendstn.setMaximumSize(new java.awt.Dimension(35, 35));
-    marketTrendstn.setMinimumSize(new java.awt.Dimension(30, 30));
-    marketTrendstn.setPreferredSize(new java.awt.Dimension(50, 30));
-    marketTrendstn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            marketTrendstnActionPerformed(evt);
-        }
-    });
-    subReportsPanel.add(marketTrendstn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, 50));
-
-    stockAnalysisBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    stockAnalysisBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/stock analysis.png"))); // NOI18N
-    stockAnalysisBtn.setText("Stock Analysis");
-    stockAnalysisBtn.setToolTipText("Stock Analysis");
-    stockAnalysisBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    stockAnalysisBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    stockAnalysisBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    stockAnalysisBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            stockAnalysisBtnActionPerformed(evt);
-        }
-    });
-    subReportsPanel.add(stockAnalysisBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, 170, 50));
-
-    salesAnalysisBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    salesAnalysisBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/analytics-icon.png"))); // NOI18N
-    salesAnalysisBtn.setText("Sales Analysis");
-    salesAnalysisBtn.setToolTipText("Sales Analysis");
-    salesAnalysisBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    salesAnalysisBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    salesAnalysisBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    salesAnalysisBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            salesAnalysisBtnActionPerformed(evt);
-        }
-    });
-    subReportsPanel.add(salesAnalysisBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 160, 50));
-
-    reportsPanel.add(subReportsPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 70));
-
-    jTabbedPaneForReportsBtns.setMaximumSize(new java.awt.Dimension(0, 0));
-    jTabbedPaneForReportsBtns.setMinimumSize(new java.awt.Dimension(990, 560));
-    jTabbedPaneForReportsBtns.setPreferredSize(new java.awt.Dimension(990, 560));
-
-    marketTrendsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jPanel25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jButton4.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Data-Line-Chart-icon.png"))); // NOI18N
-    jButton4.setText("Peak Moments");
-    jButton4.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton4ActionPerformed(evt);
-        }
-    });
-    jPanel25.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 150, 40));
-
-    jButton5.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/office-chart-pie-icon.png"))); // NOI18N
-    jButton5.setText("Key Products");
-    jButton5.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton5ActionPerformed(evt);
-        }
-    });
-    jPanel25.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 150, 40));
-
-    marketTrendsPanel.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 1000, 60));
-
-    keyProductsPanel.setBackground(new java.awt.Color(255, 0, 255));
-    keyProductsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel128.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel128.setText("Upgrade to Premium Version");
-    keyProductsPanel.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 170, 380, 60));
-
-    jTabbedPaneForMarketTrends.addTab("tab1", keyProductsPanel);
-
-    peakMomentsPanel.setBackground(new java.awt.Color(0, 255, 204));
-    peakMomentsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel130.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel130.setText("Upgrade to Premium Version");
-    peakMomentsPanel.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 380, 60));
-
-    jTabbedPaneForMarketTrends.addTab("tab2", peakMomentsPanel);
-
-    marketTrendsPanel.add(jTabbedPaneForMarketTrends, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 1000, 520));
-
-    jTabbedPaneForReportsBtns.addTab("tab1", marketTrendsPanel);
-
-    salesAnalysisPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel154.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel154.setText("Comparative Product Sales Chart");
-    salesAnalysisPanel.add(jLabel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 40, -1, -1));
-
-    jLabel155.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel155.setText("Single Product Sales Chart");
-    salesAnalysisPanel.add(jLabel155, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 10));
-
-    salesChartPanel.setBackground(new java.awt.Color(255, 255, 153));
-    salesChartPanel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    salesChartPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel132.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel132.setText("Upgrade to Premium Version");
-    salesChartPanel.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 170, 380, 60));
-
-    salesAnalysisPanel.add(salesChartPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 950, 480));
-
-    jTabbedPaneForReportsBtns.addTab("tab2", salesAnalysisPanel);
-
-    stockAnalysisPanel.setBackground(new java.awt.Color(0, 153, 255));
-    stockAnalysisPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel133.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel133.setText("Upgrade to Premium Version");
-    stockAnalysisPanel.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, 380, 60));
-
-    jTabbedPaneForReportsBtns.addTab("tab3", stockAnalysisPanel);
-
-    accountAnalysisPanel.setBackground(new java.awt.Color(204, 0, 204));
-    accountAnalysisPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jLabel134.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-    jLabel134.setText("Upgrade to Premium Version");
-    accountAnalysisPanel.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 380, 60));
-
-    jTabbedPaneForReportsBtns.addTab("tab4", accountAnalysisPanel);
-
-    reportsPanel.add(jTabbedPaneForReportsBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 1010, 590));
-
-    jTabbedPaneForDashboard.addTab("tab7", reportsPanel);
-
-    messagePanel.setBackground(new java.awt.Color(204, 204, 204));
-    messagePanel.setMaximumSize(new java.awt.Dimension(1000, 720));
-    messagePanel.setMinimumSize(new java.awt.Dimension(1000, 680));
-    messagePanel.setPreferredSize(new java.awt.Dimension(1000, 680));
-    messagePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    subMessagesPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    subMessagesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    vendorContactBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    vendorContactBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/contacts-icon (1).png"))); // NOI18N
-    vendorContactBtn.setText("Vendor Contact");
-    vendorContactBtn.setToolTipText("Supplier Contact");
-    vendorContactBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    vendorContactBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    vendorContactBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    vendorContactBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            vendorContactBtnActionPerformed(evt);
-        }
-    });
-    subMessagesPanel.add(vendorContactBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 170, 50));
-
-    smsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    smsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/messages-icon (1).png"))); // NOI18N
-    smsBtn.setText("Sms");
-    smsBtn.setToolTipText("Sms");
-    smsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    smsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    smsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    smsBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            smsBtnActionPerformed(evt);
-        }
-    });
-    subMessagesPanel.add(smsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 120, 50));
-
-    emailsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    emailsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Email-icon.png"))); // NOI18N
-    emailsBtn.setText("Emails");
-    emailsBtn.setToolTipText("Emails");
-    emailsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    emailsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    emailsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    emailsBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            emailsBtnActionPerformed(evt);
-        }
-    });
-    subMessagesPanel.add(emailsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 110, 50));
-
-    staffContactBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    staffContactBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/contacts-icon (2).png"))); // NOI18N
-    staffContactBtn.setText("Staff Contact");
-    staffContactBtn.setToolTipText("Staff Contact");
-    staffContactBtn.setMaximumSize(new java.awt.Dimension(35, 35));
-    staffContactBtn.setMinimumSize(new java.awt.Dimension(30, 30));
-    staffContactBtn.setPreferredSize(new java.awt.Dimension(50, 30));
-    staffContactBtn.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            staffContactBtnActionPerformed(evt);
-        }
-    });
-    subMessagesPanel.add(staffContactBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 10, 160, 50));
-
-    messagePanel.add(subMessagesPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 70));
-
-    jTabbedPaneForMessagesBtns.setMaximumSize(new java.awt.Dimension(0, 0));
-    jTabbedPaneForMessagesBtns.setMinimumSize(new java.awt.Dimension(990, 560));
-    jTabbedPaneForMessagesBtns.setPreferredSize(new java.awt.Dimension(990, 560));
-
-    emailPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jTextArea6.setColumns(20);
-    jTextArea6.setRows(5);
-    jTextArea6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    jScrollPane11.setViewportView(jTextArea6);
-
-    jPanel12.add(jScrollPane11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 390, 180));
-
-    jTextField22.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField22ActionPerformed(evt);
-        }
-    });
-    jPanel12.add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 170, 40));
-
-    jLabel98.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel98.setText("To");
-    jPanel12.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, 30, 20));
-
-    jButton29.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/email-send-icon.png"))); // NOI18N
-    jButton29.setText("Send");
-    jButton29.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton29ActionPerformed(evt);
-        }
-    });
-    jPanel12.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, -1, -1));
-
-    jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Email", "Item 1", "Item 2", "Item 3", "Item 4" }));
-    jPanel12.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 110, 30));
-
-    jLabel99.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel99.setText("Compose Mail");
-    jPanel12.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
-
-    emailPanel.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 30, 430, 380));
-
-    jPanel20.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Delivered", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
-    jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-    emailPanel.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 370, 190));
-
-    jPanel18.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Inbox", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
-    jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-    emailPanel.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 370, 190));
-
-    jTabbedPaneForMessagesBtns.addTab("tab1", emailPanel);
-
-    smsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jPanel17.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Inbox", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
-    jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-    smsPanel.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 370, 190));
-
-    jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jTextArea5.setColumns(20);
-    jTextArea5.setRows(5);
-    jTextArea5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
-    jScrollPane10.setViewportView(jTextArea5);
-
-    jPanel11.add(jScrollPane10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 370, 180));
-
-    jTextField21.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField21ActionPerformed(evt);
-        }
-    });
-    jPanel11.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 170, 40));
-
-    jLabel92.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel92.setText("Recipient");
-    jPanel11.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 70, -1));
-
-    jButton27.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/paper-plane.png"))); // NOI18N
-    jButton27.setText("Send");
-    jButton27.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jButton27ActionPerformed(evt);
-        }
-    });
-    jPanel11.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, -1, -1));
-
-    jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selec From Contact", "Item 1", "Item 2", "Item 3", "Item 4" }));
-    jPanel11.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 150, 30));
-
-    jLabel100.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel100.setText("Write Message");
-    jPanel11.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
-
-    smsPanel.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 20, 410, 380));
-
-    jPanel19.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Outbox", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
-    jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-    smsPanel.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 370, 190));
-
-    jTabbedPaneForMessagesBtns.addTab("tab2", smsPanel);
-
-    viewVendorContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jButton28.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-    jButton28.setText("View Contact");
-    jPanel16.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, -1, -1));
-
-    viewVendorContactPanel.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 370, 390));
-
-    jTabbedPaneForMessagesBtns.addTab("tab3", viewVendorContactPanel);
-
-    staffContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-    jComboBox9.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jComboBox9ActionPerformed(evt);
-        }
-    });
-    staffContactPanel.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 150, 40));
-
-    jLabel94.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel94.setText("Address");
-    staffContactPanel.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 240, -1, 20));
-
-    jLabel95.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel95.setText("Phone Number");
-    staffContactPanel.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, 20));
-
-    jTextArea4.setColumns(20);
-    jTextArea4.setRows(5);
-    jScrollPane9.setViewportView(jTextArea4);
-
-    staffContactPanel.add(jScrollPane9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 350, 140));
-
-    jTextField6.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField6ActionPerformed(evt);
-        }
-    });
-    staffContactPanel.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 190, 40));
-
-    jLabel96.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel96.setText("Staff Name");
-    staffContactPanel.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, 20));
-
-    jLabel97.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jLabel97.setText("Email");
-    staffContactPanel.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 140, 20));
-
-    jTextField20.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jTextField20ActionPerformed(evt);
-        }
-    });
-    staffContactPanel.add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, 190, 40));
-
-    jButton25.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
-    jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
-    jButton25.setText("Save");
-    staffContactPanel.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 400, 90, 30));
-
-    jPanel15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-    jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-    jButton26.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
-    jButton26.setText("View Contact");
-    jPanel15.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, -1, -1));
-
-    staffContactPanel.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 40, 250, 390));
-
-    jTabbedPaneForMessagesBtns.addTab("tab4", staffContactPanel);
-
-    messagePanel.add(jTabbedPaneForMessagesBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1000, 550));
-
-    jTabbedPaneForDashboard.addTab("tab8", messagePanel);
-
-    getContentPane().add(jTabbedPaneForDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, -1, 640));
-
-    fileMenuItem.setText("File");
-    fileMenuItem.setMaximumSize(new java.awt.Dimension(34, 32767));
-    fileMenuItem.setPreferredSize(new java.awt.Dimension(34, 19));
-
-    jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
-    jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
-    jMenuItem2.setText("Save");
-    jMenuItem2.setPreferredSize(new java.awt.Dimension(120, 19));
-    fileMenuItem.add(jMenuItem2);
-
-    jMenuItem16.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
-    jMenuItem16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
-    jMenuItem16.setText("Save As");
-    fileMenuItem.add(jMenuItem16);
-
-    jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
-    jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
-    jMenuItem1.setText("Print");
-    fileMenuItem.add(jMenuItem1);
-
-    jMenuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.ALT_MASK));
-    jMenuItem13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Close-icon.png"))); // NOI18N
-    jMenuItem13.setText("Exit");
-    fileMenuItem.add(jMenuItem13);
-
-    jMenuBar1.add(fileMenuItem);
-
-    homeMenuItem.setText("Home");
-    homeMenuItem.setMaximumSize(new java.awt.Dimension(49, 32767));
-    homeMenuItem.setPreferredSize(new java.awt.Dimension(49, 19));
-    jMenuBar1.add(homeMenuItem);
-
-    settingsMenuItem.setText("Settings");
-    settingsMenuItem.setMaximumSize(new java.awt.Dimension(55, 32767));
-    settingsMenuItem.setPreferredSize(new java.awt.Dimension(55, 19));
-
-    personalizationsItem.setText("Personalizations");
-    settingsMenuItem.add(personalizationsItem);
-
-    jMenuBar1.add(settingsMenuItem);
-
-    helpMenuItem.setText("Help");
-
-    jMenuItem8.setText("About");
-    helpMenuItem.add(jMenuItem8);
-
-    jMenuItem7.setText("FAQs");
-    jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
-        public void actionPerformed(java.awt.event.ActionEvent evt) {
-            jMenuItem7ActionPerformed(evt);
-        }
-    });
-    helpMenuItem.add(jMenuItem7);
-
-    jMenuItem4.setText("Info on Updates");
-    helpMenuItem.add(jMenuItem4);
-
-    jMenuItem10.setText("Report an Issue");
-    helpMenuItem.add(jMenuItem10);
-
-    jMenuItem9.setText("Contact Support");
-    helpMenuItem.add(jMenuItem9);
-
-    jMenuBar1.add(helpMenuItem);
-
-    setJMenuBar(jMenuBar1);
-
-    pack();
+        addProductPanel.add(clear_newProductJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 470, -1, 50));
+
+        seeAllProductsBtn2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        seeAllProductsBtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        seeAllProductsBtn2.setText("See All Products");
+        seeAllProductsBtn2.setToolTipText("See Product Catalogue");
+        seeAllProductsBtn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                seeAllProductsBtn2ActionPerformed(evt);
+            }
+        });
+        addProductPanel.add(seeAllProductsBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 470, 170, 50));
+
+        existingProductCategoryJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        existingProductCategoryJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
+        existingProductCategoryJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                existingProductCategoryJComboBoxActionPerformed(evt);
+            }
+        });
+        addProductPanel.add(existingProductCategoryJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 80, 150, 40));
+
+        vendorNameJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        vendorNameJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Vendor", "Vendor" }));
+        vendorNameJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vendorNameJComboBoxActionPerformed(evt);
+            }
+        });
+        addProductPanel.add(vendorNameJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 260, 150, 40));
+
+        saveProductJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        saveProductJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
+        saveProductJButton.setText("Save Product");
+        saveProductJButton.setToolTipText("See Product Catalogue");
+        saveProductJButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveProductJButtonActionPerformed(evt);
+            }
+        });
+        addProductPanel.add(saveProductJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 470, -1, 50));
+        addProductPanel.add(manufacturingDateDateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 100, -1, 40));
+        addProductPanel.add(expiryDateDateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 150, -1, 40));
+
+        supplyDateDateChooserCombo.setBehavior(datechooser.model.multiple.MultyModelBehavior.SELECT_SINGLE);
+        supplyDateDateChooserCombo.setShowOneMonth(true);
+        addProductPanel.add(supplyDateDateChooserCombo, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 198, -1, 40));
+
+        jTabbedPaneForProductBtns.addTab("tab1", addProductPanel);
+
+        updateProductPanel.setBackground(new java.awt.Color(102, 102, 255));
+        updateProductPanel.setMinimumSize(new java.awt.Dimension(1150, 700));
+        updateProductPanel.setOpaque(false);
+        updateProductPanel.setPreferredSize(new java.awt.Dimension(1150, 700));
+        updateProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        updateProductPanel.add(costPriceUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 360, 150, 40));
+        updateProductPanel.add(supplyDateUpdate, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 210, 150, 40));
+        updateProductPanel.add(batchNumberUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 150, 40));
+
+        jLabel15.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel15.setText("Product Name");
+        updateProductPanel.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, -1, -1));
+
+        jLabel16.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel16.setText("Batch Number");
+        updateProductPanel.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
+
+        jLabel17.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel17.setText("Cost Price");
+        updateProductPanel.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 370, -1, -1));
+
+        jLabel20.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel20.setText("Manufacturing Date");
+        updateProductPanel.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, -1, -1));
+
+        jLabel21.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel21.setText("Expiry Date");
+        updateProductPanel.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 160, -1, 20));
+
+        jLabel22.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel22.setText("Date of Supply");
+        updateProductPanel.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 220, -1, -1));
+
+        jLabel23.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel23.setText("Product Category");
+        updateProductPanel.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, -1, -1));
+
+        jLabel26.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel26.setText("Vendor Name");
+        updateProductPanel.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 280, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel19.setText("Selling Price");
+        updateProductPanel.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 440, -1, -1));
+        updateProductPanel.add(sellingPriceUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 430, 150, 40));
+
+        jLabel24.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel24.setText("Minimum Stock");
+        updateProductPanel.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 330, -1, -1));
+        updateProductPanel.add(minimumStockUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 150, 40));
+
+        jLabel25.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel25.setText("Product ID");
+        updateProductPanel.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 300, -1, -1));
+        updateProductPanel.add(productIdUpdateTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 288, 150, 40));
+
+        jLabel27.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel27.setText("Quantity Supplied");
+        updateProductPanel.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 390, -1, -1));
+        updateProductPanel.add(quantitySuppliedUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 380, 150, 40));
+
+        productCategory_UpdateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productCategory_UpdateJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
+        productCategory_UpdateJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productCategory_UpdateJComboBoxActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(productCategory_UpdateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 150, 40));
+
+        productName_updateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productName_updateJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productName_updateJComboBoxActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(productName_updateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 160, 150, 40));
+
+        vendorNameUpdateJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        vendorNameUpdateJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Vendor", "Vendor" }));
+        vendorNameUpdateJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vendorNameUpdateJComboBoxActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(vendorNameUpdateJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 270, 150, 40));
+
+        updateProductJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        updateProductJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
+        updateProductJButton.setText("Update Product");
+        updateProductJButton.setToolTipText("See Product Catalogue");
+        updateProductJButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                updateProductJButtonActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(updateProductJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 500, -1, 50));
+
+        seeAllProductsUpdateBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        seeAllProductsUpdateBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        seeAllProductsUpdateBtn.setText("See All Products");
+        seeAllProductsUpdateBtn.setToolTipText("See Product Catalogue");
+        seeAllProductsUpdateBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                seeAllProductsUpdateBtnActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(seeAllProductsUpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 500, -1, 50));
+
+        manuDateUpdateTextField.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        manuDateUpdateTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                manuDateUpdateTextFieldActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(manuDateUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 90, 150, 40));
+
+        expiryDateUpdateTextField.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        expiryDateUpdateTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                expiryDateUpdateTextFieldActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(expiryDateUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 150, 150, 40));
+
+        jLabel58.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel58.setText("Quantity Remaining");
+        updateProductPanel.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 440, -1, -1));
+
+        quantityRemainingUpdateTextField.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        updateProductPanel.add(quantityRemainingUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 430, 150, 40));
+
+        clearUpdatejButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clearUpdatejButton.setText("Clear");
+        clearUpdatejButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearUpdatejButtonActionPerformed(evt);
+            }
+        });
+        updateProductPanel.add(clearUpdatejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 500, -1, 50));
+
+        jTabbedPaneForProductBtns.addTab("tab2", updateProductPanel);
+
+        removeProductPanel.setBackground(new java.awt.Color(204, 204, 204));
+        removeProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel63.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel63.setText("Product Name");
+        removeProductPanel.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 140, -1, -1));
+
+        jLabel64.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel64.setText("Which Product would you like to remove?");
+        removeProductPanel.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 100, -1, -1));
+
+        jLabel65.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel65.setText("Product Category");
+        removeProductPanel.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, -1, -1));
+
+        productCategoryDeleteComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productCategoryDeleteComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
+        productCategoryDeleteComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productCategoryDeleteComboBoxActionPerformed(evt);
+            }
+        });
+        removeProductPanel.add(productCategoryDeleteComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, 150, 50));
+
+        productNameDeletejComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productNameDeletejComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Product" }));
+        productNameDeletejComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productNameDeletejComboBoxActionPerformed(evt);
+            }
+        });
+        removeProductPanel.add(productNameDeletejComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 130, 150, 50));
+
+        productsDeletejTable.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productsDeletejTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Category", "Name", "Vendor", "Batch Number", "Cost Price", "Selling Price", "Quantity Supplied", "Quantity Remaining", "Minimum Stock", "Manufacturing Date", "Expiration Date", "Supply Date"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane34.setViewportView(productsDeletejTable);
+
+        removeProductPanel.add(jScrollPane34, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 900, 300));
+
+        jButton23.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        jButton23.setText("See All Products");
+        jButton23.setToolTipText("See Product Catalogue");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        removeProductPanel.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 510, -1, 50));
+
+        deleteProductBtn2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        deleteProductBtn2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/delete-trash-empty-icon.png"))); // NOI18N
+        deleteProductBtn2.setText("Remove");
+        deleteProductBtn2.setToolTipText("See Product Catalogue");
+        deleteProductBtn2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                deleteProductBtn2ActionPerformed(evt);
+            }
+        });
+        removeProductPanel.add(deleteProductBtn2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 510, -1, -1));
+
+        jTabbedPaneForProductBtns.addTab("tab3", removeProductPanel);
+
+        viewProductPanel.setBackground(new java.awt.Color(204, 204, 204));
+        viewProductPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel59.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel59.setText("Which Product Detail Do you want to view?");
+        viewProductPanel.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
+
+        jLabel60.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel60.setText("Product Name");
+        viewProductPanel.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 90, -1, -1));
+
+        jLabel61.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel61.setText("Product Category");
+        viewProductPanel.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
+
+        productCategoryViewjComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productCategoryViewjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Category" }));
+        productCategoryViewjComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productCategoryViewjComboBoxActionPerformed(evt);
+            }
+        });
+        viewProductPanel.add(productCategoryViewjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 160, 40));
+
+        productNameViewjComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productNameViewjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Product" }));
+        productNameViewjComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productNameViewjComboBoxActionPerformed(evt);
+            }
+        });
+        viewProductPanel.add(productNameViewjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 80, 150, 40));
+
+        productsViewjTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        productsViewjTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Category", "Name", "Vendor", "Batch Number", "Cost Price", "Selling Price", "Quantity Supplied", "Quantity Remaining", "Minimum Stock", "Manufacturing Date", "Expiration Date", "Supply Date"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane33.setViewportView(productsViewjTable);
+
+        viewProductPanel.add(jScrollPane33, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 900, 300));
+
+        jButton21.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        jButton21.setText("See All Products");
+        jButton21.setToolTipText("See Product Catalogue");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        viewProductPanel.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 500, -1, 50));
+
+        jTabbedPaneForProductBtns.addTab("tab4", viewProductPanel);
+
+        productHistoryPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        productsViewAlljTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        productsViewAlljTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "ID", "Category", "Name", "Vendor", "Batch Number", "Cost Price", "Selling Price", "Quantity Supplied", "Minimum Stock", "Manufacturing Date", "Expiration Date", "Supply Date"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane36.setViewportView(productsViewAlljTable);
+
+        productHistoryPanel.add(jScrollPane36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 970, 350));
+
+        jTabbedPaneForProductBtns.addTab("tab5", productHistoryPanel);
+
+        productPanel.add(jTabbedPaneForProductBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1000, -1));
+
+        jTabbedPaneForDashboard.addTab("tab2", productPanel);
+
+        salesPanel.setBackground(new java.awt.Color(255, 255, 255));
+        salesPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        salesPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
+        salesPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
+        salesPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
+        salesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        subSalesPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        subSalesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        ReturnPurchaseBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        ReturnPurchaseBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/left-arrow.png"))); // NOI18N
+        ReturnPurchaseBtn.setText("Return Purchase");
+        ReturnPurchaseBtn.setToolTipText("Return Purchase");
+        ReturnPurchaseBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        ReturnPurchaseBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        ReturnPurchaseBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        ReturnPurchaseBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ReturnPurchaseBtnActionPerformed(evt);
+            }
+        });
+        subSalesPanel.add(ReturnPurchaseBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 10, 180, 50));
+
+        pointOfSalesBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        pointOfSalesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Cash-register-icon.png"))); // NOI18N
+        pointOfSalesBtn.setText("Point of Sales");
+        pointOfSalesBtn.setToolTipText("Point of Sales");
+        pointOfSalesBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        pointOfSalesBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        pointOfSalesBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        pointOfSalesBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                pointOfSalesBtnActionPerformed(evt);
+            }
+        });
+        subSalesPanel.add(pointOfSalesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 160, 50));
+
+        invoicesBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        invoicesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/sales-account-icon.png"))); // NOI18N
+        invoicesBtn.setText("Invoices");
+        invoicesBtn.setToolTipText("Point of Sales");
+        invoicesBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        invoicesBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        invoicesBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        invoicesBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                invoicesBtnActionPerformed(evt);
+            }
+        });
+        subSalesPanel.add(invoicesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 110, 50));
+
+        RemittanceBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        RemittanceBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/notes.png"))); // NOI18N
+        RemittanceBtn.setText("Remittance");
+        RemittanceBtn.setToolTipText("Cash Flow");
+        RemittanceBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        RemittanceBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        RemittanceBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        RemittanceBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                RemittanceBtnActionPerformed(evt);
+            }
+        });
+        subSalesPanel.add(RemittanceBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, 160, 50));
+
+        salesPanel.add(subSalesPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 70));
+
+        jTabbedPaneForSalesBtns.setMaximumSize(new java.awt.Dimension(0, 0));
+        jTabbedPaneForSalesBtns.setMinimumSize(new java.awt.Dimension(990, 560));
+        jTabbedPaneForSalesBtns.setPreferredSize(new java.awt.Dimension(990, 560));
+
+        pointOfSalesPanel.setBackground(new java.awt.Color(204, 204, 204));
+        pointOfSalesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel31.setFont(new java.awt.Font("Georgia", 0, 24)); // NOI18N
+        jLabel31.setText("Point of Sales");
+        pointOfSalesPanel.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, 410, -1));
+
+        POSjTable.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        POSjTable.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        POSjTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Product Name", "Quantity", "Price (NGN)", "Total", "Discount (%)", "Total after Discount"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class, java.lang.Double.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        POSjTable.getTableHeader().setReorderingAllowed(false);
+        jScrollPane12.setViewportView(POSjTable);
+
+        pointOfSalesPanel.add(jScrollPane12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 520, 160));
+
+        posPayBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        posPayBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/notes.png"))); // NOI18N
+        posPayBtn1.setText("Pay");
+        posPayBtn1.setToolTipText("Pay");
+        posPayBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posPayBtn1ActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posPayBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 400, 100, 40));
+
+        posPrintBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        posPrintBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
+        posPrintBtn.setText("Print");
+        posPrintBtn.setToolTipText("Print");
+        posPrintBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posPrintBtnActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posPrintBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 400, 100, 40));
+
+        clearReceiptJButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clearReceiptJButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small Clear-icon.png"))); // NOI18N
+        clearReceiptJButton.setText("Clear");
+        clearReceiptJButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearReceiptJButtonActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(clearReceiptJButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 450, 100, 40));
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(153, 153, 153), 2));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        cardRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        cardRadioButton.setText("Card");
+        cardRadioButton.setToolTipText("Card");
+        jPanel4.add(cardRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, -1, -1));
+
+        jLabel102.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel102.setText("Payment Method:");
+        jPanel4.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, 20));
+
+        cashRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        cashRadioButton.setText("Cash");
+        cashRadioButton.setToolTipText("Cash");
+        jPanel4.add(cashRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, -1, -1));
+
+        pointOfSalesPanel.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 310, 220, 70));
+
+        posAddToCartBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        posAddToCartBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/cart-add-icon.png"))); // NOI18N
+        posAddToCartBtn.setText("Add to Cart");
+        posAddToCartBtn.setToolTipText("Remove from Cart");
+        posAddToCartBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posAddToCartBtnActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posAddToCartBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, 140, 40));
+
+        deleteFromCartPOSjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        deleteFromCartPOSjButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/arrow-return-up-left-icon.png"))); // NOI18N
+        deleteFromCartPOSjButton.setText("Delete from Cart");
+        deleteFromCartPOSjButton.setToolTipText("Remove from Cart");
+        deleteFromCartPOSjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                deleteFromCartPOSjButtonActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(deleteFromCartPOSjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 210, 170, 40));
+
+        posClearBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        posClearBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small Clear-icon.png"))); // NOI18N
+        posClearBtn.setText("Clear");
+        posClearBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posClearBtnActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posClearBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 210, 100, 40));
+
+        receiptJTextArea.setColumns(20);
+        receiptJTextArea.setRows(5);
+        jScrollPane31.setViewportView(receiptJTextArea);
+
+        pointOfSalesPanel.add(jScrollPane31, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 50, 374, 194));
+
+        posTotalTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posTotalTextFieldActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posTotalTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 150, 110, 30));
+        posTotalTextField.setEditable(false);
+
+        jLabel29.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel29.setText("Product Name");
+        pointOfSalesPanel.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
+
+        productNamePOSjComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        productNamePOSjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Product" }));
+        productNamePOSjComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                productNamePOSjComboBoxActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(productNamePOSjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 60, -1, 30));
+
+        jLabel11.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel11.setText("Quantity");
+        pointOfSalesPanel.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
+
+        posQuantityTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posQuantityTextFieldActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posQuantityTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 110, 50, 30));
+
+        posPriceTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posPriceTextFieldActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posPriceTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, 110, -1));
+        posPriceTextField.setEditable(false);
+
+        posDiscountTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posDiscountTextFieldActionPerformed(evt);
+            }
+        });
+        pointOfSalesPanel.add(posDiscountTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 150, 50, 30));
+
+        jLabel30.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel30.setText("Total Price");
+        pointOfSalesPanel.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, -1, -1));
+
+        jLabel33.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel33.setText("Unit Price");
+        pointOfSalesPanel.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, -1, -1));
+
+        jLabel28.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel28.setText("Discount (%)");
+        pointOfSalesPanel.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
+
+        jTabbedPaneForSalesBtns.addTab("tab1", pointOfSalesPanel);
+
+        invoicePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        invoicePanel1.setBackground(new java.awt.Color(204, 204, 204));
+        invoicePanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel106.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel106.setText("Payment Method");
+        invoicePanel1.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 90, -1, -1));
+
+        invoiceNumbersJComboBox.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        invoiceNumbersJComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Invoice Number" }));
+        invoiceNumbersJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                invoiceNumbersJComboBoxActionPerformed(evt);
+            }
+        });
+        invoicePanel1.add(invoiceNumbersJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, -1, 30));
+
+        salesJTable.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        salesJTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Product Id", "Product", "Batdh Number", "Quantity", "Discount", "Total"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane40.setViewportView(salesJTable);
+
+        invoicePanel1.add(jScrollPane40, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 190, -1, 330));
+
+        jLabel107.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel107.setText("Invoice Number");
+        invoicePanel1.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+
+        jLabel123.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel123.setText("Invoice Number");
+        invoicePanel1.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 90, -1, -1));
+
+        jLabel124.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel124.setText("Sales");
+        invoicePanel1.add(jLabel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 160, -1, -1));
+
+        jLabel125.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
+        jLabel125.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel125.setText("RECEIPTS");
+        invoicePanel1.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1050, -1));
+
+        jLabel126.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel126.setText("Total");
+        invoicePanel1.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 90, -1, -1));
+
+        paymentMethodReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        paymentMethodReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        invoicePanel1.add(paymentMethodReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 110, 100, -1));
+
+        invoiceNumberReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        invoiceNumberReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        invoicePanel1.add(invoiceNumberReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 110, 100, -1));
+        invoiceNumberReceiptsJTextField.setEditable(false);
+
+        dateTimeReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        dateTimeReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.LEFT);
+        invoicePanel1.add(dateTimeReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 110, 150, -1));
+
+        totalReceiptsJTextField.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        totalReceiptsJTextField.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        invoicePanel1.add(totalReceiptsJTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 110, 100, -1));
+
+        jLabel127.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel127.setText("Date and Time");
+        invoicePanel1.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 90, -1, -1));
+
+        invoicePanel.add(invoicePanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+
+        jTabbedPaneForSalesBtns.addTab("tab2", invoicePanel);
+
+        RemittancePanel.setBackground(new java.awt.Color(204, 204, 204));
+        RemittancePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel156.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel156.setText("Cash Sales Made");
+        RemittancePanel.add(jLabel156, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 150, -1, 20));
+        RemittancePanel.add(jTextField46, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, 140, 40));
+
+        jLabel157.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel157.setText("Amount Remitted");
+        RemittancePanel.add(jLabel157, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 250, -1, -1));
+
+        jTextField47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField47ActionPerformed(evt);
+            }
+        });
+        RemittancePanel.add(jTextField47, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 240, 140, 40));
+
+        jLabel158.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel158.setText("Sales Made");
+        RemittancePanel.add(jLabel158, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 100, -1, -1));
+        RemittancePanel.add(jTextField48, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 80, 140, 40));
+
+        jLabel159.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel159.setText("Card Sales Made");
+        RemittancePanel.add(jLabel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 200, -1, -1));
+        RemittancePanel.add(jTextField49, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 190, 140, 40));
+
+        jLabel160.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel160.setText("Remitted To");
+        RemittancePanel.add(jLabel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 310, -1, -1));
+
+        jTextField50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField50ActionPerformed(evt);
+            }
+        });
+        RemittancePanel.add(jTextField50, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 300, 140, 40));
+
+        jButton18.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton18.setText("CLEAR");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        RemittancePanel.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 380, 130, 40));
+
+        submitRemittancejButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        submitRemittancejButton.setText("Submit");
+        submitRemittancejButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submitRemittancejButtonActionPerformed(evt);
+            }
+        });
+        RemittancePanel.add(submitRemittancejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 378, 130, 40));
+
+        jTabbedPaneForSalesBtns.addTab("tab3", RemittancePanel);
+
+        returnPurchasePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        returnPurchasePanel.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 80, 150, 40));
+
+        jLabel66.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel66.setText("Please explain the reason for the return below:");
+        returnPurchasePanel.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 330, -1, -1));
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane5.setViewportView(jTextArea1);
+
+        returnPurchasePanel.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 380, 360, 120));
+        returnPurchasePanel.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, 160, 30));
+
+        jLabel67.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel67.setText("Quantity Purchased");
+        returnPurchasePanel.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 90, -1, -1));
+
+        jLabel68.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel68.setText("Sales Staff on Duty");
+        returnPurchasePanel.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 250, -1, -1));
+
+        jLabel69.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel69.setText("Date of Return");
+        returnPurchasePanel.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 40, -1, -1));
+
+        jLabel70.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel70.setText("Quantity Returned");
+        returnPurchasePanel.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 150, 40));
+        returnPurchasePanel.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 140, 160, 30));
+        returnPurchasePanel.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 90, 160, 30));
+
+        jLabel71.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel71.setText("Refunded Amount");
+        returnPurchasePanel.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 140, -1, 20));
+        returnPurchasePanel.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 140, 140, 30));
+
+        jLabel72.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel72.setText("Supervisor on Duty");
+        returnPurchasePanel.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 200, -1, -1));
+        returnPurchasePanel.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 190, 160, 30));
+
+        jLabel73.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel73.setText("Returned Product Name");
+        returnPurchasePanel.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, -1, -1));
+
+        jLabel74.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel74.setText("Date of Purchase");
+        returnPurchasePanel.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, -1, -1));
+
+        jLabel101.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel101.setText("Invoice Number");
+        returnPurchasePanel.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, -1, -1));
+        returnPurchasePanel.add(jTextField23, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 200, 140, 30));
+
+        clearReturnPurchasejButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clearReturnPurchasejButton.setText("Clear");
+        clearReturnPurchasejButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearReturnPurchasejButtonActionPerformed(evt);
+            }
+        });
+        returnPurchasePanel.add(clearReturnPurchasejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 450, 110, 50));
+
+        submitReturnPurchasejButton.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        submitReturnPurchasejButton.setText("Submit");
+        submitReturnPurchasejButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submitReturnPurchasejButtonActionPerformed(evt);
+            }
+        });
+        returnPurchasePanel.add(submitReturnPurchasejButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 450, 110, 50));
+        returnPurchasePanel.add(dateChooserCombo2, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 30, 170, 40));
+
+        jTabbedPaneForSalesBtns.addTab("tab4", returnPurchasePanel);
+
+        salesPanel.add(jTabbedPaneForSalesBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1070, 600));
+
+        jTabbedPaneForDashboard.addTab("tab3", salesPanel);
+
+        stockPanel.setBackground(new java.awt.Color(255, 255, 255));
+        stockPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
+        stockPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
+        stockPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
+        stockPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        subStockPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        subStockPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        expiringSoonBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        expiringSoonBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse (1).png"))); // NOI18N
+        expiringSoonBtn.setText("Expiring Soon");
+        expiringSoonBtn.setToolTipText("Expiring Soon");
+        expiringSoonBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        expiringSoonBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        expiringSoonBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        expiringSoonBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                expiringSoonBtnActionPerformed(evt);
+            }
+        });
+        subStockPanel.add(expiringSoonBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 150, 50));
+
+        stockedGoods.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        stockedGoods.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse (2).png"))); // NOI18N
+        stockedGoods.setText("Stocked Goods");
+        stockedGoods.setToolTipText("Stocked Goods");
+        stockedGoods.setMaximumSize(new java.awt.Dimension(35, 35));
+        stockedGoods.setMinimumSize(new java.awt.Dimension(30, 30));
+        stockedGoods.setPreferredSize(new java.awt.Dimension(50, 30));
+        stockedGoods.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                stockedGoodsActionPerformed(evt);
+            }
+        });
+        subStockPanel.add(stockedGoods, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 170, 50));
+
+        shelvedGoodsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        shelvedGoodsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/stock (shelf).png"))); // NOI18N
+        shelvedGoodsBtn.setText(" Shelved Goods");
+        shelvedGoodsBtn.setToolTipText(" Shelved Goods");
+        shelvedGoodsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        shelvedGoodsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        shelvedGoodsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        shelvedGoodsBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                shelvedGoodsBtnActionPerformed(evt);
+            }
+        });
+        subStockPanel.add(shelvedGoodsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 160, 50));
+
+        expiredGoodsBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        expiredGoodsBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse.png"))); // NOI18N
+        expiredGoodsBtn1.setText("Expired Goods");
+        expiredGoodsBtn1.setToolTipText("Expired Products");
+        expiredGoodsBtn1.setMaximumSize(new java.awt.Dimension(35, 35));
+        expiredGoodsBtn1.setMinimumSize(new java.awt.Dimension(30, 30));
+        expiredGoodsBtn1.setPreferredSize(new java.awt.Dimension(50, 30));
+        expiredGoodsBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                expiredGoodsBtn1ActionPerformed(evt);
+            }
+        });
+        subStockPanel.add(expiredGoodsBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 10, 150, 50));
+
+        stockHistoryBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        stockHistoryBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/warehouse.png"))); // NOI18N
+        stockHistoryBtn.setText("Stock History");
+        stockHistoryBtn.setToolTipText("Expired Products");
+        stockHistoryBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        stockHistoryBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        stockHistoryBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        stockHistoryBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                stockHistoryBtnActionPerformed(evt);
+            }
+        });
+        subStockPanel.add(stockHistoryBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 10, 150, 50));
+
+        stockPanel.add(subStockPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1090, 70));
+
+        jTabbedPaneForStockBtns.setMaximumSize(new java.awt.Dimension(0, 0));
+        jTabbedPaneForStockBtns.setMinimumSize(new java.awt.Dimension(990, 560));
+        jTabbedPaneForStockBtns.setPreferredSize(new java.awt.Dimension(990, 560));
+
+        stockedGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        stockedGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
+        jButton7.setToolTipText("Update");
+        stockedGoodsPanel.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 50, 40));
+
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
+        jButton8.setToolTipText("Delete ");
+        stockedGoodsPanel.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 480, 50, 40));
+
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        jButton9.setText("\n\n");
+        jButton9.setToolTipText("Save");
+        stockedGoodsPanel.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 480, 50, 40));
+
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+        jButton10.setToolTipText("Print");
+        stockedGoodsPanel.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 480, 50, 40));
+
+        jLabel35.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        jLabel35.setText("These are the Goods in Stock currently...");
+        stockedGoodsPanel.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 330, 30));
+
+        stockedGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        stockedGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Product Category", "Product Name", "Batch Number", "Quantity Supplied", "Remaining Stock", "Minimum Stock Limit"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(stockedGoodsTable);
+        if (stockedGoodsTable.getColumnModel().getColumnCount() > 0) {
+            stockedGoodsTable.getColumnModel().getColumn(0).setResizable(false);
+            stockedGoodsTable.getColumnModel().getColumn(1).setResizable(false);
+            stockedGoodsTable.getColumnModel().getColumn(2).setResizable(false);
+            stockedGoodsTable.getColumnModel().getColumn(3).setResizable(false);
+            stockedGoodsTable.getColumnModel().getColumn(4).setResizable(false);
+            stockedGoodsTable.getColumnModel().getColumn(5).setResizable(false);
+        }
+
+        stockedGoodsPanel.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 370));
+
+        jTabbedPaneForStockBtns.addTab("tab1", stockedGoodsPanel);
+
+        shelvedGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        shelvedGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        shelvedGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        shelvedGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Product Category", "Product Name", "Batch Number", "Quantity in Shelf", "Remaining Stock", "Minimum Shelf Limit"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane2.setViewportView(shelvedGoodsTable);
+        if (shelvedGoodsTable.getColumnModel().getColumnCount() > 0) {
+            shelvedGoodsTable.getColumnModel().getColumn(0).setResizable(false);
+            shelvedGoodsTable.getColumnModel().getColumn(1).setResizable(false);
+            shelvedGoodsTable.getColumnModel().getColumn(2).setResizable(false);
+            shelvedGoodsTable.getColumnModel().getColumn(3).setResizable(false);
+            shelvedGoodsTable.getColumnModel().getColumn(4).setResizable(false);
+            shelvedGoodsTable.getColumnModel().getColumn(5).setResizable(false);
+        }
+
+        shelvedGoodsPanel.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 1000, 180));
+
+        jButton31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
+        jButton31.setToolTipText("Update");
+        shelvedGoodsPanel.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 240, 50, 40));
+
+        jButton32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
+        jButton32.setToolTipText("Delete ");
+        shelvedGoodsPanel.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 240, 50, 40));
+
+        jButton33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        jButton33.setText("\n\n");
+        jButton33.setToolTipText("Save");
+        shelvedGoodsPanel.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 240, 50, 40));
+
+        jButton34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+        jButton34.setToolTipText("Print");
+        shelvedGoodsPanel.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, 50, 40));
+
+        jPanel24.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 102, 102), new java.awt.Color(0, 102, 102)));
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        ArrayList<String> ConfirmationOfReshelf  = new ArrayList<String>();
+        String ConfirmationOfReshelfquery = "SELECT product_name FROM products";
+
+        try{
+            PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(ConfirmationOfReshelfquery);
+
+            ResultSet rs = pst.executeQuery(ConfirmationOfReshelfquery);
+
+            while (rs.next()) {
+
+                // add group names to the array list
+                String ProductToBeConfirmed = rs.getString("product_name");
+                // add group names to the array list
+                ConfirmationOfReshelf.add(ProductToBeConfirmed);
+            }rs.close();
+
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
+
+        ConfirmProductReselfJComboBox.setModel(new javax.swing.DefaultComboBoxModel(ConfirmationOfReshelf.toArray()));
+        jPanel24.add(ConfirmProductReselfJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 50, 130, 30));
+
+        jLabel145.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel145.setText("Added By:");
+        jPanel24.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, -1, 20));
+
+        jLabel146.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel146.setText("Product Name");
+        jPanel24.add(jLabel146, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, -1, 20));
+
+        jLabel147.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel147.setText("Quantity Collected from Store");
+        jPanel24.add(jLabel147, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 20));
+
+        jLabel148.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel148.setText("Quantity Added to Shelf");
+        jPanel24.add(jLabel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, -1, 20));
+
+        jLabel149.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel149.setText("Batch Added:");
+        jPanel24.add(jLabel149, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, 20));
+        jPanel24.add(jTextField42, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, 60, -1));
+        jPanel24.add(jTextField44, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 170, 30));
+        jPanel24.add(jTextField45, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 280, 170, 30));
+
+        jButton2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton2.setText("Confirmed");
+        jPanel24.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 320, 110, 40));
+
+        jLabel140.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel140.setText("Confirm Product Reshelf");
+        jPanel24.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, -1, -1));
+
+        batchAddedJTextArea.setColumns(20);
+        batchAddedJTextArea.setRows(5);
+        jScrollPane26.setViewportView(batchAddedJTextArea);
+
+        jPanel24.add(jScrollPane26, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 249, -1));
+
+        jScrollPane27.setViewportView(jPanel24);
+
+        shelvedGoodsPanel.add(jScrollPane27, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 300, 460, 240));
+
+        jLabel34.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        jLabel34.setText("These are the Goods on the Shelves currently");
+        shelvedGoodsPanel.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, 520, -1));
+
+        jPanel23.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED, new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), null, null));
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        ArrayList<String> ProductNameIdentityCombo = new ArrayList<String>();
+        String IdentifyDueProductQuery = "SELECT product_name FROM  products";
+
+        try{
+            PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(IdentifyDueProductQuery);
+
+            ResultSet rs = pst.executeQuery(IdentifyDueProductQuery);
+
+            while (rs.next()) {
+
+                String ProductDueForReshelf = rs.getString("product_name");
+                // add group names to the array list
+                ProductNameIdentityCombo.add(ProductDueForReshelf);
+
+            }rs.close();
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
+
+        IdentifyBatchJComboBox.setModel(new javax.swing.DefaultComboBoxModel(ProductNameIdentityCombo.toArray()));
+        IdentifyBatchJComboBox.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        IdentifyBatchJComboBox.addPopupMenuListener(new javax.swing.event.PopupMenuListener() {
+            public void popupMenuCanceled(javax.swing.event.PopupMenuEvent evt) {
+            }
+            public void popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {
+                IdentifyBatchJComboBoxPopupMenuWillBecomeInvisible(evt);
+            }
+            public void popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent evt) {
+            }
+        });
+        IdentifyBatchJComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                IdentifyBatchJComboBoxActionPerformed(evt);
+            }
+        });
+        jPanel23.add(IdentifyBatchJComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, 130, 30));
+
+        jLabel141.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel141.setText("Product Name");
+        jPanel23.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, 10));
+
+        jLabel142.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel142.setText("Identify Product Batch Due For Reshelving");
+        jPanel23.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, 290, -1));
+
+        jLabel143.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel143.setText("Batch to Be Collected");
+        jPanel23.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, 20));
+        jPanel23.add(jTextField41, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 40, 60, 30));
+
+        jLabel144.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel144.setText("Quantity Needed");
+        jPanel23.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, -1, 20));
+
+        jLabel150.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel150.setText("Collected By:");
+        jPanel23.add(jLabel150, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, 20));
+        jPanel23.add(jTextField43, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, 170, -1));
+
+        jButton3.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton3.setText("Done");
+        jPanel23.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 180, 90, 40));
+
+        batchToBeCollectedJTextArea.setColumns(20);
+        batchToBeCollectedJTextArea.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        batchToBeCollectedJTextArea.setRows(5);
+        jScrollPane24.setViewportView(batchToBeCollectedJTextArea);
+
+        jPanel23.add(jScrollPane24, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 80, 239, -1));
+
+        jScrollPane28.setViewportView(jPanel23);
+
+        shelvedGoodsPanel.add(jScrollPane28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 500, 240));
+
+        jTabbedPaneForStockBtns.addTab("tab2", shelvedGoodsPanel);
+
+        expiringSoonPanel.setBackground(new java.awt.Color(204, 204, 204));
+        expiringSoonPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        expiringSoonTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        expiringSoonTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
+            }
+        ));
+        jScrollPane3.setViewportView(expiringSoonTable);
+
+        expiringSoonPanel.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 70, 1000, 400));
+
+        jLabel36.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        jLabel36.setText("These are the Goods expiring soon");
+        expiringSoonPanel.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 520, 30));
+
+        jButton35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
+        jButton35.setToolTipText("ADD");
+        expiringSoonPanel.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 500, 50, 40));
+
+        jButton36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
+        jButton36.setToolTipText("Update");
+        expiringSoonPanel.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 500, 50, 40));
+
+        jButton37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
+        jButton37.setToolTipText("Delete ");
+        expiringSoonPanel.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 500, 50, 40));
+
+        jButton38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        jButton38.setText("\n\n");
+        jButton38.setToolTipText("Save");
+        expiringSoonPanel.add(jButton38, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 500, 50, 40));
+
+        jButton39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+        jButton39.setToolTipText("Print");
+        expiringSoonPanel.add(jButton39, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 500, 50, 40));
+
+        jTabbedPaneForStockBtns.addTab("tab3", expiringSoonPanel);
+
+        expiredGoodsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        expiredGoodsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        expiredGoodsTable.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        expiredGoodsTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Product Category", "Product Name", "Batch Number", "Quantity in Stock", "Quantity in Shelf", "Expiry Date"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane4.setViewportView(expiredGoodsTable);
+        if (expiredGoodsTable.getColumnModel().getColumnCount() > 0) {
+            expiredGoodsTable.getColumnModel().getColumn(0).setResizable(false);
+            expiredGoodsTable.getColumnModel().getColumn(1).setResizable(false);
+            expiredGoodsTable.getColumnModel().getColumn(2).setResizable(false);
+            expiredGoodsTable.getColumnModel().getColumn(3).setResizable(false);
+            expiredGoodsTable.getColumnModel().getColumn(4).setResizable(false);
+            expiredGoodsTable.getColumnModel().getColumn(5).setResizable(false);
+        }
+
+        expiredGoodsPanel.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1000, 370));
+
+        jLabel37.setFont(new java.awt.Font("Garamond", 1, 18)); // NOI18N
+        jLabel37.setText("These are the already expired goods");
+        expiredGoodsPanel.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 520, 30));
+
+        jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-icon.png"))); // NOI18N
+        jButton11.setToolTipText("ADD");
+        expiredGoodsPanel.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 490, 50, 40));
+
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Text-Edit-icon_1.png"))); // NOI18N
+        jButton12.setToolTipText("Update");
+        expiredGoodsPanel.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 490, 50, 40));
+
+        jButton13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Editing-Delete-icon (1).png"))); // NOI18N
+        jButton13.setToolTipText("Delete ");
+        expiredGoodsPanel.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 490, 50, 40));
+
+        jButton14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        jButton14.setText("\n\n");
+        jButton14.setToolTipText("Save");
+        expiredGoodsPanel.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 490, 50, 40));
+
+        jButton15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+        jButton15.setToolTipText("Print");
+        expiredGoodsPanel.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 490, 50, 40));
+
+        jTabbedPaneForStockBtns.addTab("tab4", expiredGoodsPanel);
+
+        stockHistoryPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel151.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel151.setText("Stock History");
+        stockHistoryPanel.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, -1));
+
+        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane30.setViewportView(jTable3);
+
+        stockHistoryPanel.add(jScrollPane30, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 118, 979, 410));
+
+        jTabbedPaneForStockBtns.addTab("tab5", stockHistoryPanel);
+
+        stockPanel.add(jTabbedPaneForStockBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 590));
+
+        jTabbedPaneForDashboard.addTab("tab4", stockPanel);
+
+        accountsPanel.setBackground(new java.awt.Color(255, 255, 255));
+        accountsPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
+        accountsPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
+        accountsPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
+        accountsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        subAccountsPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        subAccountsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        profitAndlossBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        profitAndlossBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/risk.png"))); // NOI18N
+        profitAndlossBtn.setText("Profit & Loss");
+        profitAndlossBtn.setToolTipText("Profit & Loss");
+        profitAndlossBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        profitAndlossBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        profitAndlossBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        profitAndlossBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                profitAndlossBtnActionPerformed(evt);
+            }
+        });
+        subAccountsPanel.add(profitAndlossBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 150, 50));
+
+        paymentsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        paymentsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/pay.png"))); // NOI18N
+        paymentsBtn.setText("Payments");
+        paymentsBtn.setToolTipText("Payments");
+        paymentsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        paymentsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        paymentsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        paymentsBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                paymentsBtnActionPerformed(evt);
+            }
+        });
+        subAccountsPanel.add(paymentsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 10, 130, 50));
+
+        expensesBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        expensesBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Expenses-icon.png"))); // NOI18N
+        expensesBtn.setText("Expenses");
+        expensesBtn.setToolTipText("Expenses");
+        expensesBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        expensesBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        expensesBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        expensesBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                expensesBtnActionPerformed(evt);
+            }
+        });
+        subAccountsPanel.add(expensesBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, 140, 50));
+
+        balanceSheetBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        balanceSheetBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/balance-scale-icon.png"))); // NOI18N
+        balanceSheetBtn.setText("Balance Sheet");
+        balanceSheetBtn.setToolTipText("Balance Sheet");
+        balanceSheetBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        balanceSheetBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        balanceSheetBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        balanceSheetBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                balanceSheetBtnActionPerformed(evt);
+            }
+        });
+        subAccountsPanel.add(balanceSheetBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 10, 160, 50));
+
+        cashFlowBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        cashFlowBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/funding.png"))); // NOI18N
+        cashFlowBtn.setText("Cash Flows");
+        cashFlowBtn.setToolTipText("Funding");
+        cashFlowBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        cashFlowBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        cashFlowBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        cashFlowBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cashFlowBtnActionPerformed(evt);
+            }
+        });
+        subAccountsPanel.add(cashFlowBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 140, 50));
+
+        accountsPanel.add(subAccountsPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1010, 70));
+
+        jTabbedPaneForAccountsBtns.setMaximumSize(new java.awt.Dimension(0, 0));
+
+        profitAndLossPanel.setBackground(new java.awt.Color(204, 204, 204));
+        profitAndLossPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel38.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel38.setText("To");
+        profitAndLossPanel.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 140, 50, -1));
+
+        jLabel39.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel39.setText("Select the Period ");
+        profitAndLossPanel.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 90, 240, -1));
+
+        jLabel40.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel40.setText("From");
+        profitAndLossPanel.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 50, -1));
+
+        jLabel41.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel41.setText("Profit & Loss Statement");
+        profitAndLossPanel.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 240, -1));
+
+        profitAndLossStatementSubPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        profitAndLossPanel.add(profitAndLossStatementSubPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 690, 310));
+
+        jTabbedPaneForAccountsBtns.addTab("tab1", profitAndLossPanel);
+
+        expensesPanel.setBackground(new java.awt.Color(204, 204, 204));
+        expensesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel54.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel54.setText("Expenses");
+        expensesPanel.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, 240, -1));
+
+        expensesSubPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel56.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel56.setText("From");
+        expensesSubPanel.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 50, -1));
+
+        jLabel57.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel57.setText("To");
+        expensesSubPanel.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, 50, -1));
+
+        jLabel55.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel55.setText("Select the Period ");
+        expensesSubPanel.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 240, -1));
+
+        okExpensesjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        okExpensesjButton.setText("OK");
+        okExpensesjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                okExpensesjButtonActionPerformed(evt);
+            }
+        });
+        expensesSubPanel.add(okExpensesjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 60, -1, -1));
+
+        expensesjTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Date", "Amount Spent", "Description", "Type", "Others"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane35.setViewportView(expensesjTable);
+
+        expensesSubPanel.add(jScrollPane35, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 110, 720, 90));
+
+        jScrollPane15.setViewportView(expensesSubPanel);
+
+        expensesPanel.add(jScrollPane15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 290, 890, 240));
+
+        jLabel108.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel108.setText("Description:");
+        expensesPanel.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, 90, -1));
+
+        jLabel109.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel109.setText("Type");
+        expensesPanel.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 74, 50, 20));
+
+        jLabel110.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel110.setText("Others");
+        expensesPanel.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 130, 50, -1));
+
+        jLabel111.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel111.setText("Amount Spent");
+        expensesPanel.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 120, 120, -1));
+
+        jLabel112.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel112.setText("Date:");
+        expensesPanel.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 70, 50, -1));
+
+        typeExpensesjComboBox.setMaximumRowCount(20);
+        typeExpensesjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select One", "Salary", "Utility Bill", "Rent", "Dues", "Tax", "Others" }));
+        typeExpensesjComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                typeExpensesjComboBoxActionPerformed(evt);
+            }
+        });
+        expensesPanel.add(typeExpensesjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 70, 120, -1));
+
+        submitExpensesjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        submitExpensesjButton.setText("Submit");
+        submitExpensesjButton.setToolTipText("Submit");
+        submitExpensesjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submitExpensesjButtonActionPerformed(evt);
+            }
+        });
+        expensesPanel.add(submitExpensesjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 210, 120, 40));
+        expensesPanel.add(othersExpensesjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 120, 130, -1));
+
+        amountExpensesjTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                amountExpensesjTextFieldActionPerformed(evt);
+            }
+        });
+        expensesPanel.add(amountExpensesjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 130, -1));
+
+        descriptionExpensesjTextArea.setColumns(20);
+        descriptionExpensesjTextArea.setRows(5);
+        jScrollPane16.setViewportView(descriptionExpensesjTextArea);
+
+        expensesPanel.add(jScrollPane16, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 160, -1, -1));
+
+        jTabbedPaneForAccountsBtns.addTab("tab2", expensesPanel);
+
+        cashFlowPanel.setBackground(new java.awt.Color(204, 204, 204));
+        cashFlowPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel52.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel52.setText("Cash Flows");
+        cashFlowPanel.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 40, 240, -1));
+
+        cashFlowStatementPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel113.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel113.setText("Cash Flow Statement");
+        cashFlowStatementPanel.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, 190, 20));
+
+        jLabel51.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel51.setText("From");
+        cashFlowStatementPanel.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, 50, -1));
+
+        jLabel53.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel53.setText("To");
+        cashFlowStatementPanel.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 60, 50, -1));
+
+        jLabel50.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel50.setText("Select the Period ");
+        cashFlowStatementPanel.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 240, -1));
+
+        okCashFlowsjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        okCashFlowsjButton.setText("OK");
+        okCashFlowsjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                okCashFlowsjButtonActionPerformed(evt);
+            }
+        });
+        cashFlowStatementPanel.add(okCashFlowsjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 60, -1, -1));
+
+        cashFlowsjTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Date", "Amount", "Details", "Category", "Flow Type"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane37.setViewportView(cashFlowsjTable);
+
+        cashFlowStatementPanel.add(jScrollPane37, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 100, 580, 90));
+
+        cashFlowPanel.add(cashFlowStatementPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 310, 810, 220));
+
+        jLabel114.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel114.setText("Date:");
+        cashFlowPanel.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, 50, -1));
+
+        jLabel115.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel115.setText("Amount :");
+        cashFlowPanel.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 130, 70, -1));
+
+        jLabel116.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel116.setText("Details:");
+        cashFlowPanel.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 180, 100, -1));
+
+        amountCashFlowsjTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                amountCashFlowsjTextFieldActionPerformed(evt);
+            }
+        });
+        cashFlowPanel.add(amountCashFlowsjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 140, 130, -1));
+
+        detailsCashFlowsjTextArea.setColumns(20);
+        detailsCashFlowsjTextArea.setRows(5);
+        jScrollPane17.setViewportView(detailsCashFlowsjTextArea);
+
+        cashFlowPanel.add(jScrollPane17, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 200, 320, -1));
+
+        submitCashFlowsjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        submitCashFlowsjButton.setText("Submit");
+        submitCashFlowsjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                submitCashFlowsjButtonActionPerformed(evt);
+            }
+        });
+        cashFlowPanel.add(submitCashFlowsjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 250, 100, 40));
+
+        jPanel14.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(204, 204, 204), new java.awt.Color(0, 51, 51)));
+        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel117.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel117.setText("Category:");
+        jPanel14.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 20));
+
+        jRadioButtonForOperatingActivities.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jRadioButtonForOperatingActivities.setText("Operating Activities");
+        jPanel14.add(jRadioButtonForOperatingActivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
+
+        jRadioButtonForInvestingActivities.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jRadioButtonForInvestingActivities.setText("Investing Activities");
+        jPanel14.add(jRadioButtonForInvestingActivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, -1, -1));
+
+        jRadioButtonForFinancingActivities.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jRadioButtonForFinancingActivities.setText("Financing Activities");
+        jPanel14.add(jRadioButtonForFinancingActivities, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, -1, -1));
+
+        cashFlowPanel.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 70, 320, 110));
+
+        jPanel13.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(153, 153, 153), new java.awt.Color(153, 153, 153), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51)));
+        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        inflowjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        inflowjRadioButton.setText("Inflow");
+        jPanel13.add(inflowjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
+
+        outflowjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        outflowjRadioButton.setText("Outflow");
+        jPanel13.add(outflowjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, -1, -1));
+
+        jLabel118.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel118.setText("Flow Type:");
+        jPanel13.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 20));
+
+        cashFlowPanel.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 200, 200, 100));
+
+        jTabbedPaneForAccountsBtns.addTab("tab3", cashFlowPanel);
+
+        paymentsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        paymentsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        paymentSubPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel49.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel49.setText("To");
+        paymentSubPanel.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 60, 50, -1));
+
+        jLabel46.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel46.setText("From");
+        paymentSubPanel.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 50, -1));
+
+        jLabel48.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel48.setText("Select the Period ");
+        paymentSubPanel.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 240, -1));
+
+        jLabel47.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel47.setText("Payment History");
+        paymentSubPanel.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, 240, -1));
+
+        posPrintBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        posPrintBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
+        posPrintBtn1.setText("Print");
+        posPrintBtn1.setToolTipText("Print");
+        posPrintBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                posPrintBtn1ActionPerformed(evt);
+            }
+        });
+        paymentSubPanel.add(posPrintBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 240, 100, 40));
+
+        paymentjTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Date", "Supplier Name", "Balance Payment", "Balance Receivable", "Signed By", "Payment Type", "Amount", "Name"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.Double.class, java.lang.String.class, java.lang.String.class, java.lang.Double.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane38.setViewportView(paymentjTable);
+
+        paymentSubPanel.add(jScrollPane38, new org.netbeans.lib.awtextra.AbsoluteConstraints(14, 100, 570, 90));
+
+        okPaymentjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        okPaymentjButton.setText("OK");
+        okPaymentjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                okPaymentjButtonActionPerformed(evt);
+            }
+        });
+        paymentSubPanel.add(okPaymentjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 60, -1, -1));
+
+        jScrollPane18.setViewportView(paymentSubPanel);
+
+        paymentsPanel.add(jScrollPane18, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 320, 710, 200));
+
+        jLabel120.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel120.setText("Balance Payable:");
+        paymentsPanel.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, 120, 30));
+
+        jLabel121.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel121.setText("Balance Receivable:");
+        paymentsPanel.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 140, 10));
+
+        jLabel122.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel122.setText("Date");
+        paymentsPanel.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, 50, 10));
+
+        jLabel129.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel129.setText("Supplier Name:");
+        paymentsPanel.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 120, 20));
+
+        jLabel131.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel131.setText("Signed By");
+        paymentsPanel.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, -1, 30));
+
+        jTextArea12.setColumns(20);
+        jTextArea12.setRows(5);
+        jScrollPane19.setViewportView(jTextArea12);
+
+        paymentsPanel.add(jScrollPane19, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 70, 370, 220));
+
+        supplierNamePaymentjComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Supplier" }));
+        paymentsPanel.add(supplierNamePaymentjComboBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 130, 150, 40));
+
+        balancePayablejTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                balancePayablejTextFieldActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(balancePayablejTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, 130, -1));
+
+        balanceReceivablejTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                balanceReceivablejTextFieldActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(balanceReceivablejTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 230, 130, -1));
+
+        signedByjTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                signedByjTextFieldActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(signedByjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 130, -1));
+
+        clearPaymentjButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clearPaymentjButton.setText("Clear");
+        clearPaymentjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clearPaymentjButtonActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(clearPaymentjButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 270, 90, 40));
+
+        paymentPayBtn3.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        paymentPayBtn3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/notes.png"))); // NOI18N
+        paymentPayBtn3.setText("Pay");
+        paymentPayBtn3.setToolTipText("Pay");
+        paymentPayBtn3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                paymentPayBtn3ActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(paymentPayBtn3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 270, 100, 40));
+
+        jPanel21.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51), new java.awt.Color(0, 51, 51)));
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        receivePaymentjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        receivePaymentjRadioButton.setText("Receive Payment");
+        jPanel21.add(receivePaymentjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 140, -1));
+
+        makePaymentjRadioButton.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        makePaymentjRadioButton.setText("Make Payment");
+        jPanel21.add(makePaymentjRadioButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, 140, -1));
+
+        paymentsPanel.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 240, 90));
+
+        paymentReceiptPrintBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        paymentReceiptPrintBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
+        paymentReceiptPrintBtn.setText("Print");
+        paymentReceiptPrintBtn.setToolTipText("Print");
+        paymentReceiptPrintBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                paymentReceiptPrintBtnActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(paymentReceiptPrintBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 330, 100, 40));
+
+        jButton41.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton41.setText("Delete");
+        jButton41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton41ActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(jButton41, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 380, 100, 40));
+
+        jLabel103.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel103.setText("Name:");
+        paymentsPanel.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 190, -1, -1));
+        paymentsPanel.add(namePaymentjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 130, 30));
+
+        jLabel119.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel119.setText("Amount:");
+        paymentsPanel.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, -1, 20));
+
+        amountPaymentsjTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                amountPaymentsjTextFieldActionPerformed(evt);
+            }
+        });
+        paymentsPanel.add(amountPaymentsjTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 220, 130, 30));
+
+        jTabbedPaneForAccountsBtns.addTab("tab4", paymentsPanel);
+
+        balanceSheetPanel.setBackground(new java.awt.Color(204, 204, 204));
+        balanceSheetPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel44.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel44.setText("Balance Sheet");
+        balanceSheetPanel.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, 240, -1));
+
+        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel43.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel43.setText("To");
+        jPanel1.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 70, 50, -1));
+
+        jLabel45.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel45.setText("From");
+        jPanel1.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, 50, -1));
+
+        jLabel42.setFont(new java.awt.Font("Georgia", 0, 14)); // NOI18N
+        jLabel42.setText("Select the Period ");
+        jPanel1.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 240, -1));
+
+        paymentReceiptPrintBtn1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        paymentReceiptPrintBtn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/print2-icon.png"))); // NOI18N
+        paymentReceiptPrintBtn1.setText("Print");
+        paymentReceiptPrintBtn1.setToolTipText("Print");
+        paymentReceiptPrintBtn1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                paymentReceiptPrintBtn1ActionPerformed(evt);
+            }
+        });
+        jPanel1.add(paymentReceiptPrintBtn1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 250, 100, 40));
+
+        jScrollPane20.setViewportView(jPanel1);
+
+        balanceSheetPanel.add(jScrollPane20, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 870, 250));
+
+        jTabbedPaneForAccountsBtns.addTab("tab5", balanceSheetPanel);
+
+        accountsPanel.add(jTabbedPaneForAccountsBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1000, 580));
+
+        jTabbedPaneForDashboard.addTab("tab5", accountsPanel);
+
+        suppliersPanel.setBackground(new java.awt.Color(255, 255, 255));
+        suppliersPanel.setForeground(new java.awt.Color(204, 255, 204));
+        suppliersPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
+        suppliersPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
+        suppliersPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
+        suppliersPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        subSuppliersPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        subSuppliersPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        removeVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        removeVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/user-remove-icon.png"))); // NOI18N
+        removeVendorBtn.setText("Remove ");
+        removeVendorBtn.setToolTipText("Remove Supplier");
+        removeVendorBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        removeVendorBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        removeVendorBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        removeVendorBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                removeVendorBtnActionPerformed(evt);
+            }
+        });
+        subSuppliersPanel.add(removeVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 10, 120, 50));
+
+        addNewVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        addNewVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Add-new-user-icon.png"))); // NOI18N
+        addNewVendorBtn.setText("Add New");
+        addNewVendorBtn.setToolTipText("Add New");
+        addNewVendorBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        addNewVendorBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        addNewVendorBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        addNewVendorBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addNewVendorBtnActionPerformed(evt);
+            }
+        });
+        subSuppliersPanel.add(addNewVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 120, 50));
+
+        vendorDetailsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        vendorDetailsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/person-icon.png"))); // NOI18N
+        vendorDetailsBtn.setText("Vendors");
+        vendorDetailsBtn.setToolTipText("Supplier Details");
+        vendorDetailsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        vendorDetailsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        vendorDetailsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        vendorDetailsBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vendorDetailsBtnActionPerformed(evt);
+            }
+        });
+        subSuppliersPanel.add(vendorDetailsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 120, 50));
+
+        updateVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        updateVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/user-edit-icon.png"))); // NOI18N
+        updateVendorBtn.setText("Update");
+        updateVendorBtn.setToolTipText("Update");
+        updateVendorBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        updateVendorBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        updateVendorBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        updateVendorBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                updateVendorBtnActionPerformed(evt);
+            }
+        });
+        subSuppliersPanel.add(updateVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 10, 120, 50));
+
+        suppliersPanel.add(subSuppliersPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 70));
+
+        jTabbedPaneForSupplierBtns.setMaximumSize(new java.awt.Dimension(0, 0));
+        jTabbedPaneForSupplierBtns.setMinimumSize(new java.awt.Dimension(990, 560));
+        jTabbedPaneForSupplierBtns.setPreferredSize(new java.awt.Dimension(990, 560));
+
+        vendorContactPanel.setBackground(new java.awt.Color(204, 204, 204));
+        vendorContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTable1.setFont(new java.awt.Font("Cambria", 1, 14)); // NOI18N
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Name", "Phone Number", "Address", "Email", "Goods Supplied", "Date Of Supply", "Balance Payable", "Balance Receivable"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, true, false, false, true
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane6.setViewportView(jTable1);
+
+        vendorContactPanel.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1000, 494));
+
+        jTabbedPaneForSupplierBtns.addTab("tab1", vendorContactPanel);
+
+        addNewVendorPanel.setBackground(new java.awt.Color(204, 204, 204));
+        addNewVendorPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel75.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel75.setText("Email Address");
+        addNewVendorPanel.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, -1, -1));
+        addNewVendorPanel.add(emailAddressNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 160, 160, 40));
+
+        jLabel76.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel76.setText("Office Address");
+        addNewVendorPanel.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
+        addNewVendorPanel.add(goodsSuppliedNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 40, 160, 40));
+
+        jLabel77.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel77.setText("Goods Supplied");
+        addNewVendorPanel.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 50, -1, -1));
+        addNewVendorPanel.add(dateOfSupplyNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 100, 160, 40));
+
+        jLabel78.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel78.setText("Date of Supply");
+        addNewVendorPanel.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, -1, -1));
+        addNewVendorPanel.add(vendorName_New, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 160, 40));
+
+        jLabel80.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel80.setText("Vendor Name");
+        addNewVendorPanel.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
+        addNewVendorPanel.add(phoneNoNew, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 160, 40));
+
+        jLabel81.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel81.setText(" Phone Number");
+        addNewVendorPanel.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
+
+        jPanel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel79.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel79.setText("Supplier Balance Payable");
+        jPanel7.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+        jPanel7.add(supplierBal_Payable, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 160, 40));
+        jPanel7.add(supplierBal_Receivable, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 160, 40));
+
+        jLabel82.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel82.setText("Supplier Balance Receivable");
+        jPanel7.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, -1, -1));
+
+        addNewVendorPanel.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 160, 420, 200));
+
+        officeAddressNew.setColumns(20);
+        officeAddressNew.setRows(5);
+        jScrollPane7.setViewportView(officeAddressNew);
+
+        addNewVendorPanel.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 280, 150));
+
+        saveNewVendorBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        saveNewVendorBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        saveNewVendorBtn.setText("Save");
+        saveNewVendorBtn.setToolTipText("Save");
+        saveNewVendorBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveNewVendorBtnActionPerformed(evt);
+            }
+        });
+        addNewVendorPanel.add(saveNewVendorBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 420, 100, 40));
+
+        seeAllVendors2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        seeAllVendors2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        seeAllVendors2.setText("See All Vendors");
+        seeAllVendors2.setToolTipText("See All Vendors");
+        seeAllVendors2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                seeAllVendors2ActionPerformed(evt);
+            }
+        });
+        addNewVendorPanel.add(seeAllVendors2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 420, 170, 40));
+
+        clear_newProductJButton1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clear_newProductJButton1.setText("Clear");
+        clear_newProductJButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clear_newProductJButton1ActionPerformed(evt);
+            }
+        });
+        addNewVendorPanel.add(clear_newProductJButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 420, -1, 40));
+
+        jTabbedPaneForSupplierBtns.addTab("tab2", addNewVendorPanel);
+
+        updateVendorDetailsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        updateVendorDetailsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel83.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel83.setText("Vendor Name");
+        updateVendorDetailsPanel.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, -1));
+
+        jLabel84.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel84.setText(" Phone Number");
+        updateVendorDetailsPanel.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, -1));
+        updateVendorDetailsPanel.add(phoneNoTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 160, 40));
+
+        jLabel85.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel85.setText("Email Address");
+        updateVendorDetailsPanel.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, -1, -1));
+        updateVendorDetailsPanel.add(emailUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, 160, 40));
+
+        jLabel86.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel86.setText("Office Address");
+        updateVendorDetailsPanel.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
+
+        addressUpdateTextField.setColumns(20);
+        addressUpdateTextField.setRows(5);
+        jScrollPane8.setViewportView(addressUpdateTextField);
+
+        updateVendorDetailsPanel.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 230, 280, 150));
+        updateVendorDetailsPanel.add(goodsSuppliedUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 40, 160, 40));
+
+        jLabel87.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel87.setText("Goods Supplied");
+        updateVendorDetailsPanel.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 50, -1, -1));
+
+        jLabel88.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel88.setText("Date of Supply");
+        updateVendorDetailsPanel.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 110, -1, -1));
+        updateVendorDetailsPanel.add(supplyDateUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 100, 160, 40));
+
+        jPanel8.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel89.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel89.setText("Supplier Balance Payable");
+        jPanel8.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+        jPanel8.add(supBalPayUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 30, 160, 40));
+        jPanel8.add(supBalReceivUpdateTextField, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 160, 40));
+
+        jLabel90.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel90.setText("Supplier Balance Receivable");
+        jPanel8.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 120, -1, -1));
+
+        updateVendorDetailsPanel.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 180, 420, 200));
+
+        saveUpdateBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        saveUpdateBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        saveUpdateBtn.setText("Save Update");
+        saveUpdateBtn.setToolTipText("Save");
+        saveUpdateBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveUpdateBtnActionPerformed(evt);
+            }
+        });
+        updateVendorDetailsPanel.add(saveUpdateBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 410, 130, 40));
+
+        ArrayList<String> vendornameCombo = new ArrayList<String>();
+        String query = "SELECT vendorname FROM suppliers_details";
+
+        try{
+            PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(query);
+
+            ResultSet rs = pst.executeQuery(query);
+
+            while (rs.next()) {
+                String vendorName = rs.getString("vendorname");
+                // add group names to the array list
+                vendornameCombo.add(vendorName);
+
+            }rs.close();
+
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
+
+        comBoxForVendor.setModel(new javax.swing.DefaultComboBoxModel(vendornameCombo.toArray()));
+        comBoxForVendor.addPopupMenuListener(new javax.swing.event.PopupMenuListener() {
+            public void popupMenuCanceled(javax.swing.event.PopupMenuEvent evt) {
+            }
+            public void popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {
+                comBoxForVendorPopupMenuWillBecomeInvisible(evt);
+            }
+            public void popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent evt) {
+            }
+        });
+        comBoxForVendor.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comBoxForVendorActionPerformed(evt);
+            }
+        });
+        updateVendorDetailsPanel.add(comBoxForVendor, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 170, 40));
+
+        seeAllVendors1.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        seeAllVendors1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        seeAllVendors1.setText("See All Vendors");
+        seeAllVendors1.setToolTipText("See All Vendors");
+        seeAllVendors1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                seeAllVendors1ActionPerformed(evt);
+            }
+        });
+        updateVendorDetailsPanel.add(seeAllVendors1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 410, 170, 40));
+
+        clear_newProductJButton2.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clear_newProductJButton2.setText("Clear");
+        clear_newProductJButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clear_newProductJButton2ActionPerformed(evt);
+            }
+        });
+        updateVendorDetailsPanel.add(clear_newProductJButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 410, -1, 40));
+
+        jTabbedPaneForSupplierBtns.addTab("tab3", updateVendorDetailsPanel);
+
+        removeVendorContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel9.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextAreaForRemoveVendor.setColumns(20);
+        jTextAreaForRemoveVendor.setFont(new java.awt.Font("Georgia", 0, 12)); // NOI18N
+        jTextAreaForRemoveVendor.setRows(5);
+        jScrollPane21.setViewportView(jTextAreaForRemoveVendor);
+
+        jScrollPane32.setViewportView(jScrollPane21);
+
+        jPanel9.add(jScrollPane32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 960, 230));
+
+        removeVendorContactPanel.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, 980, 260));
+
+        jLabel91.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel91.setText("Vendor Name");
+        removeVendorContactPanel.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+
+        jLabel93.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N
+        jLabel93.setText("Which Vendor would you like to remove?");
+        removeVendorContactPanel.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, -1, -1));
+
+        seeAllVendors.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        seeAllVendors.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/product catalogs-icon.png"))); // NOI18N
+        seeAllVendors.setText("See All Vendors");
+        seeAllVendors.setToolTipText("See All Vendors");
+        seeAllVendors.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                seeAllVendorsActionPerformed(evt);
+            }
+        });
+        removeVendorContactPanel.add(seeAllVendors, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 430, 170, -1));
+
+        comboForVendorDelete = new javax.swing.JComboBox<>();
+        ArrayList<String> vendorDelete = new ArrayList<String>();
+        String queryDelete = "SELECT vendorname FROM suppliers_details";
+
+        try{
+            PreparedStatement pst = MySqlConnection.getConnection().prepareStatement(queryDelete);
+
+            ResultSet rs = pst.executeQuery(queryDelete);
+
+            while (rs.next()) {
+                String vendorNameString = rs.getString("vendorname");
+                // add group names to the array list
+                vendorDelete.add(vendorNameString);
+
+            }rs.close();
+
+        }catch(Exception ex){
+            System.out.println(ex);
+        }
+
+        comboForVendorDelete.setModel(new javax.swing.DefaultComboBoxModel(vendorDelete.toArray()));
+        comboForVendorDelete.addPopupMenuListener(new javax.swing.event.PopupMenuListener() {
+            public void popupMenuCanceled(javax.swing.event.PopupMenuEvent evt) {
+            }
+            public void popupMenuWillBecomeInvisible(javax.swing.event.PopupMenuEvent evt) {
+                comboForVendorDeletePopupMenuWillBecomeInvisible(evt);
+            }
+            public void popupMenuWillBecomeVisible(javax.swing.event.PopupMenuEvent evt) {
+            }
+        });
+        comboForVendorDelete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                comboForVendorDeleteActionPerformed(evt);
+            }
+        });
+        removeVendorContactPanel.add(comboForVendorDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 140, 40));
+
+        removeVendorContact.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        removeVendorContact.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/delete-trash-empty-icon.png"))); // NOI18N
+        removeVendorContact.setText("Remove");
+        removeVendorContact.setToolTipText("Remove");
+        removeVendorContact.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                removeVendorContactActionPerformed(evt);
+            }
+        });
+        removeVendorContactPanel.add(removeVendorContact, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 430, -1, -1));
+
+        clear_newProductJButton3.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        clear_newProductJButton3.setText("Clear");
+        clear_newProductJButton3.setMaximumSize(new java.awt.Dimension(64, 44));
+        clear_newProductJButton3.setMinimumSize(new java.awt.Dimension(64, 44));
+        clear_newProductJButton3.setPreferredSize(new java.awt.Dimension(64, 44));
+        clear_newProductJButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                clear_newProductJButton3ActionPerformed(evt);
+            }
+        });
+        removeVendorContactPanel.add(clear_newProductJButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 430, -1, 44));
+
+        jTabbedPaneForSupplierBtns.addTab("tab4", removeVendorContactPanel);
+
+        suppliersPanel.add(jTabbedPaneForSupplierBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1000, 550));
+
+        jTabbedPaneForDashboard.addTab("tab6", suppliersPanel);
+
+        reportsPanel.setBackground(new java.awt.Color(204, 204, 204));
+        reportsPanel.setMaximumSize(new java.awt.Dimension(1000, 720));
+        reportsPanel.setMinimumSize(new java.awt.Dimension(1000, 680));
+        reportsPanel.setPreferredSize(new java.awt.Dimension(1000, 680));
+        reportsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        subReportsPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        subReportsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        accountAnalysisBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        accountAnalysisBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/accounting (1).png"))); // NOI18N
+        accountAnalysisBtn.setText("Account Analysis");
+        accountAnalysisBtn.setToolTipText("Account Analysis");
+        accountAnalysisBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        accountAnalysisBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        accountAnalysisBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        accountAnalysisBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                accountAnalysisBtnActionPerformed(evt);
+            }
+        });
+        subReportsPanel.add(accountAnalysisBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 10, 190, 50));
+
+        marketTrendstn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        marketTrendstn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/market-analysis-icon.png"))); // NOI18N
+        marketTrendstn.setText("Market Trends");
+        marketTrendstn.setToolTipText("Market Trends");
+        marketTrendstn.setMaximumSize(new java.awt.Dimension(35, 35));
+        marketTrendstn.setMinimumSize(new java.awt.Dimension(30, 30));
+        marketTrendstn.setPreferredSize(new java.awt.Dimension(50, 30));
+        marketTrendstn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                marketTrendstnActionPerformed(evt);
+            }
+        });
+        subReportsPanel.add(marketTrendstn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 170, 50));
+
+        stockAnalysisBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        stockAnalysisBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/stock analysis.png"))); // NOI18N
+        stockAnalysisBtn.setText("Stock Analysis");
+        stockAnalysisBtn.setToolTipText("Stock Analysis");
+        stockAnalysisBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        stockAnalysisBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        stockAnalysisBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        stockAnalysisBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                stockAnalysisBtnActionPerformed(evt);
+            }
+        });
+        subReportsPanel.add(stockAnalysisBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 10, 170, 50));
+
+        salesAnalysisBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        salesAnalysisBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/analytics-icon.png"))); // NOI18N
+        salesAnalysisBtn.setText("Sales Analysis");
+        salesAnalysisBtn.setToolTipText("Sales Analysis");
+        salesAnalysisBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        salesAnalysisBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        salesAnalysisBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        salesAnalysisBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                salesAnalysisBtnActionPerformed(evt);
+            }
+        });
+        subReportsPanel.add(salesAnalysisBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 10, 160, 50));
+
+        reportsPanel.add(subReportsPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 70));
+
+        jTabbedPaneForReportsBtns.setMaximumSize(new java.awt.Dimension(0, 0));
+        jTabbedPaneForReportsBtns.setMinimumSize(new java.awt.Dimension(990, 560));
+        jTabbedPaneForReportsBtns.setPreferredSize(new java.awt.Dimension(990, 560));
+
+        marketTrendsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton4.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Data-Line-Chart-icon.png"))); // NOI18N
+        jButton4.setText("Peak Moments");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanel25.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 10, 150, 40));
+
+        jButton5.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/office-chart-pie-icon.png"))); // NOI18N
+        jButton5.setText("Key Products");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanel25.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 150, 40));
+
+        marketTrendsPanel.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 1000, 60));
+
+        keyProductsPanel.setBackground(new java.awt.Color(255, 0, 255));
+        keyProductsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel128.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel128.setText("Upgrade to Premium Version");
+        keyProductsPanel.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 170, 380, 60));
+
+        jTabbedPaneForMarketTrends.addTab("tab1", keyProductsPanel);
+
+        peakMomentsPanel.setBackground(new java.awt.Color(0, 255, 204));
+        peakMomentsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel130.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel130.setText("Upgrade to Premium Version");
+        peakMomentsPanel.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 380, 60));
+
+        jTabbedPaneForMarketTrends.addTab("tab2", peakMomentsPanel);
+
+        marketTrendsPanel.add(jTabbedPaneForMarketTrends, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 1000, 520));
+
+        jTabbedPaneForReportsBtns.addTab("tab1", marketTrendsPanel);
+
+        salesAnalysisPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel154.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel154.setText("Comparative Product Sales Chart");
+        salesAnalysisPanel.add(jLabel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 40, -1, -1));
+
+        jLabel155.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel155.setText("Single Product Sales Chart");
+        salesAnalysisPanel.add(jLabel155, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, -1, 10));
+
+        salesChartPanel.setBackground(new java.awt.Color(255, 255, 153));
+        salesChartPanel.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        salesChartPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel132.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel132.setText("Upgrade to Premium Version");
+        salesChartPanel.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 170, 380, 60));
+
+        salesAnalysisPanel.add(salesChartPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, 950, 480));
+
+        jTabbedPaneForReportsBtns.addTab("tab2", salesAnalysisPanel);
+
+        stockAnalysisPanel.setBackground(new java.awt.Color(0, 153, 255));
+        stockAnalysisPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel133.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel133.setText("Upgrade to Premium Version");
+        stockAnalysisPanel.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 190, 380, 60));
+
+        jTabbedPaneForReportsBtns.addTab("tab3", stockAnalysisPanel);
+
+        accountAnalysisPanel.setBackground(new java.awt.Color(204, 0, 204));
+        accountAnalysisPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel134.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        jLabel134.setText("Upgrade to Premium Version");
+        accountAnalysisPanel.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 170, 380, 60));
+
+        jTabbedPaneForReportsBtns.addTab("tab4", accountAnalysisPanel);
+
+        reportsPanel.add(jTabbedPaneForReportsBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 1010, 590));
+
+        jTabbedPaneForDashboard.addTab("tab7", reportsPanel);
+
+        messagePanel.setBackground(new java.awt.Color(204, 204, 204));
+        messagePanel.setMaximumSize(new java.awt.Dimension(1000, 720));
+        messagePanel.setMinimumSize(new java.awt.Dimension(1000, 680));
+        messagePanel.setPreferredSize(new java.awt.Dimension(1000, 680));
+        messagePanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        subMessagesPanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        subMessagesPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        vendorContactBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        vendorContactBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/contacts-icon (1).png"))); // NOI18N
+        vendorContactBtn.setText("Vendor Contact");
+        vendorContactBtn.setToolTipText("Supplier Contact");
+        vendorContactBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        vendorContactBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        vendorContactBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        vendorContactBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vendorContactBtnActionPerformed(evt);
+            }
+        });
+        subMessagesPanel.add(vendorContactBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 170, 50));
+
+        smsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        smsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/messages-icon (1).png"))); // NOI18N
+        smsBtn.setText("Sms");
+        smsBtn.setToolTipText("Sms");
+        smsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        smsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        smsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        smsBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                smsBtnActionPerformed(evt);
+            }
+        });
+        subMessagesPanel.add(smsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 10, 120, 50));
+
+        emailsBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        emailsBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Email-icon.png"))); // NOI18N
+        emailsBtn.setText("Emails");
+        emailsBtn.setToolTipText("Emails");
+        emailsBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        emailsBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        emailsBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        emailsBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                emailsBtnActionPerformed(evt);
+            }
+        });
+        subMessagesPanel.add(emailsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 110, 50));
+
+        staffContactBtn.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        staffContactBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/contacts-icon (2).png"))); // NOI18N
+        staffContactBtn.setText("Staff Contact");
+        staffContactBtn.setToolTipText("Staff Contact");
+        staffContactBtn.setMaximumSize(new java.awt.Dimension(35, 35));
+        staffContactBtn.setMinimumSize(new java.awt.Dimension(30, 30));
+        staffContactBtn.setPreferredSize(new java.awt.Dimension(50, 30));
+        staffContactBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                staffContactBtnActionPerformed(evt);
+            }
+        });
+        subMessagesPanel.add(staffContactBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 10, 160, 50));
+
+        messagePanel.add(subMessagesPanel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 70));
+
+        jTabbedPaneForMessagesBtns.setMaximumSize(new java.awt.Dimension(0, 0));
+        jTabbedPaneForMessagesBtns.setMinimumSize(new java.awt.Dimension(990, 560));
+        jTabbedPaneForMessagesBtns.setPreferredSize(new java.awt.Dimension(990, 560));
+
+        emailPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea6.setColumns(20);
+        jTextArea6.setRows(5);
+        jTextArea6.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jScrollPane11.setViewportView(jTextArea6);
+
+        jPanel12.add(jScrollPane11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 390, 180));
+
+        jTextField22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField22ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 170, 40));
+
+        jLabel98.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel98.setText("To");
+        jPanel12.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, 30, 20));
+
+        jButton29.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/email-send-icon.png"))); // NOI18N
+        jButton29.setText("Send");
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
+        jPanel12.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 320, -1, -1));
+
+        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Email", "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jPanel12.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 110, 30));
+
+        jLabel99.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel99.setText("Compose Mail");
+        jPanel12.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
+
+        emailPanel.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 30, 430, 380));
+
+        jPanel20.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Delivered", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        emailPanel.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 370, 190));
+
+        jPanel18.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Inbox", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        emailPanel.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 370, 190));
+
+        jTabbedPaneForMessagesBtns.addTab("tab1", emailPanel);
+
+        smsPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel17.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Inbox", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        smsPanel.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 370, 190));
+
+        jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextArea5.setColumns(20);
+        jTextArea5.setRows(5);
+        jTextArea5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jScrollPane10.setViewportView(jTextArea5);
+
+        jPanel11.add(jScrollPane10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 370, 180));
+
+        jTextField21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField21ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 220, 170, 40));
+
+        jLabel92.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel92.setText("Recipient");
+        jPanel11.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 70, -1));
+
+        jButton27.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/paper-plane.png"))); // NOI18N
+        jButton27.setText("Send");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 320, -1, -1));
+
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selec From Contact", "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jPanel11.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 150, 30));
+
+        jLabel100.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel100.setText("Write Message");
+        jPanel11.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        smsPanel.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 20, 410, 380));
+
+        jPanel19.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Outbox", javax.swing.border.TitledBorder.RIGHT, javax.swing.border.TitledBorder.BOTTOM, new java.awt.Font("Georgia", 1, 12), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        smsPanel.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 370, 190));
+
+        jTabbedPaneForMessagesBtns.addTab("tab2", smsPanel);
+
+        viewVendorContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton28.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jButton28.setText("View Contact");
+        jPanel16.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 350, -1, -1));
+
+        viewVendorContactPanel.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, 370, 390));
+
+        jTabbedPaneForMessagesBtns.addTab("tab3", viewVendorContactPanel);
+
+        staffContactPanel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox9ActionPerformed(evt);
+            }
+        });
+        staffContactPanel.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 150, 40));
+
+        jLabel94.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel94.setText("Address");
+        staffContactPanel.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 240, -1, 20));
+
+        jLabel95.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel95.setText("Phone Number");
+        staffContactPanel.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 110, -1, 20));
+
+        jTextArea4.setColumns(20);
+        jTextArea4.setRows(5);
+        jScrollPane9.setViewportView(jTextArea4);
+
+        staffContactPanel.add(jScrollPane9, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 350, 140));
+
+        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField6ActionPerformed(evt);
+            }
+        });
+        staffContactPanel.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 100, 190, 40));
+
+        jLabel96.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel96.setText("Staff Name");
+        staffContactPanel.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 50, -1, 20));
+
+        jLabel97.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jLabel97.setText("Email");
+        staffContactPanel.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 170, 140, 20));
+
+        jTextField20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField20ActionPerformed(evt);
+            }
+        });
+        staffContactPanel.add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, 190, 40));
+
+        jButton25.setFont(new java.awt.Font("Georgia", 1, 12)); // NOI18N
+        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
+        jButton25.setText("Save");
+        staffContactPanel.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 400, 90, 30));
+
+        jPanel15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton26.setFont(new java.awt.Font("sansserif", 1, 12)); // NOI18N
+        jButton26.setText("View Contact");
+        jPanel15.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 350, -1, -1));
+
+        staffContactPanel.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 40, 250, 390));
+
+        jTabbedPaneForMessagesBtns.addTab("tab4", staffContactPanel);
+
+        messagePanel.add(jTabbedPaneForMessagesBtns, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 1000, 550));
+
+        jTabbedPaneForDashboard.addTab("tab8", messagePanel);
+
+        getContentPane().add(jTabbedPaneForDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 90, -1, 640));
+
+        fileMenuItem.setText("File");
+        fileMenuItem.setMaximumSize(new java.awt.Dimension(34, 32767));
+        fileMenuItem.setPreferredSize(new java.awt.Dimension(34, 19));
+
+        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/save icon.png"))); // NOI18N
+        jMenuItem2.setText("Save");
+        jMenuItem2.setPreferredSize(new java.awt.Dimension(120, 19));
+        fileMenuItem.add(jMenuItem2);
+
+        jMenuItem16.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Save-as icon.png"))); // NOI18N
+        jMenuItem16.setText("Save As");
+        fileMenuItem.add(jMenuItem16);
+
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/small print-icon.png"))); // NOI18N
+        jMenuItem1.setText("Print");
+        fileMenuItem.add(jMenuItem1);
+
+        jMenuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, java.awt.event.InputEvent.ALT_MASK));
+        jMenuItem13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/stockmgtpackage/icons/Close-icon.png"))); // NOI18N
+        jMenuItem13.setText("Exit");
+        fileMenuItem.add(jMenuItem13);
+
+        jMenuBar1.add(fileMenuItem);
+
+        homeMenuItem.setText("Home");
+        homeMenuItem.setMaximumSize(new java.awt.Dimension(49, 32767));
+        homeMenuItem.setPreferredSize(new java.awt.Dimension(49, 19));
+        jMenuBar1.add(homeMenuItem);
+
+        settingsMenuItem.setText("Settings");
+        settingsMenuItem.setMaximumSize(new java.awt.Dimension(55, 32767));
+        settingsMenuItem.setPreferredSize(new java.awt.Dimension(55, 19));
+
+        personalizationsItem.setText("Personalizations");
+        settingsMenuItem.add(personalizationsItem);
+
+        jMenuBar1.add(settingsMenuItem);
+
+        helpMenuItem.setText("Help");
+
+        jMenuItem8.setText("About");
+        helpMenuItem.add(jMenuItem8);
+
+        jMenuItem7.setText("FAQs");
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
+        helpMenuItem.add(jMenuItem7);
+
+        jMenuItem4.setText("Info on Updates");
+        helpMenuItem.add(jMenuItem4);
+
+        jMenuItem10.setText("Report an Issue");
+        helpMenuItem.add(jMenuItem10);
+
+        jMenuItem9.setText("Contact Support");
+        helpMenuItem.add(jMenuItem9);
+
+        jMenuBar1.add(helpMenuItem);
+
+        setJMenuBar(jMenuBar1);
+
+        pack();
     }// </editor-fold>//GEN-END:initComponents
         
 
@@ -6158,7 +5147,7 @@ catch(Exception e){
             pst.setString(7,jTextField5.getText());
             pst.setString(8,jTextField1.getText());
             pst.setString(9,jTextArea1.getText());
-            pst.setString(10,dateChooserCombo1.getText());
+            pst.setString(10,manufacturingDateDateChooserCombo.getText());
 
             pst.executeUpdate();
 
@@ -6181,16 +5170,16 @@ catch(Exception e){
     }//GEN-LAST:event_typeExpensesjComboBoxActionPerformed
 
     private void submitExpensesjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitExpensesjButtonActionPerformed
-        Expenses myExpenses = new Expenses();
-        myExpenses.addExpensesToDb(dateExpensesdateChooserCombo, amountExpensesjTextField,
-            othersExpensesjTextField, descriptionExpensesjTextArea,
-            typeExpensesjComboBox);
+//        Expenses myExpenses = new Expenses();
+//        myExpenses.addExpensesToDb(dateExpensesdateChooserCombo, amountExpensesjTextField,
+//            othersExpensesjTextField, descriptionExpensesjTextArea,
+//            typeExpensesjComboBox);
     }//GEN-LAST:event_submitExpensesjButtonActionPerformed
 
     private void okExpensesjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okExpensesjButtonActionPerformed
         //get expenses within selected dates from database
-        Expenses myExpenses = new Expenses();
-        myExpenses.viewExpenses(expensesjTable, startDateExpensesdateChooserCombo, endDateExpensesdateChooserCombo);
+//        Expenses myExpenses = new Expenses();
+//        myExpenses.viewExpenses(expensesjTable, startDateExpensesdateChooserCombo, endDateExpensesdateChooserCombo);
     }//GEN-LAST:event_okExpensesjButtonActionPerformed
 
     private void amountExpensesjTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_amountExpensesjTextFieldActionPerformed
@@ -6202,49 +5191,9 @@ catch(Exception e){
     }//GEN-LAST:event_amountCashFlowsjTextFieldActionPerformed
 
     private void submitCashFlowsjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitCashFlowsjButtonActionPerformed
-        String date = dateChooserCombo14.getText();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy");
-        LocalDate dateSql = LocalDate.parse(date, formatter);
-        String dateSqlString = dateSql.toString();
-        String categoryOperatingActivities = jRadioButtonForOperatingActivities.getText();
-        String categoryInvestingActivities = jRadioButtonForInvestingActivities.getText();
-        String categoryFinancingActivities = jRadioButtonForFinancingActivities.getText();
-        String inflow = inflowjRadioButton.getText();
-        String outflow = outflowjRadioButton.getText();
-        double amountCashFlows = Double.parseDouble(amountCashFlowsjTextField.getText());
-        String detailsCashFlows = detailsCashFlowsjTextArea.getText();
-        String sql = "INSERT INTO `stockmgt_db`.`CashFlows`"
-        +"(`Date`, `Amount`, `Details`, `Category`, `Flow Type`) "
-        + "VALUES (?, ?, ?, ?, ?)";
-        try {
-            pst = MySqlConnection.getConnection().prepareStatement(sql);
-
-            pst.setString(1,dateSqlString);
-            pst.setDouble(2,amountCashFlows);
-            pst.setString(3,detailsCashFlows);
-            if (jRadioButtonForOperatingActivities.isSelected()) {
-                pst.setString(4,categoryOperatingActivities);
-            } else if (jRadioButtonForInvestingActivities.isSelected()) {
-                pst.setString(4,categoryInvestingActivities);
-            } else {
-                pst.setString(4,categoryFinancingActivities);
-            }
-            if (inflowjRadioButton.isSelected()) {
-                pst.setString(5,inflow);
-            } else {
-                pst.setString(5,outflow);
-            }
-            if (pst.executeUpdate() > 0) {
-                JOptionPane.showMessageDialog(null, "Cash Flows was successfully added");
-            }
-        } catch (HeadlessException | SQLException ex) {
-            JOptionPane.showMessageDialog(null,ex);
-        }
     }//GEN-LAST:event_submitCashFlowsjButtonActionPerformed
 
     private void okCashFlowsjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okCashFlowsjButtonActionPerformed
-        CashFlows myCashFlows = new CashFlows();
-        myCashFlows.viewCashFlows(startDateCashFlowsdateChooserCombo, endDateCashFlowsdateChooserCombo, cashFlowsjTable);
     }//GEN-LAST:event_okCashFlowsjButtonActionPerformed
 
     private void posPrintBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_posPrintBtn1ActionPerformed
@@ -6252,8 +5201,6 @@ catch(Exception e){
     }//GEN-LAST:event_posPrintBtn1ActionPerformed
 
     private void okPaymentjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_okPaymentjButtonActionPerformed
-        Payments myPayments = new Payments();
-        myPayments.viewPayments(startDatePaymentdateChooserCombo, endDatePaymentdateChooserCombo, paymentjTable);
     }//GEN-LAST:event_okPaymentjButtonActionPerformed
 
     private void balancePayablejTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_balancePayablejTextFieldActionPerformed
@@ -6280,73 +5227,9 @@ catch(Exception e){
 
     private void paymentPayBtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_paymentPayBtn3ActionPerformed
         //variables
-        String receivePayment = receivePaymentjRadioButton.getText();
-        String makePayment = makePaymentjRadioButton.getText();
-        String date = datePaymentdateChooserCombo.getText();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMM d, yyyy");
-        LocalDate datePaymentSql = LocalDate.parse(date, formatter);
-        String datePaymentSqlString = datePaymentSql.toString();
-
-        //insert details about payment into database
-        String sql="INSERT INTO `stockmgt_db`.`payments`"
-        +"(`Date`, `Supplier Name`, `Balance Payment`, `Balance Receiveable`,"
-        +"`Signed By`, `Payment Type`, `Amount`, `Name`)"
-        +"VALUES (?,?,?,?,?,?,?,?)";
-        try{
-            pst= MySqlConnection.getConnection().prepareStatement(sql);
-            pst.setString(1,datePaymentdateChooserCombo.getText());
-            String supplierName =supplierNamePaymentjComboBox.getSelectedItem().toString();
-            pst.setString(2,supplierName);
-            pst.setString(3,balancePayablejTextField.getText());
-            pst.setString(4,balanceReceivablejTextField.getText());
-            pst.setString(5,signedByjTextField.getText());
-            if (receivePaymentjRadioButton.isSelected()) {
-                pst.setString(6,receivePayment);
-            } else if (makePaymentjRadioButton.isSelected()) {
-                pst.setString(6,makePayment);
-            }
-            pst.setString(6,receivePayment);
-            pst.setString(7,amountPaymentsjTextField.getText());
-            pst.setString(8,namePaymentjTextField.getText());
-
-            pst.executeUpdate();
-        }
-        catch (HeadlessException | SQLException ex){
-            JOptionPane.showMessageDialog(null,ex);
-        }
-
-        //prepare receipt
-        if(receivePaymentjRadioButton.isSelected()){
-            jTextArea12.append("\t Payment Receipt \n\n" +
-                "Company Name:"+namePaymentjTextField.getText()+ "\n\n" +
-                "Date:\t"+datePaymentdateChooserCombo.getText()+ "\n\n" +
-                "Payment Type:\t"+receivePayment+ "\n\n" +
-                "Supplier Name:\t"+supplierNamePaymentjComboBox.getSelectedItem()+ "\n\n" +
-                "Amount:\t"+amountPaymentsjTextField.getText()+ "\n\n" +
-                "Signed By:\t"+signedByjTextField.getText()+ "\n\n" +
-
-                "=================================="
-            );
-        } else {
-            jTextArea12.append("\t Payment Receipt \n\n" +
-                "Company Name:"+namePaymentjTextField.getText()+ "\n\n" +
-                "Date:\t"+datePaymentdateChooserCombo.getText()+ "\n\n" +
-                "Payment Type:\t"+makePayment+ "\n\n" +
-                "Supplier Name:\t"+supplierNamePaymentjComboBox.getSelectedItem()+ "\n\n" +
-                "Amount:\t"+amountPaymentsjTextField.getText()+ "\n\n" +
-                "Signed By:\t"+signedByjTextField.getText()+ "\n\n" +
-
-                "=================================="
-            );
-        }
     }//GEN-LAST:event_paymentPayBtn3ActionPerformed
 
     private void paymentReceiptPrintBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_paymentReceiptPrintBtnActionPerformed
-        try {
-            jTextArea12.print();
-        } catch (PrinterException ex) {
-            Logger.getLogger(DashBoard.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }//GEN-LAST:event_paymentReceiptPrintBtnActionPerformed
 
     private void jButton41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton41ActionPerformed
@@ -6613,17 +5496,17 @@ catch(Exception e){
     }//GEN-LAST:event_IdentifyBatchJComboBoxActionPerformed
 
     private void posPayBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_posPayBtn1ActionPerformed
-        //PointOfSales myPointOfSales = new PointOfSales();
-        myPointOfSales.generateReceipt(receiptJTextArea, POSjTable, productNamePOSjComboBox,
-            cashRadioButton, cardRadioButton, posQuantityTextField);
+//        //PointOfSales myPointOfSales = new PointOfSales();
+//        myPointOfSales.generateReceipt(receiptJTextArea, POSjTable, productNamePOSjComboBox,
+//            cashRadioButton, cardRadioButton, posQuantityTextField);
     }//GEN-LAST:event_posPayBtn1ActionPerformed
 
     private void posPrintBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_posPrintBtnActionPerformed
-        try {
-            receiptJTextArea.print();
-        } catch (PrinterException ex) {
-            Logger.getLogger(DashBoard.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            receiptJTextArea.print();
+//        } catch (PrinterException ex) {
+//            Logger.getLogger(DashBoard.class.getName()).log(Level.SEVERE, null, ex);
+//        }
     }//GEN-LAST:event_posPrintBtnActionPerformed
 
     private void clearReceiptJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearReceiptJButtonActionPerformed
@@ -6639,40 +5522,40 @@ catch(Exception e){
     }//GEN-LAST:event_posAddToCartBtnActionPerformed
 
     private void deleteFromCartPOSjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteFromCartPOSjButtonActionPerformed
-        Invoice myInvoice = new Invoice();
-        myInvoice.deleteFromCart(POSjTable);
-        /*
-        int row = POSjTable.getSelectedRow();
-        run = 2;
-        String Table_Click = (POSjTable.getModel().getValueAt(row,0)).toString();
-
-        int DResult = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete Record?");
-        if (DResult == JOptionPane.YES_OPTION) {
-            try {
-                Statement stmt = MySqlConnection.getConnection().createStatement();
-                if (!POSjTable.getModel().getValueAt(row,0).equals("")) {
-                    String query = ("DELETE  FROM driver_details where FullName ='" + Table_Click + "'");
-                    int result = stmt.executeUpdate(query);
-
-                    JOptionPane.showMessageDialog(null, "Record Deleted","DELETION", JOptionPane.DEFAULT_OPTION);
-                    if (run==2){
-                        int key =0;
-                        DefaultTableModel dtm = (DefaultTableModel) POSjTable.getModel();
-                        key = POSjTable.getRowCount()-1;
-                        dtm.setRowCount(key);
-                    }
-
-                    stmt.close();
-                }
-            } catch (SQLException ex) {
-                int key =0;
-                DefaultTableModel dtm = (DefaultTableModel) POSjTable.getModel();
-                key = POSjTable.getRowCount()-1;
-                dtm.setRowCount(key);
-                JOptionPane.showMessageDialog(this, "Record Deleted");
-            }
-        }
-        */
+//        Invoice myInvoice = new Invoice();
+//        myInvoice.deleteFromCart(POSjTable);
+//        /*
+//        int row = POSjTable.getSelectedRow();
+//        run = 2;
+//        String Table_Click = (POSjTable.getModel().getValueAt(row,0)).toString();
+//
+//        int DResult = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete Record?");
+//        if (DResult == JOptionPane.YES_OPTION) {
+//            try {
+//                Statement stmt = MySqlConnection.getConnection().createStatement();
+//                if (!POSjTable.getModel().getValueAt(row,0).equals("")) {
+//                    String query = ("DELETE  FROM driver_details where FullName ='" + Table_Click + "'");
+//                    int result = stmt.executeUpdate(query);
+//
+//                    JOptionPane.showMessageDialog(null, "Record Deleted","DELETION", JOptionPane.DEFAULT_OPTION);
+//                    if (run==2){
+//                        int key =0;
+//                        DefaultTableModel dtm = (DefaultTableModel) POSjTable.getModel();
+//                        key = POSjTable.getRowCount()-1;
+//                        dtm.setRowCount(key);
+//                    }
+//
+//                    stmt.close();
+//                }
+//            } catch (SQLException ex) {
+//                int key =0;
+//                DefaultTableModel dtm = (DefaultTableModel) POSjTable.getModel();
+//                key = POSjTable.getRowCount()-1;
+//                dtm.setRowCount(key);
+//                JOptionPane.showMessageDialog(this, "Record Deleted");
+//            }
+//        }
+//        */
     }//GEN-LAST:event_deleteFromCartPOSjButtonActionPerformed
 
     private void posClearBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_posClearBtnActionPerformed
@@ -6804,18 +5687,8 @@ catch(Exception e){
     private javax.swing.JTextField costPriceUpdateTextField;
     private javax.swing.JButton dashboardBtn;
     private javax.swing.JPanel dashboardPanel;
-    private datechooser.beans.DateChooserCombo dateChooserCombo1;
-    private datechooser.beans.DateChooserCombo dateChooserCombo14;
     private datechooser.beans.DateChooserCombo dateChooserCombo2;
-    private datechooser.beans.DateChooserCombo dateChooserCombo3;
-    private datechooser.beans.DateChooserCombo dateChooserCombo4;
-    private datechooser.beans.DateChooserCombo dateChooserCombo5;
-    private datechooser.beans.DateChooserCombo dateChooserCombo6;
-    private datechooser.beans.DateChooserCombo dateChooserCombo7;
-    private datechooser.beans.DateChooserCombo dateChooserCombo8;
-    private datechooser.beans.DateChooserCombo dateExpensesdateChooserCombo;
     private javax.swing.JTextField dateOfSupplyNew;
-    private datechooser.beans.DateChooserCombo datePaymentdateChooserCombo;
     private javax.swing.JTextField dateTimeReceiptsJTextField;
     private javax.swing.JButton deleteFromCartPOSjButton;
     private javax.swing.JButton deleteProductBtn;
@@ -6826,9 +5699,6 @@ catch(Exception e){
     private javax.swing.JPanel emailPanel;
     private javax.swing.JTextField emailUpdateTextField;
     private javax.swing.JButton emailsBtn;
-    private datechooser.beans.DateChooserCombo endDateCashFlowsdateChooserCombo;
-    private datechooser.beans.DateChooserCombo endDateExpensesdateChooserCombo;
-    private datechooser.beans.DateChooserCombo endDatePaymentdateChooserCombo;
     public javax.swing.JComboBox<String> existingProductCategoryJComboBox;
     private javax.swing.JButton expensesBtn;
     private javax.swing.JPanel expensesPanel;
@@ -7264,9 +6134,6 @@ catch(Exception e){
     private javax.swing.JPanel smsPanel;
     private javax.swing.JButton staffContactBtn;
     private javax.swing.JPanel staffContactPanel;
-    private datechooser.beans.DateChooserCombo startDateCashFlowsdateChooserCombo;
-    private datechooser.beans.DateChooserCombo startDateExpensesdateChooserCombo;
-    private datechooser.beans.DateChooserCombo startDatePaymentdateChooserCombo;
     private javax.swing.JButton stockAnalysisBtn;
     private javax.swing.JPanel stockAnalysisPanel;
     private javax.swing.JButton stockBtn;
